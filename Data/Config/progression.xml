@@ -1553,7 +1553,6 @@
 		</effect>
 
 		<recipe name="forge" unlock_level="10"/>
-		<recipe name="simpleForge" unlock_level="10"/>
 		<recipe name="bellows" unlock_level="10"/>
 		
 		<recipe name="weldingTorch" unlock_level="20"/>
