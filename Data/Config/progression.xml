@@ -1601,9 +1601,10 @@
 		<recipe name="glassBusinessBlock" unlock_level="5"/>
 	</perk>
 
-	<perk name="Security" icon="misc_crafting" description_key="Level 10 teaches how to craft secure storage containers, safes and doors. Doors are crafted in the workbench and various containers are found in the Artisan Decor Station. Level 20 teaches the components needed for drawbridges." title_key="Security Measures" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
+	<perk name="Security" icon="misc_crafting" description_key="Level 5 unlocks wooden doors. Level 10 teaches how to craft secure storage containers, safes and iron doors in the Artisan Decor Station. Level 20 teaches the components needed for drawbridges." title_key="Security Measures" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement perk_level="10" required_skill_name="Carpentry" required_skill_level="10"/>
 		<requirement perk_level="20" required_skill_name="Mechanical" required_skill_level="10"/>
+		<recipe name="secureDoorWooden" unlock_level="5"/>
 		<recipe name="cntSecureStorageChest" unlock_level="10"/>
 		<recipe name="cntStorageAmmo" unlock_level="10"/>
 		<recipe name="cntStorageBuilding" unlock_level="10"/>
