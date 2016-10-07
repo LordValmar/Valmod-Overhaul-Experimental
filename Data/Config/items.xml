@@ -12354,7 +12354,7 @@ which does not exist, yet. -->
 		<property name="DescriptionKey" value="skillbookKnightDesc"/>
 		<property name="Extends" value="schematicMaster" />
 		<property class="Action1">
-			<property name="Skills_to_gain" value="Heavy Armor,Heavy Armor,Blade Weapons,Athletics,Lockpicks" />
+			<property name="Skills_to_gain" value="Heavy Armor,Heavy Armor,Blade Weapons" />
 		</property>
 	</item>
 	<item id="2063" name="skillbookMining">

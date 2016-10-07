@@ -1053,7 +1053,7 @@
 	<item name="casinoCoin" count="1,5"/>
 	<item group="rottenFood" count="1"/>
 	<item group="seeds"/>
-	<item group="junkSpray" />
+<!--	<item group="junkSpray" /> -->
 </lootgroup>
 
 <lootgroup name="junk">
