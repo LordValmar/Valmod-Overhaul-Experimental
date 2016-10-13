@@ -7868,8 +7868,8 @@ which does not exist, yet. -->
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
 	<property name="FuelValue" value="1" />
 	<property name="Weight" value="1" />
-	<property name="EconomicValue" value="15" />
-	<property name="EconomicBundleSize" value="5" />
+	<property name="EconomicValue" value="1" />
+	<property name="EconomicBundleSize" value="10" />
 	<property name="Group" value="Resources" />
 	<property name="SellableToTrader" value="false" />
 </item>
@@ -10991,42 +10991,6 @@ which does not exist, yet. -->
         </property>
         <property name="Group" value="Food/Cooking" />
     </item>
-<item id="1819" name="Cabbage">
-		<property name="Weight" value="5" />
-        <property name="Meshfile" value="Items/Misc/parcel" />
-        <property name="Material" value="assortedVegetables" />
-        <property name="HoldType" value="15" />
-		<property name="CraftingIngredientTime" value="5" />
-		<property name="Stacknumber" value="500" /> <!-- STK food -->
-        <property class="Action1">
-            <property name="Class" value="Eat" />
-            <property name="Delay" value="1.0" />
-            <property name="Use_time" value="..." />
-            <property name="Gain_health" value="0" />
-            <property name="Gain_food" value="3" />
-            <property name="Gain_water" value="0" />
-            <property name="Sound_start" value="UseActions/player_eating" />
-        </property>
-        <property name="Group" value="Food/Cooking" />
-    </item>
-<item id="1820" name="Leek">
-		<property name="Weight" value="5" />
-        <property name="Meshfile" value="Items/Misc/parcel" />
-        <property name="Material" value="assortedVegetables" />
-        <property name="HoldType" value="15" />
-		<property name="CraftingIngredientTime" value="5" />
-		<property name="Stacknumber" value="500" /> <!-- STK food -->
-        <property class="Action1">
-            <property name="Class" value="Eat" />
-            <property name="Delay" value="1.0" />
-            <property name="Use_time" value="..." />
-            <property name="Gain_health" value="0" />
-            <property name="Gain_food" value="3" />
-            <property name="Gain_water" value="0" />
-            <property name="Sound_start" value="UseActions/player_eating" />
-        </property>
-        <property name="Group" value="Food/Cooking" />
-    </item>
 <item id="1822" name="coldbottledWater">
 	<property name="CustomIcon" value="bottledWater" />
 	<property name="Extends" value="bottledWater" />
@@ -11048,6 +11012,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="Buff" value="yuccaJuiceCooling" />
 	</property>
+	<property name="DescriptionKey" value="coldDrinkDesc"/>
 </item>
 <item id="1823" name="coldgoldenRodTea">
 	<property name="CustomIcon" value="goldenRodTea" />
@@ -11055,6 +11020,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="Buff" value="yuccaJuiceCooling" />
 	</property>
+	<property name="DescriptionKey" value="coldDrinkDesc"/>
 </item>
 <item id="1824" name="coldredTea">
 	<property name="CustomIcon" value="redTea" />
@@ -11062,6 +11028,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="Buff" value="yuccaJuiceCooling" />
 	</property>
+	<property name="DescriptionKey" value="coldDrinkDesc"/>
 </item>
 <item id="1825" name="coldcoffee">
 	<property name="CustomIcon" value="coffee" />
@@ -11069,6 +11036,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="Buff" value="yuccaJuiceCooling" />
 	</property>
+	<property name="DescriptionKey" value="coldDrinkDesc"/>
 </item>
 <item id="1826" name="colddrinkEnergy">
 	<property name="CustomIcon" value="drinkEnergy" />
@@ -11076,6 +11044,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="Buff" value="yuccaJuiceCooling" />
 	</property>
+	<property name="DescriptionKey" value="coldDrinkDesc"/>
 </item>
 <item id="1827" name="waterPurified">
 		<property name="Meshfile" value="Items/Food/honeyPrefab" />
@@ -11123,6 +11092,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="Buff" value="yuccaJuiceCooling" />
 	</property>
+	<property name="DescriptionKey" value="coldDrinkDesc"/>
 </item>
 <item id="1839" name="flour">
 	<property name="DescriptionKey" value="flourDesc"/>
@@ -11359,7 +11329,7 @@ which does not exist, yet. -->
 		<property name="IsDeveloper" value="true" />
 		<property class="Action0">
 			<property name="Delay" value="1.5" />
-			<property name="Range" value="3.5" />
+			<property name="Range" value="2.5" />
 			<property name="Sphere" value="0.4" />
 			<property name="DamageEntity" value="0" />
 			<property name="DamageBlock" value="0" />
@@ -11400,7 +11370,29 @@ which does not exist, yet. -->
 <property name="Extends" value="vomitZombieProjectile" />
 	<property name="IsDeveloper" value="true" />
 <property name="Meshfile" value="ParticleEffects/p_onFire" />
-</item> 
+</item>
+<item id="1906" name="handReaper">
+	<property name="Extends" value="handMaster" />
+	<property name="IsDeveloper" value="true" />
+	<property class="Action0">
+		<property name="Range" value="2.75" />
+		<property name="DamageEntity" value="30" />
+		<property name="DamageBlock" value="80" />
+		<property name="Buff" value="bleeding,infection,stunned" />
+		<property name="Buff_chance" value="0.8,0.3,0.4" />
+	</property>
+</item>
+<item id="1907" name="handChild">
+	<property name="Extends" value="handMaster" />
+	<property name="IsDeveloper" value="true" />
+	<property class="Action0">
+		<property name="Range" value="1.55" />
+		<property name="DamageEntity" value="5" />
+		<property name="DamageBlock" value="10" />
+		<property name="Buff" value="infection" />
+		<property name="Buff_chance" value="0.03" />
+	</property>
+</item>
 	
 	<!-- Health Items -->
 	<item id="1920" name="Peroxide">
@@ -11853,6 +11845,7 @@ which does not exist, yet. -->
 		<property name="Gain_water" value="40" />
 		<property name="Buff" value="yuccaJuiceCooling" />
 	</property>
+	<property name="DescriptionKey" value="coldDrinkDesc"/>
 </item>
 <item id="1975" name="moleSandwich">
 	<property name="Extends" value="shamSandwich" />
@@ -11889,6 +11882,8 @@ which does not exist, yet. -->
 	<property name="CraftingSkillGroup" value="Carpentry"/>
 </item>
 <item id="1978" name="mechanicalKit">
+	<property name="CustomIcon" value="repairKit" />
+	<property name="CustomIconTint" value="110,173,255" />
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="Material" value="metal" />
@@ -14471,6 +14466,63 @@ which does not exist, yet. -->
 	<property name="QuestGiven" value="challenge_Kickz" />
 	</property>
 </item>
+<item id="2632" name="challengeDeathDoUsPart">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIconTint" value="781B8F" />
+	<property class="Action1">
+	<property name="QuestGiven" value="challenge_deathdouspart" />
+	</property>
+</item>
+<item id="2633" name="challengeFamilyReunion">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIconTint" value="781B8F" />
+	<property class="Action1">
+	<property name="QuestGiven" value="challenge_familyreunion" />
+	</property>
+</item>
+<item id="2634" name="challengeBookworm">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIconTint" value="781B8F" />
+	<property class="Action1">
+	<property name="QuestGiven" value="challenge_bookworm" />
+	</property>
+</item>
+<item id="2635" name="challengeJock">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIconTint" value="781B8F" />
+	<property class="Action1">
+	<property name="QuestGiven" value="challenge_jock" />
+	</property>
+</item>
+<item id="2636" name="challengeReaper">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIconTint" value="781B8F" />
+	<property class="Action1">
+	<property name="QuestGiven" value="challenge_reaper" />
+	</property>
+</item>
+<item id="2637" name="challengeWalmart">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIconTint" value="781B8F" />
+	<property class="Action1">
+	<property name="QuestGiven" value="challenge_walmart" />
+	</property>
+</item>
+<item id="2638" name="challengeInmates">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIconTint" value="781B8F" />
+	<property class="Action1">
+	<property name="QuestGiven" value="challenge_inmates" />
+	</property>
+</item>
+<item id="2639" name="challengeVoodoo">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIconTint" value="781B8F" />
+	<property class="Action1">
+	<property name="QuestGiven" value="challenge_voodoo" />
+	</property>
+</item>
+
 
 <!--Legendary Weapons -->
 <item id="2800" name="legendaryClubSpiked">

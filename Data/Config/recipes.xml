@@ -1962,10 +1962,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="repairKit" count="1">
-	<ingredient name="forgedIron" count="1"/>
-	<ingredient name="oil" count="1"/>
-	<ingredient name="cloth" count="1"/>
-	<ingredient name="ductTape" count="1"/>
+	<ingredient name="oil" count="2"/>
+	<ingredient name="cloth" count="4"/>
 </recipe>
 
 <recipe name="rocket" count="1" craft_area="workstationArmory">
@@ -2697,12 +2695,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     </recipe>
 	<recipe name="vegetableStew" count="1" craft_area="campfire" craft_tool="cookingPot" >
 	<ingredient name="bowlWater" count="1" />
-    <ingredient name="potato" count="1" />
-    <ingredient name="corn" count="1" />
-	<ingredient name="Leek" count="1"/>
-  </recipe>
-	<recipe name="vegetableStew" count="1" craft_area="campfire" craft_tool="cookingPot" >
-	<ingredient name="bowlWater" count="1" />
     <ingredient name="assortedVegetables" count="6" />
   </recipe>
 <recipe name="biscuit" count="1" craft_area="campfire" craft_tool="bowlWater">
@@ -2752,9 +2744,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
   </recipe>
 
 		<!-- Expanded Farming Mod --> 
-	<recipe name="seedLeek" count="1" >
-        <ingredient name="Leek" count="1" />
-    </recipe>
 	<recipe name="seedWheat" count="1" >
         <ingredient name="Wheat" count="1" />
     </recipe>
@@ -2773,9 +2762,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
         <ingredient name="seedPack" count="1" />
     </recipe>
     <recipe name="chrysanthemumSeed" count="1" >
-        <ingredient name="seedPack" count="1" />
-    </recipe>
-	<recipe name="seedLeek" count="1" >
         <ingredient name="seedPack" count="1" />
     </recipe>
 	<recipe name="seedWheat" count="1" >
@@ -2866,6 +2852,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     </recipe>
 
 		<!-- Misc Recipes Mod -->
+<recipe name="mechanicalKit" count="1">
+	<ingredient name="forgedIron" count="1"/>
+	<ingredient name="oil" count="1"/>
+	<ingredient name="cloth" count="1"/>
+	<ingredient name="ductTape" count="1"/>
+</recipe>
 <recipe name="aloeCream" count="1" craft_area="chemistryStation" craft_time="5">
 	<ingredient name="aloePlant" count="4"/>
 </recipe>
@@ -2948,8 +2940,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="Syringe" count="1" craft_area="forge" material_based="true" craft_exp_gain="0">
 	<ingredient name="scrapPlastics" count="1"/>
 </recipe>
-<recipe name="Lockpick" count="1" >
-	<ingredient name="scrapIron" count="3"/>
+<recipe name="Lockpick" count="1" craft_time="20">
+	<ingredient name="scrapIron" count="5"/>
 </recipe>
 <recipe name="charcoalChips" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="wood" count="3"/>

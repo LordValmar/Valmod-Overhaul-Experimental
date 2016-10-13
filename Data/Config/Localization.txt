@@ -728,7 +728,7 @@ sandbagCornerDMG1,blocks,Block,KgNone,Sandbag Corner DMG1,Angle de sac de sable 
 sandbagEnd,blocks,Block,KgNone,Sandbag End,Extrémité de sac de sable,Sandsäcke – Ende,,Extremo de bolsa de arena
 sandbagEnd2,blocks,Block,KgNone,Sandbag End2,Extrémité de sac de sable 2,Sandsack – Ende 2,,Extremo 2 de bolsa de arena
 sandbagsBlock,blocks,Block,KgNone,Sandbags,Sacs de sable,Sandsäcke,,Bolsas de arena
-sandbagsGroupDesc,blocks,Block,KgNone,Sandbags are not very sturdy but can be put down quickly and provide decent protection from bullets.,"Les sacs de sable ne sont pas très robustes, mais ils s'installent rapidement et protègent assez bien des balles.","Sandsäcke sind nicht sehr robust, können aber schnell platziert werden und bieten ganz guten Schutz gegen Kugeln.",,"Las bolsas de arena no son muy robustas, pero se pueden colocar rápido y brindan buena protección contra las balas."
+sandbagsGroupDesc,blocks,Block,KgNone,Sandbags are not very sturdy but can be put down quickly and provide decent protection from bullets. Can upgrade further with cobblestones.,"Les sacs de sable ne sont pas très robustes, mais ils s'installent rapidement et protègent assez bien des balles.","Sandsäcke sind nicht sehr robust, können aber schnell platziert werden und bieten ganz guten Schutz gegen Kugeln.",,"Las bolsas de arena no son muy robustas, pero se pueden colocar rápido y brindan buena protección contra las balas."
 schoolDesk,blocks,Block,KgNone,School Desk,Table d'école,Schultisch,,Escritorio escolar
 scrapFrameGroupDesc,blocks,Block,EnChanged,Used for bases. Upgrade & repair with iron and construction tool. Upgrade more with concrete mix & forged steel.,,Wird für Basen verwendet. Kann mit Eisen und Bauwerkzeugen aufgewertet und repariert werden. Kann mit Betonmischung und geschmiedetem Stahl weiter aufgewertet werden.,,
 scrapHatch_v1,blocks,Block,KgNone,Scrap Iron Hatch,Trappe en ferraille,Alteisenklappe,,Escotilla de chatarra de hierro
@@ -4439,7 +4439,7 @@ steelToeBootsDesc,items,Item Clothes,,Not very comfortable but they do save you 
 
 HelmetLightDesc,items,Item Clothes,,This helmet has a flashlight taped to its side to double as a headlamp.,,
 ironHelmetLight,items,Item Clothes,,Iron Helmet (Light),,
-militaryHelmetLight,items,Item Clothes,,Kevlar Helmet (Light),,
+militaryHelmetLight,items,Item Clothes,,Military Helmet (Light),,
 swatHelmetLight,items,Item Clothes,,Swat Helmet (Light),,
 scrapHelmetLight,items,Item Clothes,,Scrap Helmet (Light),,
 steelHelmetLight,items,Item Clothes,,Steel Helmet (Light),,
@@ -5496,7 +5496,7 @@ deadShotDesc2,progression,Perk,KgNone,Shoot them dead with style!  Increase your
 
 sniper,progression,Skill,KgNone,Rifles,Fusils,Gewehre,,Sniper Rifle
 sniperDesc,progression,Perk,KgNone,Do more damage with Snipers. Gain skill by using items from this group.,,
-riflesDesc2,progression,Skill,KgNone,Do more damage with hunting or bolt rifles. Gain skill by using items from this group.,Infligez davantage de dégâts avec les fusils et fusils d'assaut. Obtenez cette compétence en utilisant des objets de ce groupe.,"Verursache mehr Schaden mit Gewehren und Sturmgewehren. Erhalte die Fertigkeit, indem du Waffen aus dieser Kategorie benutzt.",,Inflige más daño con rifles y rifles de asalto. Mejora tu habilidad usando objetos de este grupo.
+riflesDesc2,progression,Skill,KgNone,Do more damage with hunting or bolt rifles. Gain skill by using items from this group. Level up to 20 to be able to assemble them. Level 30 unlocks silencer.,Infligez davantage de dégâts avec les fusils et fusils d'assaut. Obtenez cette compétence en utilisant des objets de ce groupe.,"Verursache mehr Schaden mit Gewehren und Sturmgewehren. Erhalte die Fertigkeit, indem du Waffen aus dieser Kategorie benutzt.",,Inflige más daño con rifles y rifles de asalto. Mejora tu habilidad usando objetos de este grupo.
 hitman,progression,Perk,KgNone,The Hitman,,
 hitmanDesc,progression,Perk,GrChanged,"You're an aspiring hitman. Your sniper does more damage with every rank.",,
 
@@ -5508,7 +5508,30 @@ gijoeDesc,progression,Perk,GrChanged,Your assault rifle does more damage with ev
 smg,progression,Skill,KgNone,Rifles,Fusils,Gewehre,,Submachine Guns
 smgDesc,progression,Skill,KgNone,Do more damage with submachine guns.,,
 smgPerk,progression,Perk,KgNone,"Spray and Pray",,
-smgPerkDesc,progression,Perk,GrChanged,Your SMG does more damage with every rank.,,
+smgPerkDesc,progression,Perk,GrChanged,Your SMG does more damage with every rank. Level up to 20 to be able to assemble them. Level 30 unlocks silencer.,,
 
 lumberjack,progression,Perk,KgNone,"Lumberjack",,
 lumberjackDesc,progression,Perk,GrChanged,"Do 20% more block damage with axes and use 10% less stamina per swing per rank.",,
+
+ZombieRaveReaper,entityclasses,Entity,,Rave Reaper,,
+ZombieBigBitch,entityclasses,Entity,,Rotting Marge,,
+ZombieClarice,entityclasses,Entity,,Decayed Wife,,
+ZombieLibrarian,entityclasses,Entity,,Zombie Librarian,,
+ZombieVoodooFemale,entityclasses,Entity,,Infected Voodoo Cultist,,
+ZombieVoodooMale,entityclasses,Entity,,Infected Voodoo Cultist,,
+ZombieDan,entityclasses,Entity,,Festering Corpse,,
+ZombieLumberjack,entityclasses,Entity,,Undead Lumberjack,,
+ZombieSurvivorMale,entityclasses,Entity,,Infected Survivor,,
+ZombieSurvivorFemale,entityclasses,Entity,,Infected Survivor,,
+ZombieTrucker,entityclasses,Entity,,Undead Trucker,,
+ZombieKenny,entityclasses,Entity,,Undead Survivor,,
+ZombieRavager,entityclasses,Entity,,Ravager,,
+ZombieNerd,entityclasses,Entity,,Rotting Nerd,,
+ZombieInmate,entityclasses,Entity,,Infected Inmate,,
+ZombieInmateBlack,entityclasses,Entity,,Infected Inmate,,
+ZombieBrute,entityclasses,Entity,,Monsterous Brute,,
+ZombieCharred,entityclasses,Entity,,Charred Corpse,,
+ZombieChildFemale,entityclasses,Entity,,Infected Youth,,
+ZombieChildMale,entityclasses,Entity,,Infected Youth,,
+
+coldDrinkDesc,items,Food,KgNone,This drink has been chilled. Left-Click on a fridge or cooler to make it warmer.,,

@@ -227,7 +227,8 @@
 		repeatable="true" category_key="challenge" offer_key="challenge_imalumberjackandimokay_offer" difficulty="hard">
 		
 		<objective type="Time" value="900" optional="true" />
-		<objective type="ZombieKill" id="snowzombie" value="3" />
+		<objective type="ZombieKill" id="snowzombie" value="2" />
+		<objective type="ZombieKill" id="ZombieLumberjack" value="2" />
 		
 		<requirement type="Group" id="requirementGroupFireaxe" value="OR">
 			<requirement type="Holding" id="fireaxeIron" />
@@ -738,15 +739,15 @@
 		<action type="TrackQuest" />
 		<objective type="ZombieKill" id="fatzombiecop" value="1" />
 		<objective type="ZombieKill" id="zombieferal" value="1" />
-		<objective type="ZombieKill" id="Zombie Gorilla Boss" value="1" />
+		<objective type="ZombieKill" id="ZombieBrute" value="1" />
 		<reward type="Item" id="762mmBullet" value="100" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	<quest id="challenge_anklebitters" group_name_key="quest_anklebitters" name="Ankle Bitters Quest" subtitle="Ankle Bitting Challenge" description="Whats that nibbling at your heel?" icon="ui_game_symbol_zombie" 
-		repeatable="true" category_key="challenge" offer="Slaughter 30 crawling zombies." difficulty="medium">
+		repeatable="true" category_key="challenge" offer="Slaughter 20 crawling zombies." difficulty="medium">
 		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="zombieSteveCrawler" value="15" />
-		<objective type="ZombieKill" id="Feral Ravager" value="15" />
+		<objective type="ZombieKill" id="zombieSteveCrawler" value="10" />
+		<objective type="ZombieKill" id="ZombieRavager" value="10" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	<quest id="challenge_lightthemup" name="Light'Em Up" subtitle="Kill 30 zombies with a burning club." description="Light up a wooden club in a campfire and use it to kill 30 zombies." icon="ui_game_symbol_club" 
@@ -877,7 +878,69 @@
 <quest id="challenge_lockpick2" name="Breaking and Enterng" subtitle="Crack the lock on three gun safes." description="Using the lockpicks given to you go break into three locked gunsafes." icon="ui_game_symbol_treasure" 
 		repeatable="true" category_key="challenge" offer="" difficulty="easy">
 		<objective type="BlockUpgrade" id="cntGunSafe" value="3" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Skill" id="Lockpicks" value="2" />
+	</quest>
+	<quest id="challenge_deathdouspart" group_name_key="quest_deathdouspart" name="'Till Death Does Us Part" subtitle="'Till Death Does Us Part" description="Find and kill the married coupled." icon="ui_game_symbol_zombie" 
+		repeatable="true" category_key="challenge" offer="Find and kill the married coupled." difficulty="medium">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="ZombieDan" value="1" />
+		<objective type="ZombieKill" id="ZombieClarice" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="challenge_familyreunion" group_name_key="quest_familyreunion" name="Family Reunion" subtitle="Family Reunion" description="Find and kill the family of infected." icon="ui_game_symbol_zombie" 
+		repeatable="true" category_key="challenge" offer="Find and kill the family of infected." difficulty="medium">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="ZombieDan" value="1" />
+		<objective type="ZombieKill" id="ZombieClarice" value="1" />
+		<objective type="ZombieKill" id="ZombieChildFemale" value="1" />
+		<objective type="ZombieKill" id="ZombieChildMale" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="challenge_bookworm" group_name_key="quest_bookworm" name="Bookworm" subtitle="Bookworm" description="Search bookstores to find and kill 10 nerds." icon="ui_game_symbol_zombie" 
+		repeatable="true" category_key="challenge" offer="Find and kill 10 nerds." difficulty="easy">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="ZombieNerd" value="10" />
+		<reward type="Skill" id="Science" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="challenge_jock" group_name_key="quest_jock" name="Jock Hunt" subtitle="Jock Hunt" description="Search football stadiums to find and kill 5 football jocks." icon="ui_game_symbol_zombie" 
+		repeatable="true" category_key="challenge" offer="Find and kill 5 football jocks." difficulty="easy">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="ZombieFootballPlayer" value="5" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Skill" id="Athletics" value="1" />
+		<reward type="Item" id="footballHelmet" value="400" />
+	</quest>
+	<quest id="challenge_reaper" group_name_key="quest_reaper" name="Don't Fear the Reaper" subtitle="Don't Fear the Reaper" description="Rumor tells of a lethal zombie that lurks in graveyards. Lets see if there is any truth to those rumors." icon="ui_game_symbol_zombie" 
+		repeatable="true" category_key="challenge" offer="Find and kill a reaper." difficulty="easy">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="ZombieRaveReaper" value="1" />
 		<reward type="SkillPoints" value="2" />
+		<reward type="Skill" id="Blade Weapons" value="3" />
+		<reward type="Item" id="scythe" value="400" />
+	</quest>
+	<quest id="challenge_walmart" group_name_key="quest_walmart" name="Walmart Shoppers" subtitle="Walmart Shoppers" description="Find and kill three fat male and female zombies." icon="ui_game_symbol_zombie" 
+		repeatable="true" category_key="challenge" offer="Kill 6 Fat Zombies." difficulty="medium">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="zombieMoe" value="1" />
+		<objective type="ZombieKill" id="ZombieBigBitch" value="1" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	<quest id="challenge_inmates" group_name_key="quest_inmates" name="Inmate Control" subtitle="Inmate Control" description="Find and kill 10 escaped infected inmates." icon="ui_game_symbol_zombie" 
+		repeatable="true" category_key="challenge" offer="Kill 10 Inmates." difficulty="medium">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="ZombieInmate" value="5" />
+		<objective type="ZombieKill" id="ZombieInmateBlack" value="5" />
+		<reward type="SkillPoints" value="2" />
+		<reward type="Item" id="clubIron" value="400" />
+	</quest>
+	<quest id="challenge_voodoo" group_name_key="quest_voodoo" name="Who Do You Voodoo?" subtitle="Who Do You Voodoo?" description="Find and kill 10 infected voodoo cultists." icon="ui_game_symbol_zombie" 
+		repeatable="true" category_key="challenge" offer="Kill 10 voodoo zombies." difficulty="medium">
+		<action type="TrackQuest" />
+		<objective type="ZombieKill" id="ZombieVoodooMale" value="5" />
+		<objective type="ZombieKill" id="ZombieVoodooFemale" value="5" />
+		<reward type="SkillPoints" value="1" />
 	</quest>
 	
 	<!-- MERCHANT -->
@@ -1044,7 +1107,7 @@ repeatable="false" category_key="challenge" offer="zombie smoke beacon" difficul
 <reward type="Quest" id="challenge_Loki4" />
 </quest>
 
-<quest id="challenge_Loki4" name="Loki's Hints 4/4" subtitle="Feast after Famine" description="Good food is hard to come by, in today's world. But with a little effort you can prepare healthy and tasty meals. First cut up some vegetables (corn, potatos and leeks), by 'scrapping' them . . ." icon="ui_game_symbol_campfire" 
+<quest id="challenge_Loki4" name="Loki's Hints 4/4" subtitle="Feast after Famine" description="Good food is hard to come by, in today's world. But with a little effort you can prepare healthy and tasty meals. First cut up some vegetables (corn or potatos), by 'scrapping' them . . ." icon="ui_game_symbol_campfire" 
 repeatable="false" category_key="challenge" offer="" difficulty="easy">
 <objective type="FetchKeep" id="assortedVegetables" value="4" />
 <objective type="FetchKeep" id="rawMeat" value="1" />

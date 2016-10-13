@@ -490,7 +490,7 @@
 		</effect>
 	</perk>
 	
-	<action_skill name="SMG" exp_to_level="150" icon="rifle" description_key="smgDesc" title_key="smg" group="firearms">
+	<action_skill name="SMG" exp_to_level="150" icon="rifle" description_key="smgDesc" title_key="SMG" group="firearms">
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
 			<multiply skill_level="1,5" value="1,1.04" />
@@ -1460,6 +1460,7 @@
 	<perk name="Traps" icon="misc_crafting" description_key="Learn how to craft improvised traps. Every ten levels unlocks a new teir. Level 10 unlocks wood spikes. Level 20 unlocks explosive traps. Level 30 unlocks fire traps." title_key="Traps" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<recipe name="trapSpikesNew" unlock_level="10"/>
 		<recipe name="woodLogSpike1" unlock_level="10"/>
+		<recipe name="scrapIronLogSpike4" unlock_level="10"/>
 		<recipe name="trapFall" unlock_level="10"/>
 		<recipe name="trussingSpike" unlock_level="20"/>
 		<recipe name="trussingWallSpike" unlock_level="20"/>
@@ -1478,7 +1479,7 @@
 	
 	<perk name="Chemistry" icon="science" description_key="Max out this perk to learn how to craft chemicals and other recipes like the chemistry station, gunpowder, gas, glue, oil, and fuel logs." title_key="Chemistry Training" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement perk_level="15" required_skill_name="Science" required_skill_level="15"/>
-		<recipe name="workstationChemistry" unlock_level="15"/>
+		<recipe name="chemistryStation" unlock_level="15"/>
 		<recipe name="gunPowder" unlock_level="15"/>
 		<recipe name="gasCan" unlock_level="15"/>
 		<recipe name="glue" unlock_level="15"/>
@@ -1556,8 +1557,8 @@
 		<recipe name="bellows" unlock_level="10"/>
 		
 		<recipe name="weldingTorch" unlock_level="20"/>
-		<recipe name="forgedIron" unlock_level="30"/>
-		<recipe name="ironArrowHead" unlock_level="30"/>
+		<recipe name="forgedIron" unlock_level="10"/>
+		<recipe name="ironArrowHead" unlock_level="10"/>
 		<recipe name="ironBars" unlock_level="30"/>
 		<recipe name="anvil" unlock_level="30"/>
 		<recipe name="calipers" unlock_level="50"/>
@@ -1636,8 +1637,17 @@
 		<recipe name="scrapBrass" unlock_level="4"/>
 		<recipe name="scrapLead" unlock_level="4"/>
 	</perk>
-	
-	<perk name="Masonry" icon="misc_crafting" description_key="Learn how to build with stone. Level 20 unlocks cobblestone. Level 30 unlocks brick. Level 50 unlocks cement.." title_key="Masonry" max_level="50" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
+
+	<crafting_skill name="Masonry" icon="forge" description_key="Learn how to build with stone. Level 20 unlocks cement mixer and cobblestones. Level 30 unlocks brick. Level 50 unlocks cement." title_key="Masonry" group="crafting">
+		<effect name="CraftingTime">
+			<multiply skill_level="1,5" value="1,.931" />
+			<multiply skill_level="5,11" value=".931,.871" />
+			<multiply skill_level="11,19" value=".871,.813" />
+			<multiply skill_level="19,32" value=".813,.741" />
+			<multiply skill_level="32,49" value=".741,.667" />
+			<multiply skill_level="49,70" value=".667,.591" />
+			<multiply skill_level="70,100" value=".591,.5" />
+		</effect>
 		<recipe name="cementMixer" unlock_level="20"/>
 		<recipe name="chisel" unlock_level="20"/>
 		<recipe name="cobblestones" unlock_level="20"/>
@@ -1669,13 +1679,13 @@
 		<recipe name="rebarFrameBlock" unlock_level="50"/>
 		<recipe name="rebarFrameRamp" unlock_level="50"/>
 		<recipe name="concreteMix" unlock_level="50"/>
-	</perk>
+	</crafting_skill>
 
 	<perk name="Blunderbuss" icon="shotgun" description_key="Max out this perk to learn how to craft a makeshift blunderbuss." title_key="Blunderbuss" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="firearms">
 		<requirement perk_level="5" required_skill_name="Scavenging" required_skill_level="5"/>
 		<recipe name="blunderbuss" unlock_level="5"/>
 	</perk>
-	
+
 </skills>
 
 </progression>
