@@ -3423,7 +3423,26 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="scythe" count="1" craft_area="workbench">
 	<ingredient name="forgedIron" count="20"/>
 	<ingredient name="wood" count="20"/>
-</recipe>	
+</recipe>
+<recipe name="scrapIronAxe" count="1">
+	<ingredient name="ironFragment" count="10"/>
+	<ingredient name="yuccaFibers" count="2"/>
+	<ingredient name="wood" count="2"/>
+</recipe>
+<recipe name="scrapIronPickaxe" count="1">
+	<ingredient name="scrapIron" count="15"/>
+	<ingredient name="crudeNail" count="2"/>
+	<ingredient name="wood" count="20"/>
+</recipe>
+<recipe name="scrapIronShovel" count="1">
+	<ingredient name="scrapIron" count="15"/>
+	<ingredient name="crudeNail" count="2"/>
+	<ingredient name="wood" count="20"/>
+</recipe>
+<recipe name="scrapIronShiv" count="1">
+	<ingredient name="scrapIron" count="3"/>
+	<ingredient name="ductTape" count="1"/>
+</recipe>
 
 		<!--Survivor Notes Mod -->
 <recipe name="survivorNotes" count="1" tooltip="ttScrapVeggies" craft_time="0.5">

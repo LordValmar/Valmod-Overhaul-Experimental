@@ -5535,3 +5535,12 @@ ZombieChildFemale,entityclasses,Entity,,Infected Youth,,
 ZombieChildMale,entityclasses,Entity,,Infected Youth,,
 
 coldDrinkDesc,items,Food,KgNone,This drink has been chilled. Left-Click on a fridge or cooler to make it warmer.,,
+
+scrapIronShiv,items,Item Melee,,Scrap Iron Shiv,,
+scrapIronShivDesc,items,Item Melee,,"This crude shiv was craft from a random piece of scrap iron with its handle wrapped in duct tape. Hope you've had your tetanus shots...",,
+scrapIronShovel,items,Item Melee,,Scrap Iron Shovel,,
+scrapIronShovelDesc,items,Item Melee,,"This crude shovel was made by attaching some random scrap metal to the end of a smoothed wooden stick. It gets t he job done, but it degrades twice as fast.",,
+scrapIronPickaxe,items,Item Melee,,Scrap Iron Pickaxe,,
+scrapIronPickaxeDesc,items,Item Melee,,"This crude pickaxe was crafted with various scrap metal and wood. Serves its purpose but degrades twice as fast.",,
+scrapIronAxe,items,Item Melee,,Scrap Iron Axe,,
+scrapIronAxeDesc,items,Item Melee,,"This crude axe was crafted with scrap and wood. Its not as durable as stone but makes up for it by being a bit sharper.",,

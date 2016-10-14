@@ -12092,6 +12092,49 @@ which does not exist, yet. -->
 	<property name="Group" value="Resources" />
 	<property name="CraftingIngredientTime" value="0.5" />
 </item>
+<item id="1994" name="scrapIronAxe">
+	<property name="Extends" value="stoneAxe" />
+	<property name="RepairTools" value="scrapIron" />
+	<property name="EconomicValue" value="5" />
+	<property name="CustomIcon" value="stoneAxe" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="6,14" />
+		<property name="BlockDamage" value="20,35" />
+		<property name="DegradationMax" value="100,600" />
+		<property name="DegradationRate" value="2,2" />
+	</property>
+	<property name="ActionSkillGroup" value="Axes"/>
+</item>
+<item id="1995" name="scrapIronPickaxe">
+	<property name="Extends" value="pickaxeIron" />
+	<property name="RepairTools" value="scrapIron" />
+	<property name="EconomicValue" value="5" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="5,10" />
+		<property name="BlockDamage" value="15,30" />
+		<property name="DegradationMax" value="200,600" />
+		<property name="DegradationRate" value="2,2" />
+	</property>
+</item>
+<item id="1996" name="scrapIronShovel">
+	<property name="Extends" value="shovelIron" />
+	<property name="RepairTools" value="scrapIron" />
+	<property name="EconomicValue" value="5" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="6,13" />
+		<property name="BlockDamage" value="16,40" />
+		<property name="DegradationMax" value="200,600" />
+		<property name="DegradationRate" value="2,2" />
+	</property>
+</item>
+<item id="1997" name="scrapIronShiv">
+	<property name="Extends" value="boneShiv" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="8,16" />
+		<property name="DegradationMax" value="200,600" />
+		<property name="DegradationRate" value="2,2" />
+	</property>
+</item>
 	<!-- Recipe Books Mod -->
 	<item id="2025" name="recipebookLoki">
 	<property name="Extends" value="challengeQuestMaster" />
