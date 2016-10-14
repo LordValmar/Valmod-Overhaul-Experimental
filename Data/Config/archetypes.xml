@@ -6606,6 +6606,7 @@
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
 				<texture name="unisex_face_dirt_overlay" color="172,33,50"/>
+				<texture name="male_skull_overlay" color="255,255,255"/>
 			</part>
 			<part slot="head" layer="inner" mesh="unisex_hair_dreads">
 				<texture name="unisex_hair_dreads" color="hair"/>
@@ -6716,6 +6717,7 @@
 			<part slot="head" layer="base" mesh="female_base_face">
 				<texture name="female_head_zombie" color="skin"/>
 				<texture name="unisex_face_dirt_overlay" color="78,15,15,255"/>
+				<texture name="male_skull_overlay" color="255,255,255"/>
 			</part>
 			<part slot="eyes" layer="inner" mesh="female_base_eyelashes">
 				<texture name="female_eyelashes" color="hair"/>
