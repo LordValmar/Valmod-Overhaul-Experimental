@@ -7810,6 +7810,7 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="70" />
 	<property name="Group" value="Resources" />
+	<property name="CraftingSkillGroup" value="Masonry"/>
 </item>
 
 <item id="1323" name="cement">
@@ -7821,7 +7822,7 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="70" />
 	<property name="Group" value="Building,Resources" />
-	<property name="CraftingSkillGroup" value="Blacksmith"/>
+	<property name="CraftingSkillGroup" value="Masonry"/>
 </item>
 
 <item id="1324" name="concreteMix">
@@ -7833,6 +7834,7 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="9" />
 	<property name="EconomicBundleSize" value="20" />
 	<property name="Group" value="Resources" />
+	<property name="CraftingSkillGroup" value="Masonry"/>
 </item>
 
 <item id="1325" name="fertilizer">
