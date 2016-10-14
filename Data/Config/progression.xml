@@ -1555,10 +1555,9 @@
 
 		<recipe name="forge" unlock_level="10"/>
 		<recipe name="bellows" unlock_level="10"/>
-		
-		<recipe name="weldingTorch" unlock_level="20"/>
 		<recipe name="forgedIron" unlock_level="10"/>
 		<recipe name="ironArrowHead" unlock_level="10"/>
+		<recipe name="weldingTorch" unlock_level="20"/>
 		<recipe name="ironBars" unlock_level="30"/>
 		<recipe name="anvil" unlock_level="30"/>
 		<recipe name="calipers" unlock_level="50"/>
