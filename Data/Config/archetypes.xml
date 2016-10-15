@@ -5650,7 +5650,7 @@
 		</dna>
 	</archetype>
 
-	<archetype name="ZombieBigBitch" male="false" hair_color="60,25,23" eye_color="100,110,115" skin_color="161,214,204" type="Zombie">
+<!--	<archetype name="ZombieBigBitch" male="false" hair_color="60,25,23" eye_color="100,110,115" skin_color="161,214,204" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
 				<texture name="female_head_zombie" color="skin"/>
