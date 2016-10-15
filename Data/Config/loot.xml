@@ -2927,11 +2927,11 @@
 		<item name="bandage" count="1"/>
 		<item name="torch" />
         <item name="militaryBoots" count="1"/>
-        <item name="gunAK47" count="1" quality="170,170"/>
+        <item name="gunMP5" count="1" quality="170,170"/>
 		<item name="huntingKnife" count="1" quality="200,200"/>
         <item name="militaryHelmet" count="1"  quality="170,170"/>
         <item name="repairKit" count="4"/>
-        <item name="762mmBullet" count="80"/>
+        <item name="10mmBullet" count="80"/>
 		<item name="challengeClassVeteran" count="1"/>
 		<item name="perkVeteran" count="1"/>
 	</lootgroup>

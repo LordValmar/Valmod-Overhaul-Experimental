@@ -552,7 +552,7 @@
 			<requirement type="Holding" id="gunMP5" />
 		</requirement>
 		<objective type="ZombieKill" value="25" />
-		<reward type="Item" id="762mmBullet" value="50" />
+		<reward type="Item" id="10mmBullet" value="50" />
 		<reward type="Skill" id="Assault Rifles" value="1" />
 		<reward type="Quest" id="challenge_veteran2" />
 	</quest>
@@ -565,7 +565,7 @@
 		</requirement>
 		<objective type="ZombieKill" value="50" />
 		<reward type="Skill" id="Assault Rifles" value="3" />
-		<reward type="Item" id="762mmBullet" value="75" />
+		<reward type="Item" id="10mmBullet" value="75" />
 		<reward type="Quest" id="challenge_veteran3" />
 	</quest>
 	
@@ -576,7 +576,7 @@
 			<requirement type="Holding" id="gunMP5" />
 		</requirement>
 		<objective type="ZombieKill" value="100" />
-		<reward type="Item" id="762mmBullet" value="170" />
+		<reward type="Item" id="10mmBullet" value="170" />
 		<reward type="Skill" id="Assault Rifles" value="5" />
 	</quest>
 		

@@ -1590,7 +1590,7 @@
 		<recipe name="shovelSteel" unlock_level="5"/>
 	</perk>
 	
-	<crafting_skill name="Blacksmith" icon="forge" description_key="Level this skill up by crafting various items and blocks in the forge. Levels 10, 20, 30, 50 and 80 all unlock new recipes." title_key="Blacksmith" group="crafting">
+	<crafting_skill name="Blacksmith" icon="forge" description_key="Level this skill up by crafting various items and blocks in the forge. Levels 10, 15, 20, 30, 50 and 80 all unlock new recipes." title_key="Blacksmith" group="crafting">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,5" value="1,.931" />
 			<multiply skill_level="5,11" value=".931,.871" />
@@ -1606,8 +1606,17 @@
 		<recipe name="forgedIron" unlock_level="10"/>
 		<recipe name="ironArrowHead" unlock_level="10"/>
 		<recipe name="ironRingsRivets" unlock_level="10"/>
+		<recipe name="emptyJar" unlock_level="15"/>
+		<recipe name="Syringe" unlock_level="15"/>
+		<recipe name="glassCTRSheet" unlock_level="15"/>
+		<recipe name="glassShowerBlock" unlock_level="15"/>
+		<recipe name="glassIndustrialCTRPlate" unlock_level="15"/>
+		<recipe name="glassIndustrial02CTRPlate" unlock_level="15"/>
+		<recipe name="glassBusinessSheet" unlock_level="15"/>
+		<recipe name="glassBusinessCTRSheet" unlock_level="15"/>
+		<recipe name="glassBusinessBlock" unlock_level="15"/>
+		<recipe name="beaker" unlock_level="15"/>
 		<recipe name="weldingTorch" unlock_level="20"/>
-		<recipe name="steelRingRivets" unlock_level="80"/>
 		<recipe name="ironBars" unlock_level="30"/>
 		<recipe name="anvil" unlock_level="30"/>
 		<recipe name="calipers" unlock_level="50"/>
@@ -1636,21 +1645,7 @@
 		<recipe name="woodFrameRamp" unlock_level="10"/>
 		<recipe name="woodFrameCNRInside" unlock_level="10"/>
 		<recipe name="woodFrameCNRFull" unlock_level="10"/>
-	</crafting_skill>	
-
-	<perk name="Glassworking" icon="misc_crafting" description_key="Max out this perk to learn how to craft various glass items and blocks in the forge such as windows and glass jars." title_key="Glassworking" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
-		<requirement perk_level="5" required_skill_name="Blacksmith" required_skill_level="10"/>
-		<recipe name="emptyJar" unlock_level="5"/>
-		<recipe name="Syringe" unlock_level="5"/>
-		<recipe name="glassCTRSheet" unlock_level="5"/>
-		<recipe name="glassShowerBlock" unlock_level="5"/>
-		<recipe name="glassIndustrialCTRPlate" unlock_level="5"/>
-		<recipe name="glassIndustrial02CTRPlate" unlock_level="5"/>
-		<recipe name="glassBusinessSheet" unlock_level="5"/>
-		<recipe name="glassBusinessCTRSheet" unlock_level="5"/>
-		<recipe name="glassBusinessBlock" unlock_level="5"/>
-		<recipe name="beaker" unlock_level="5"/>
-	</perk>
+	</crafting_skill>
 
 	<perk name="Security" icon="misc_crafting" description_key="Level 5 unlocks wooden doors. Level 10 teaches how to craft secure storage containers, safes and iron doors in the Artisan Decor Station. Level 20 teaches the components needed for drawbridges." title_key="Security Measures" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement perk_level="10" required_skill_name="Carpentry" required_skill_level="10"/>
