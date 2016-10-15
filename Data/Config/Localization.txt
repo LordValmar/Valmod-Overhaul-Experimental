@@ -5503,7 +5503,7 @@ hitmanDesc,progression,Perk,GrChanged,"You're an aspiring hitman. Your sniper do
 assaultrifles,progression,Skill,KgNone,Rifles,Fusils,Gewehre,,Assault Rifles
 assaultriflesDesc,progression,Skill,KgNone,Do more damage with assault rifles.,,
 gijoe,progression,Perk,KgNone,"G.I. Joe",,
-gijoeDesc,progression,Perk,GrChanged,Your assault rifle does more damage with every rank.,,
+gijoeDesc,progression,Perk,GrChanged,Your smg and assault rifle does more damage with every rank.,,
 
 smg,progression,Skill,KgNone,Rifles,Fusils,Gewehre,,Submachine Guns
 smgDesc,progression,Skill,KgNone,Do more damage with submachine guns.,,
@@ -5544,3 +5544,8 @@ scrapIronPickaxe,items,Item Melee,,Scrap Iron Pickaxe,,
 scrapIronPickaxeDesc,items,Item Melee,,"This crude pickaxe was crafted with various scrap metal and wood. Serves its purpose but degrades twice as fast.",,
 scrapIronAxe,items,Item Melee,,Scrap Iron Axe,,
 scrapIronAxeDesc,items,Item Melee,,"This crude axe was crafted with scrap and wood. Its not as durable as stone but makes up for it by being a bit sharper.",,
+
+ironRingsRivets,items,Item,KgNone,Iron Rings and Rivets,,,
+ironRingsRivetsDesc,items,Item,KgNone,"These rings and rivets are required for crafting iron armor. You can craft these in the forge if you have a high enough Blacksmithing.",,
+steelRingsRivets,items,Item,KgNone,Steel Rings and Rivets,,,
+steelRingsRivetsDesc,items,Item,KgNone,"These rings and rivets are required for crafting steel armor. You can craft these in the forge if you have a high enough Blacksmithing.",,
