@@ -878,16 +878,15 @@
 	<quest id="challenge_deathdouspart" group_name_key="quest_deathdouspart" name="'Till Death Does Us Part" subtitle="'Till Death Does Us Part" description="Find and kill the married coupled." icon="ui_game_symbol_zombie" 
 		repeatable="true" category_key="challenge" offer="Find and kill the married coupled." difficulty="medium">
 		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="ZombieDan" value="1" />
-		<objective type="ZombieKill" id="ZombieClarice" value="1" />
+		<objective type="ZombieKill" id="ZombieKenny" value="1" />
+		<objective type="ZombieKill" id="ZombieLibrarian" value="1" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	<quest id="challenge_familyreunion" group_name_key="quest_familyreunion" name="Family Reunion" subtitle="Family Reunion" description="Find and kill the family of infected." icon="ui_game_symbol_zombie" 
 		repeatable="true" category_key="challenge" offer="Find and kill the family of infected." difficulty="medium">
 		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="ZombieDan" value="1" />
-		<objective type="ZombieKill" id="ZombieClarice" value="1" />
-		<objective type="ZombieKill" id="ZombieChildFemale" value="1" />
+		<objective type="ZombieKill" id="ZombieKenny" value="1" />
+		<objective type="ZombieKill" id="ZombieLibrarian" value="1" />
 		<objective type="ZombieKill" id="ZombieChildMale" value="1" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
@@ -918,7 +917,7 @@
 		repeatable="true" category_key="challenge" offer="Kill 6 Fat Zombies." difficulty="medium">
 		<action type="TrackQuest" />
 		<objective type="ZombieKill" id="zombieMoe" value="1" />
-		<objective type="ZombieKill" id="ZombieBigBitch" value="1" />
+		<objective type="ZombieKill" id="ZombieFemaleFatUMA" value="1" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	<quest id="challenge_inmates" group_name_key="quest_inmates" name="Inmate Control" subtitle="Inmate Control" description="Find and kill 10 escaped infected inmates." icon="ui_game_symbol_zombie" 
@@ -932,8 +931,7 @@
 	<quest id="challenge_voodoo" group_name_key="quest_voodoo" name="Who Do You Voodoo?" subtitle="Who Do You Voodoo?" description="Find and kill 10 infected voodoo cultists." icon="ui_game_symbol_zombie" 
 		repeatable="true" category_key="challenge" offer="Kill 10 voodoo zombies." difficulty="medium">
 		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="ZombieVoodooMale" value="5" />
-		<objective type="ZombieKill" id="ZombieVoodooFemale" value="5" />
+		<objective type="ZombieKill" id="ZombieVoodooMale" value="10" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
 	
