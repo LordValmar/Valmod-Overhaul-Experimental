@@ -4,7 +4,7 @@
 	max_level="200" 
 	exp_to_level="8000" 
 	experience_multiplier="1.00905" 
-	skill_points_per_level="7" 
+	skill_points_per_level="5" 
 	skill_point_multiplier="0"/>
 	<!-- that's 4000 XP for level 1 and 56k for level 199, total cumulative of 3.97MXP -->
 
