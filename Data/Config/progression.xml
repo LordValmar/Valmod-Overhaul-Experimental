@@ -1590,7 +1590,7 @@
 		<recipe name="shovelSteel" unlock_level="5"/>
 	</perk>
 	
-	<crafting_skill name="Blacksmith" icon="forge" description_key="Level this skill up by crafting various items and blocks in the forge. Levels 10, 15, 20, 30, 50 and 80 all unlock new recipes." title_key="Blacksmith" group="crafting">
+	<crafting_skill name="Blacksmith" icon="forge" description_key="Level this skill up by crafting various items and blocks in the forge. Levels 10, 15, 20, 25, 30, 50 and 80 all unlock new recipes." title_key="Blacksmith" group="crafting">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,5" value="1,.931" />
 			<multiply skill_level="5,11" value=".931,.871" />
@@ -1605,9 +1605,7 @@
 		<recipe name="bellows" unlock_level="10"/>
 		<recipe name="forgedIron" unlock_level="10"/>
 		<recipe name="ironArrowHead" unlock_level="10"/>
-		<recipe name="ironRingsRivets" unlock_level="10"/>
 		<recipe name="emptyJar" unlock_level="15"/>
-		<recipe name="Syringe" unlock_level="15"/>
 		<recipe name="glassCTRSheet" unlock_level="15"/>
 		<recipe name="glassShowerBlock" unlock_level="15"/>
 		<recipe name="glassIndustrialCTRPlate" unlock_level="15"/>
@@ -1615,8 +1613,10 @@
 		<recipe name="glassBusinessSheet" unlock_level="15"/>
 		<recipe name="glassBusinessCTRSheet" unlock_level="15"/>
 		<recipe name="glassBusinessBlock" unlock_level="15"/>
-		<recipe name="beaker" unlock_level="15"/>
+		<recipe name="ironRingsRivets" unlock_level="20"/>
 		<recipe name="weldingTorch" unlock_level="20"/>
+		<recipe name="beaker" unlock_level="25"/>
+		<recipe name="Syringe" unlock_level="25"/>
 		<recipe name="ironBars" unlock_level="30"/>
 		<recipe name="anvil" unlock_level="30"/>
 		<recipe name="calipers" unlock_level="50"/>
@@ -1689,6 +1689,7 @@
 		</effect>
 		<recipe name="cementMixer" unlock_level="20"/>
 		<recipe name="chisel" unlock_level="20"/>
+		<recipe name="cobblestones" unlock_level="20"/>
 		<recipe name="cobblestoneFrameBlock" unlock_level="20"/>
 		<recipe name="cobblestoneFrameRamp" unlock_level="20"/>
 		<recipe name="cobblestoneFrameWedge" unlock_level="20"/>
