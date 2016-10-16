@@ -1545,25 +1545,20 @@
 	<property name="WalkType" value="5" />
 	<property name="LootListOnDeath" value="15" />
 </entity_class>-->
-<entity_class name="ZombieLibrarian" extends="ZombieFemaleUMA" >
+<!--<entity_class name="ZombieLibrarian" extends="ZombieFemaleUMA" >
 	<property name="Archetype" value="ZombieLibrarian"/>
 	<property name="WalkType" value="5" />
 	<property name="LootListOnDeath" value="123" />
-</entity_class>
-<entity_class name="ZombieSurvivorFemale" extends="ZombieFemaleUMA" >
-	<property name="Archetype" value="ZombieSurvivorFemale"/>
-	<property name="WalkType" value="7" />
-	<property name="LootListOnDeath" value="124" />
-</entity_class>
+</entity_class>-->
 <!--<entity_class name="ZombieVoodooFemale" extends="ZombieFemaleUMA" >
 	<property name="Archetype" value="ZombieVoodooFemale"/>
 	<property name="WalkType" value="2" />
 	<property name="LootListOnDeath" value="125" />
 </entity_class> -->
-<entity_class name="ZombieVoodooMale" extends="zombieUMA" >
+<!--<entity_class name="ZombieVoodooMale" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieVoodooMale"/>
 	<property name="LootListOnDeath" value="125" />
-</entity_class>
+</entity_class>-->
 <!--<entity_class name="ZombieDan" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieDan"/>
 	<property name="LootListOnDeath" value="15" />
@@ -1616,10 +1611,10 @@
 	<property name="KnockdownProneDamageThreshold" value="0"/>
 	<property name="KnockdownKneelDamageThreshold" value="0"/>
 </entity_class>
-<entity_class name="ZombieKenny" extends="zombieUMA" >
+<!--<entity_class name="ZombieKenny" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieKenny"/>
 	<property name="LootListOnDeath" value="15" />
-</entity_class>
+</entity_class>-->
 <entity_class name="ZombieRavager" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieRavager"/>
 	<property name="SoundRandom"	value="Enemies/Feral_Zombie/zombieferalroam" />
@@ -1634,18 +1629,18 @@
 	<property name="ExperienceGain"	value="300"/>
 	<property name="LootListOnDeath"	value="88" />
 </entity_class>
-<entity_class name="ZombieNerd" extends="zombieUMA" >
+<!--<entity_class name="ZombieNerd" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieNerd"/>
 	<property name="MaxHealth" value="80" />
 	<property name="WalkType" value="7" />
 	<property name="ExperienceGain" value="100"/>
 	<property name="LootListOnDeath" value="127" />
-</entity_class>
-<entity_class name="ZombieInmate" extends="zombieUMA" >
+</entity_class> -->
+<!--<entity_class name="ZombieInmate" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieInmate"/>
 	<property name="WalkType" value="6" />
 	<property name="LootListOnDeath" value="128" />
-</entity_class>
+</entity_class>-->
 <!--<entity_class name="ZombieInmateBlack" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieInmateBlack"/>
 	<property name="WalkType" value="6" />
@@ -1703,13 +1698,13 @@
 	<property name="LootListOnDeath" value="129" />
 	<property name="HandItem" value="handChild" />
 </entity_class>-->
-<entity_class name="ZombieChildMale" extends="zombieUMA" >
+<!--<entity_class name="ZombieChildMale" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieChildMale"/>
 	<property name="MaxHealth" value="30" />
 	<property name="ExperienceGain" value="20"/>
 	<property name="LootListOnDeath" value="129" />
 	<property name="HandItem" value="handChild" />
-</entity_class>
+</entity_class>-->
 <!--<entity_class name="ZombieRanger" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieRanger"/>
 	<property name="LootListOnDeath" value="131" />

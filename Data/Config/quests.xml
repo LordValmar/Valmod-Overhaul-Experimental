@@ -875,28 +875,6 @@
 		<reward type="SkillPoints" value="1" />
 		<reward type="Skill" id="Lockpicks" value="2" />
 	</quest>
-	<quest id="challenge_deathdouspart" group_name_key="quest_deathdouspart" name="'Till Death Does Us Part" subtitle="'Till Death Does Us Part" description="Find and kill the married coupled." icon="ui_game_symbol_zombie" 
-		repeatable="true" category_key="challenge" offer="Find and kill the married coupled." difficulty="medium">
-		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="ZombieKenny" value="1" />
-		<objective type="ZombieKill" id="ZombieLibrarian" value="1" />
-		<reward type="SkillPoints" value="1" />
-	</quest>
-	<quest id="challenge_familyreunion" group_name_key="quest_familyreunion" name="Family Reunion" subtitle="Family Reunion" description="Find and kill the family of infected." icon="ui_game_symbol_zombie" 
-		repeatable="true" category_key="challenge" offer="Find and kill the family of infected." difficulty="medium">
-		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="ZombieKenny" value="1" />
-		<objective type="ZombieKill" id="ZombieLibrarian" value="1" />
-		<objective type="ZombieKill" id="ZombieChildMale" value="1" />
-		<reward type="SkillPoints" value="1" />
-	</quest>
-	<quest id="challenge_bookworm" group_name_key="quest_bookworm" name="Bookworm" subtitle="Bookworm" description="Search bookstores to find and kill 10 nerds." icon="ui_game_symbol_zombie" 
-		repeatable="true" category_key="challenge" offer="Find and kill 10 nerds." difficulty="easy">
-		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="ZombieNerd" value="10" />
-		<reward type="Skill" id="Science" value="1" />
-		<reward type="SkillPoints" value="1" />
-	</quest>
 	<quest id="challenge_jock" group_name_key="quest_jock" name="Jock Hunt" subtitle="Jock Hunt" description="Search football stadiums to find and kill 5 football jocks." icon="ui_game_symbol_zombie" 
 		repeatable="true" category_key="challenge" offer="Find and kill 5 football jocks." difficulty="easy">
 		<action type="TrackQuest" />
@@ -920,21 +898,7 @@
 		<objective type="ZombieKill" id="ZombieFemaleFatUMA" value="1" />
 		<reward type="SkillPoints" value="1" />
 	</quest>
-	<quest id="challenge_inmates" group_name_key="quest_inmates" name="Inmate Control" subtitle="Inmate Control" description="Find and kill 10 escaped infected inmates." icon="ui_game_symbol_zombie" 
-		repeatable="true" category_key="challenge" offer="Kill 10 Inmates." difficulty="medium">
-		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="ZombieInmate" value="5" />
-		<objective type="ZombieKill" id="ZombieInmateBlack" value="5" />
-		<reward type="SkillPoints" value="2" />
-		<reward type="Item" id="clubIron" value="400" />
-	</quest>
-	<quest id="challenge_voodoo" group_name_key="quest_voodoo" name="Who Do You Voodoo?" subtitle="Who Do You Voodoo?" description="Find and kill 10 infected voodoo cultists." icon="ui_game_symbol_zombie" 
-		repeatable="true" category_key="challenge" offer="Kill 10 voodoo zombies." difficulty="medium">
-		<action type="TrackQuest" />
-		<objective type="ZombieKill" id="ZombieVoodooMale" value="10" />
-		<reward type="SkillPoints" value="1" />
-	</quest>
-	
+
 	<!-- MERCHANT -->
 	<!-- AMMO -->
 <quest id="merchant9mmBullet" name="Merchant Order - 9MM Bullets" subtitle="" description="You've recieved a delivery from the traveling merchant." icon="ui_game_symbol_treasure" 

@@ -417,14 +417,9 @@
 	<item name="challengeSurvivorJournal" count="1"/>
 	<item name="challengeLockpick" count="1"/>
 	<item name="challengeKickz" count="1"/>
-	<item name="challengeDeathDoUsPart"/>
-	<item name="challengeFamilyReunion"/>
-	<item name="challengeBookworm"/>
 	<item name="challengeJock"/>
 	<item name="challengeReaper"/>
 	<item name="challengeWalmart"/>
-	<item name="challengeInmates"/>
-	<item name="challengeVoodoo"/>
 </lootgroup>
 
 <lootgroup name="questChallenge" count="1">

@@ -5649,7 +5649,6 @@
 			<gene name="breastSize" value="0"/>
 		</dna>
 	</archetype>
-
 <!--	<archetype name="ZombieBigBitch" male="false" hair_color="60,25,23" eye_color="100,110,115" skin_color="161,214,204" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
@@ -6132,7 +6131,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>-->
-	<archetype name="ZombieSurvivorFemale" male="false" hair_color="31,28,26" eye_color="184,169,166" skin_color="96,96,96" type="Zombie">
+<!--	<archetype name="ZombieSurvivorFemale" male="false" hair_color="31,28,26" eye_color="184,169,166" skin_color="96,96,96" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
 				<texture name="female_head_zombie" color="skin"/>
@@ -6252,7 +6251,7 @@
 			<gene name="eyeSize" value="0.995"/>
 			<gene name="breastSize" value="0.5"/>
 		</dna>
-	</archetype>
+	</archetype>-->
 	<archetype name="ZombieTrucker" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="155,218,179" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
@@ -6601,7 +6600,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>-->
-	<archetype name="ZombieVoodooMale" male="true" hair_color="20,20,20" eye_color="184,169,166" skin_color="69,59,43" type="Zombie">
+<!--	<archetype name="ZombieVoodooMale" male="true" hair_color="20,20,20" eye_color="184,169,166" skin_color="69,59,43" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -6711,7 +6710,7 @@
 			<gene name="eyeSize" value="0.165"/>
 			<gene name="breastSize" value="0.5"/>
 		</dna>
-	</archetype>
+	</archetype> -->
 <!--	<archetype name="ZombieVoodooFemale" male="false" hair_color="20,20,20" eye_color="184,169,166" skin_color="69,59,43" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
@@ -6946,7 +6945,7 @@
 			<gene name="breastSize" value="0.6"/>
 		</dna>
 	</archetype>	
-	<archetype name="ZombieLibrarian" male="false" hair_color="9,9,9" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
+<!--	<archetype name="ZombieLibrarian" male="false" hair_color="9,9,9" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
 				<texture name="female_head_zombie" color="skin"/>
@@ -7063,8 +7062,8 @@
 			<gene name="eyeSize" value="0.995"/>
 			<gene name="breastSize" value="0.5"/>
 		</dna>
-	</archetype>
-	<archetype name="ZombieKenny" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
+	</archetype> -->
+<!--	<archetype name="ZombieKenny" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -7177,7 +7176,7 @@
 			<gene name="eyeSize" value="0.995"/>
 			<gene name="breastSize" value="0.5"/>
 		</dna>
-	</archetype>
+	</archetype>-->
 	<archetype name="ZombieRavager" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="220,220,220" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
@@ -7412,7 +7411,7 @@
 			<gene name="breastSize" value="-0.5"/>
 		</dna>
 	</archetype>-->
-	<archetype name="ZombieChildMale" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
+<!--	<archetype name="ZombieChildMale" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head" color="skin"/>
@@ -7521,8 +7520,8 @@
 			<gene name="eyeSize" value="1"/>
 			<gene name="breastSize" value="-05"/>
 		</dna>
-	</archetype>
-	<archetype name="ZombieNerd" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
+	</archetype>-->
+<!--	<archetype name="ZombieNerd" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -7633,8 +7632,8 @@
 			<gene name="eyeSize" value="1"/>
 			<gene name="breastSize" value="0"/>
 		</dna>
-	</archetype>
-	<archetype name="ZombieInmate" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
+	</archetype>-->
+<!--	<archetype name="ZombieInmate" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -7739,7 +7738,7 @@
 			<gene name="eyeSize" value="0.995"/>
 			<gene name="breastSize" value="0.5"/>
 		</dna>
-	</archetype>
+	</archetype>-->
 <!--	<archetype name="ZombieInmateBlack" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="69,59,43" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
@@ -8104,7 +8103,7 @@
 			<gene name="eyeSize" value="1"/>
 			<gene name="breastSize" value="0"/>
 		</dna>
-	</archetype>
+	</archetype> -->
 <!--	<archetype name="ZombieRanger" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">

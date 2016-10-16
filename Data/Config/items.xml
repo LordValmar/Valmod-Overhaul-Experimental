@@ -14528,27 +14528,6 @@ which does not exist, yet. -->
 	<property name="QuestGiven" value="challenge_Kickz" />
 	</property>
 </item>
-<item id="2632" name="challengeDeathDoUsPart">
-	<property name="Extends" value="challengeQuestMaster" />
-	<property name="CustomIconTint" value="781B8F" />
-	<property class="Action1">
-	<property name="QuestGiven" value="challenge_deathdouspart" />
-	</property>
-</item>
-<item id="2633" name="challengeFamilyReunion">
-	<property name="Extends" value="challengeQuestMaster" />
-	<property name="CustomIconTint" value="781B8F" />
-	<property class="Action1">
-	<property name="QuestGiven" value="challenge_familyreunion" />
-	</property>
-</item>
-<item id="2634" name="challengeBookworm">
-	<property name="Extends" value="challengeQuestMaster" />
-	<property name="CustomIconTint" value="781B8F" />
-	<property class="Action1">
-	<property name="QuestGiven" value="challenge_bookworm" />
-	</property>
-</item>
 <item id="2635" name="challengeJock">
 	<property name="Extends" value="challengeQuestMaster" />
 	<property name="CustomIconTint" value="781B8F" />
@@ -14568,20 +14547,6 @@ which does not exist, yet. -->
 	<property name="CustomIconTint" value="781B8F" />
 	<property class="Action1">
 	<property name="QuestGiven" value="challenge_walmart" />
-	</property>
-</item>
-<item id="2638" name="challengeInmates">
-	<property name="Extends" value="challengeQuestMaster" />
-	<property name="CustomIconTint" value="781B8F" />
-	<property class="Action1">
-	<property name="QuestGiven" value="challenge_inmates" />
-	</property>
-</item>
-<item id="2639" name="challengeVoodoo">
-	<property name="Extends" value="challengeQuestMaster" />
-	<property name="CustomIconTint" value="781B8F" />
-	<property class="Action1">
-	<property name="QuestGiven" value="challenge_voodoo" />
 	</property>
 </item>
 
