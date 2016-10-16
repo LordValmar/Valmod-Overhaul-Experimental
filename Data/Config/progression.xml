@@ -79,7 +79,7 @@
 			<add perk_level="5" value="1"/>
 		</effect>
 	</perk>
-	<player_skill name="Scavenging" icon="loot_sack" description_key="Be the scrounge master and get faster at looting and gain a higher % chance for better loot. Gain skill by opening untouched loot containers. Level 5 unlocks the ability to scrap iron, brass, lead and craft scrap iron tools and wepaons. Level 10 unlocks the Blunderbuss." title_key="scavenging" group="scavenging">
+	<player_skill name="Scavenging" icon="loot_sack" description_key="Be the scrounge master and get faster at looting and gain a higher % chance for better loot. Gain skill by opening untouched loot containers. Level 5 unlocks the ability to scrap iron, brass, lead. Level 10 unlocks scrap iron tools and weapons. Level 15 unlocks the Blunderbuss." title_key="scavenging" group="scavenging">
 		<effect name="LootTime">
 			<multiply skill_level="1,10" value="1,0.76"/>
 			<multiply skill_level="10,20" value="0.76,0.66"/>
@@ -104,11 +104,11 @@
 		<recipe name="scrapIron" unlock_level="5"/>
 		<recipe name="scrapBrass" unlock_level="5"/>
 		<recipe name="scrapLead" unlock_level="5"/>
-		<recipe name="scrapIronAxe" unlock_level="5"/>
-		<recipe name="scrapIronPickaxe" unlock_level="5"/>
-		<recipe name="scrapIronShovel" unlock_level="5"/>
-		<recipe name="scrapIronShiv" unlock_level="5"/>
-		<recipe name="blunderbuss" unlock_level="10"/>
+		<recipe name="scrapIronAxe" unlock_level="10"/>
+		<recipe name="scrapIronPickaxe" unlock_level="10"/>
+		<recipe name="scrapIronShovel" unlock_level="10"/>
+		<recipe name="scrapIronShiv" unlock_level="10"/>
+		<recipe name="blunderbuss" unlock_level="15"/>
 	</player_skill>
 	<perk name="Fast Eddie" icon="loot_sack" description_key="fastEddieDesc" title_key="fastEddie" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" always_fire="true" group="scavenging">
 		<requirement perk_level="1" required_skill_name="Scavenging" required_skill_level="1"/>
