@@ -385,7 +385,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="cloth" count="10"/>
 </recipe>
 
-<recipe name="baconAndEggs" count="1" craft_area="campfire" craft_tool="cookingGrill">
+<recipe name="baconAndEggs" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="egg" count="2"/>
 	<ingredient name="rawMeat" count="1"/>
 </recipe>
@@ -1550,6 +1550,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <recipe name="ironDoor1_v1" count="1" craft_area="workbench">
 	<ingredient name="forgedIron" count="10"/>
+	<ingredient name="gearMechanism" count="2" />
 </recipe>
 
 <recipe name="rustyIronTable" count="1" craft_area="workstationDecor" >
@@ -2609,10 +2610,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="bowl" count="1" />
     <ingredient name="canChili" count="2" />
 	</recipe>
-	<recipe name="bowlMiso" count="1" >
-    <ingredient name="bowl" count="1" />
-    <ingredient name="canMiso" count="2" />
-	</recipe>
 	<recipe name="soupPea" count="1" >
     <ingredient name="bowl" count="1" />
     <ingredient name="canPeas" count="2" />
@@ -2640,9 +2637,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 	<recipe name="warmbowlChili" count="1" craft_area="campfire" craft_tool="cookingPot" >
     <ingredient name="bowlChili" count="1" />
-	</recipe>
-	<recipe name="warmbowlMiso" count="1" craft_area="campfire" craft_tool="cookingPot" >
-    <ingredient name="bowlMiso" count="1" />
 	</recipe>
 	<recipe name="warmsoupPea" count="1" craft_area="campfire" craft_tool="cookingPot" >
     <ingredient name="soupPea" count="1" />
@@ -2746,7 +2740,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="egg" count="1" />
     <ingredient name="flour" count="1" />
     <ingredient name="bowlWater" count="1" />
-    <ingredient name="canSalmon" count="2" />
+    <ingredient name="canTuna" count="2" />
   </recipe>
 
 		<!-- Expanded Farming Mod --> 
@@ -2800,7 +2794,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 		<!-- Expanded Player Storage Mod -->	
 	<recipe name="cntEPSMunitionsBox" count="1" craft_area="workstationDecor">
-        <ingredient name="forgedIron" count="6" />
+        <ingredient name="forgedIron" count="10" />
     </recipe>
 	<recipe name="cntEPSCardboardBox" count="1" >
         <ingredient name="paper" count="16" />
@@ -2810,7 +2804,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
         <ingredient name="forgedIron" count="10" />
     </recipe>
 	<recipe name="cntEPSLockers" count="1" craft_area="workstationDecor">
-        <ingredient name="forgedIron" count="2" />
+        <ingredient name="forgedIron" count="10" />
     </recipe>
 	<recipe name="cntEPSFridge" count="1" craft_area="workstationDecor">
         <ingredient name="forgedIron" count="15" />
@@ -3065,13 +3059,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="180"/>
 	<ingredient name="mechanicalParts" count="2" />
 	<ingredient name="spring" count="4"/>
-  <ingredient name="gearMechanism" count="1" />
+  <ingredient name="gearMechanism" count="2" />
 </recipe>
 	<recipe name="hiddenConcreteDoor" count="1" craft_area="workbench">
 	<ingredient name="concreteBlock" count="4"/>
 	<ingredient name="mechanicalParts" count="2" />
 	<ingredient name="spring" count="4"/>
-  <ingredient name="gearMechanism" count="1" />
+  <ingredient name="gearMechanism" count="2" />
 </recipe>
 		
 		<!-- Helmet Light Mod -->	
@@ -3218,6 +3212,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 	<recipe name="animalFeed" count="1" >
   <ingredient name="mapleSeed" count="3" />
+	</recipe>
+	<recipe name="animalFeed" count="1" >
+  <ingredient name="moldyBread" count="1" />
 	</recipe>
 	<recipe name="animalSnare" count="1" >
         <ingredient name="wood" count="5"/>

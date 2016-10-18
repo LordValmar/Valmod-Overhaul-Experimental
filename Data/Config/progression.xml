@@ -79,7 +79,7 @@
 			<add perk_level="5" value="1"/>
 		</effect>
 	</perk>
-	<player_skill name="Scavenging" icon="loot_sack" description_key="Be the scrounge master and get faster at looting and gain a higher % chance for better loot. Gain skill by opening untouched loot containers. Level 5 unlocks the ability to scrap iron, brass, lead. Level 10 unlocks scrap iron tools and weapons. Level 15 unlocks the Blunderbuss." title_key="scavenging" group="scavenging">
+	<player_skill name="Scavenging" icon="loot_sack" description_key="Be the scrounge master and get faster at looting and gain a higher % chance for better loot. Gain skill by opening untouched loot containers. Level 5 unlocks the ability to scrap iron, brass, lead. Level 10 unlocks scrap iron tools and weapons. Level 15 unlocks the Blunderbuss. Level 30 unlocks Lockpicks." title_key="scavenging" group="scavenging">
 		<effect name="LootTime">
 			<multiply skill_level="1,10" value="1,0.76"/>
 			<multiply skill_level="10,20" value="0.76,0.66"/>
@@ -109,6 +109,7 @@
 		<recipe name="scrapIronShovel" unlock_level="10"/>
 		<recipe name="scrapIronShiv" unlock_level="10"/>
 		<recipe name="blunderbuss" unlock_level="15"/>
+		<recipe name="Lockpick" unlock_level="30"/>
 	</player_skill>
 	<perk name="Fast Eddie" icon="loot_sack" description_key="fastEddieDesc" title_key="fastEddie" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" always_fire="true" group="scavenging">
 		<requirement perk_level="1" required_skill_name="Scavenging" required_skill_level="1"/>
@@ -237,6 +238,11 @@
 			<multiply skill_level="80,90" value="1.89,1.95"/>
 			<multiply skill_level="90,100" value="1.95,2.00"/>
 		</effect>
+		<recipe name="shovelIron" unlock_level="10"/>
+		<recipe name="hoeIron" unlock_level="10"/>
+		<recipe name="weedCleaver" unlock_level="10"/>
+		<recipe name="shovelSteel" unlock_level="10"/>
+		
 		<recipe name="pickaxeIron" unlock_level="20"/>
 		<recipe name="pickaxeSteel" unlock_level="40"/>
 	</action_skill>
@@ -654,14 +660,7 @@
 		</effect>
 	</perk>
 
-	<perk name="Gun Rocket" icon="rifle" description_key="Max out this perk to learn how to assemble a rocket launcher." title_key="Gun: Rocket Launcher" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="firearms">
-		<recipe name="gunRocketLauncher" unlock_level="30"/>
-		<recipe name="rocket" unlock_level="30"/>
-		<recipe name="rocketCasing" unlock_level="30"/>
-		<recipe name="rocketTip" unlock_level="30"/>
-	</perk>
-
-	<action_skill name="Archery" exp_to_level="150" icon="archery" description_key="archeryDesc" title_key="archery" group="weapons">
+	<action_skill name="Archery" exp_to_level="150" icon="archery" description_key="Do more damage with bows and crossbows. Gain skill by using items from this group. Level 10 unlocks the wooden bow. Level 30 unlocks the crossbow." title_key="archery" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04" />
 			<multiply skill_level="5,11" value="1.04,1.07" />
@@ -671,6 +670,11 @@
 			<multiply skill_level="49,70" value="1.19,1.23" />
 			<multiply skill_level="70,100" value="1.23,1.28" />
 		</effect>
+		<recipe name="woodenBow" unlock_level="10"/>
+		<recipe name="ironBow" unlock_level="20"/>
+		<recipe name="crossbow" unlock_level="30"/>
+		<recipe name="ironCrossbow" unlock_level="40"/>
+		<recipe name="crossbowRepeater" unlock_level="50"/>
 	</action_skill>
 
 	<crafting_skill name="Fletching" icon="archery" description_key="fletchingDesc" title_key="fletching" group="weapons">
@@ -686,29 +690,13 @@
 			<multiply skill_level="80,90" value="0.33,0.29"/>
 			<multiply skill_level="90,100" value="0.29,0.25"/>
 		</effect>
-
 		<recipe name="ironArrow" unlock_level="20"/>
-		<recipe name="steelArrow" unlock_level="30"/>
-		<recipe name="flamingArrow" unlock_level="50"/>
-
 		<recipe name="ironCrossbowBolt" unlock_level="20"/>
+		<recipe name="steelArrow" unlock_level="30"/>
 		<recipe name="steelCrossbowBolt" unlock_level="30"/>
+		<recipe name="flamingArrow" unlock_level="50"/>
 		<recipe name="explodingCrossbowBolt" unlock_level="50"/>
 		</crafting_skill>
-
-	<perk name="Wooden Bow" icon="archery" description_key="Learn how to craft a wooden bow at level 5. Level 15 unlocks iron bow." title_key="Handcrafted Bow" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="weapons">
-		<recipe name="woodenBow" unlock_level="5"/>
-		<requirement perk_level="15" required_skill_name="Archery" required_skill_level="20"/>
-		<recipe name="ironBow" unlock_level="15"/>
-	</perk>
-
-	<perk name="Crossbow" icon="archery" description_key="Level 10 unlocks crossbow. Level 20 unlocks iron crossbow. Level 30 unlocks crossbow repeater." title_key="Crossbow" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="weapons">
-		<recipe name="crossbow" unlock_level="10"/>
-		<requirement perk_level="20" required_skill_name="Archery" required_skill_level="20"/>
-		<requirement perk_level="30" required_skill_name="Archery" required_skill_level="80"/>
-		<recipe name="ironCrossbow" unlock_level="20"/>
-		<recipe name="crossbowRepeater" unlock_level="30"/>
-	</perk>
 
 	<player_skill name="Medicine" icon="medical" description_key="Get more health from topical and consumable remedies. Gain skill by using items from this group. Learn new recipes every 5 levels until level 40." title_key="medicine" group="health">
 		<effect name="HealthGain">
@@ -1198,8 +1186,205 @@
 			<multiply skill_level="49,70" value=".668,.44" />
 			<multiply skill_level="70,100" value=".44,.167" />
 		</effect>
+		<recipe name="chainsaw" unlock_level="10"/>
+		
+		<recipe name="nailgun" unlock_level="15"/>
+		
+		<recipe name="auger" unlock_level="25"/>
+		<recipe name="partsAuger_blade" unlock_level="25"/>
+		
+		<recipe name="gearMechanism" unlock_level="30"/>
+		<recipe name="mechanicalParts" unlock_level="30"/>
+		
+		<recipe name="minibikeChassis" unlock_level="60"/>
+		<recipe name="minibikeWheels" unlock_level="60"/>
+		<recipe name="minibikeSeat" unlock_level="60"/>
+		<recipe name="minibikeHandlebars" unlock_level="60"/>
 	</crafting_skill>
 	
+	<crafting_skill name="Traps" icon="misc_crafting" description_key="Learn how to craft improvised traps. Every ten levels unlocks a new teir. Level 10 unlocks wood spikes. Level 10 unlocks wood spikes. Level 20 unlocks explosive traps. Level 30 unlocks fire traps." title_key="Traps" group="crafting">
+		<effect name="CraftingTime">
+			<multiply skill_level="1,5" value="1,.931" />
+			<multiply skill_level="5,11" value=".931,.871" />
+			<multiply skill_level="11,19" value=".871,.813" />
+			<multiply skill_level="19,32" value=".813,.741" />
+			<multiply skill_level="32,49" value=".741,.667" />
+			<multiply skill_level="49,70" value=".667,.591" />
+			<multiply skill_level="70,100" value=".591,.5" />
+		</effect>
+		<recipe name="trapSpikesNew" unlock_level="10"/>
+		<recipe name="trapAdhesive" unlock_level="10"/>
+		<recipe name="trapAdhesiveSpike" unlock_level="10"/>
+		<recipe name="woodLogSpike1" unlock_level="10"/>
+		<recipe name="barbedFence" unlock_level="10"/>
+		<recipe name="scrapIronLogSpike4" unlock_level="10"/>
+		<recipe name="trapFall" unlock_level="10"/>
+		<recipe name="trussingSpike" unlock_level="20"/>
+		<recipe name="trussingWallSpike" unlock_level="20"/>
+		
+		<recipe name="tnt" unlock_level="20"/>
+		<recipe name="dynamite" unlock_level="20"/>
+		<recipe name="mineAirFilter" unlock_level="20"/>
+		<recipe name="mineCandyTin" unlock_level="20"/>
+		<recipe name="mineHubcap" unlock_level="20"/>
+		<recipe name="mineCookingPot" unlock_level="20"/>
+		<recipe name="pipeBomb" unlock_level="20"/>
+		<recipe name="rScrapIronPlateMine" unlock_level="20"/>
+		<recipe name="trapNailMine" unlock_level="20"/>
+
+		<recipe name="trapFire" unlock_level="30"/>
+	</crafting_skill>
+	
+	<crafting_skill name="Masonry" icon="forge" description_key="Learn how to build with stone. Level 5 unlocks clay bowl and plate. Level 20 unlocks cement mixer and cobblestone blocks. Level 30 unlocks brick. Level 50 unlocks cement." title_key="Masonry" group="crafting">
+		<effect name="CraftingTime">
+			<multiply skill_level="1,5" value="1,.931" />
+			<multiply skill_level="5,11" value=".931,.871" />
+			<multiply skill_level="11,19" value=".871,.813" />
+			<multiply skill_level="19,32" value=".813,.741" />
+			<multiply skill_level="32,49" value=".741,.667" />
+			<multiply skill_level="49,70" value=".667,.591" />
+			<multiply skill_level="70,100" value=".591,.5" />
+		</effect>
+		<recipe name="bowl" unlock_level="5"/>
+		<recipe name="dinnerPlate" unlock_level="5"/>
+		<recipe name="clayBucket" unlock_level="5"/>
+		<recipe name="cementMixer" unlock_level="20"/>
+		<recipe name="chisel" unlock_level="20"/>
+		<recipe name="cobblestones" unlock_level="20"/>
+		<recipe name="cobblestoneFrameBlock" unlock_level="20"/>
+		<recipe name="cobblestoneFrameRamp" unlock_level="20"/>
+		<recipe name="cobblestoneFrameWedge" unlock_level="20"/>
+		<recipe name="cobblestoneFrameWedgeTip" unlock_level="20"/>
+		<recipe name="cobblestoneFramePlate" unlock_level="20"/>
+		<recipe name="cobblestoneFrameCNRFull" unlock_level="20"/>
+		<recipe name="cobblestoneFrameCNRInside" unlock_level="20"/>
+		<recipe name="cobblestoneFramePillar100" unlock_level="20"/>
+		<recipe name="cobblestoneFramePillar50" unlock_level="20"/>		
+		<recipe name="cobblestoneFramePole" unlock_level="20"/>
+		<recipe name="cobblestoneFrameStairs25" unlock_level="20"/>
+		<recipe name="cobblestoneArrowSlitHalf" unlock_level="20"/>
+		
+		<recipe name="adobeWhiteBlock" unlock_level="30"/>
+		<recipe name="brickBlock" unlock_level="30"/>
+		<recipe name="brickCNRFull" unlock_level="30"/>
+		<recipe name="brickCNRInside" unlock_level="30"/>
+		<recipe name="brickCNRRamp" unlock_level="30"/>
+		<recipe name="brickDecayedBlock" unlock_level="30"/>
+		<recipe name="brickPaversBlock" unlock_level="30"/>
+		<recipe name="brickPaversStairs25" unlock_level="30"/>
+		<recipe name="brickRamp" unlock_level="30"/>
+		<recipe name="brickPlate" unlock_level="30"/>
+		
+		<recipe name="cement" unlock_level="50"/>
+		<recipe name="rebarFrameBlock" unlock_level="50"/>
+		<recipe name="rebarFrameRamp" unlock_level="50"/>
+		<recipe name="concreteMix" unlock_level="50"/>
+	</crafting_skill>
+	
+	<crafting_skill name="Blacksmith" icon="forge" description_key="Level this skill up by crafting various items and blocks in the forge. Levels 10, 15, 20, 25, 30, 50 and 80 all unlock new recipes." title_key="Blacksmith" group="crafting">
+		<effect name="CraftingTime">
+			<multiply skill_level="1,5" value="1,.931" />
+			<multiply skill_level="5,11" value=".931,.871" />
+			<multiply skill_level="11,19" value=".871,.813" />
+			<multiply skill_level="19,32" value=".813,.741" />
+			<multiply skill_level="32,49" value=".741,.667" />
+			<multiply skill_level="49,70" value=".667,.591" />
+			<multiply skill_level="70,100" value=".591,.5" />
+		</effect>
+		<recipe name="forge" unlock_level="10"/>
+		<recipe name="bellows" unlock_level="10"/>
+		<recipe name="forgedIron" unlock_level="10"/>
+		<recipe name="ironArrowHead" unlock_level="10"/>
+		<recipe name="emptyJar" unlock_level="15"/>
+		<recipe name="glassCTRSheet" unlock_level="15"/>
+		<recipe name="glassShowerBlock" unlock_level="15"/>
+		<recipe name="glassIndustrialCTRPlate" unlock_level="15"/>
+		<recipe name="glassIndustrial02CTRPlate" unlock_level="15"/>
+		<recipe name="glassBusinessSheet" unlock_level="15"/>
+		<recipe name="glassBusinessCTRSheet" unlock_level="15"/>
+		<recipe name="glassBusinessBlock" unlock_level="15"/>
+		<recipe name="ironRingsRivets" unlock_level="20"/>
+		<recipe name="weldingTorch" unlock_level="20"/>
+		<recipe name="beaker" unlock_level="25"/>
+		<recipe name="Syringe" unlock_level="25"/>
+		<recipe name="ironBars" unlock_level="30"/>
+		<recipe name="anvil" unlock_level="30"/>
+		<recipe name="calipers" unlock_level="50"/>
+		<recipe name="spring" unlock_level="50"/>
+		<recipe name="forgedSteel" unlock_level="80"/>
+		<recipe name="steelRingsRivets" unlock_level="80"/>
+		<recipe name="steelArrowHead" unlock_level="80"/>
+	</crafting_skill>
+
+	<crafting_skill name="Carpentry" icon="forge" description_key="Level this skill up to unlock more wood-related recipes such as woodframes and carpenter kits. Level 10 unlocks woodframe crafting." title_key="Carpentry" group="crafting">
+		<effect name="CraftingTime">
+			<multiply skill_level="1,5" value="1,.931" />
+			<multiply skill_level="5,11" value=".931,.871" />
+			<multiply skill_level="11,19" value=".871,.813" />
+			<multiply skill_level="19,32" value=".813,.741" />
+			<multiply skill_level="32,49" value=".741,.667" />
+			<multiply skill_level="49,70" value=".667,.591" />
+			<multiply skill_level="70,100" value=".591,.5" />
+		</effect>
+		<recipe name="secureDoorWooden" unlock_level="5"/>
+		<recipe name="handSaw" unlock_level="10"/>
+		<recipe name="carpenterKit" unlock_level="10"/>
+		<recipe name="woodFrameBlock" unlock_level="10"/>
+		<recipe name="woodFrameWedge" unlock_level="10"/>
+		<recipe name="woodFrameRamp" unlock_level="10"/>
+		<recipe name="woodFrameCNRInside" unlock_level="10"/>
+		<recipe name="woodFrameCNRFull" unlock_level="10"/>
+		<recipe name="cntSecureStorageChest" unlock_level="20"/>
+		<recipe name="cntEPSFileCabinet" unlock_level="20"/>
+		<recipe name="cntEPSLockers" unlock_level="20"/>
+		<recipe name="cntEPSFridge" unlock_level="20"/>
+		<recipe name="cntEPSFridgeBottom" unlock_level="20"/>
+		<recipe name="cntEPSFridgeTop" unlock_level="20"/>
+		<recipe name="cntEPSBookcase" unlock_level="20"/>
+		<recipe name="cntEPSMedicineCabinet" unlock_level="20"/>
+		<recipe name="cntEPSPillCase" unlock_level="20"/>
+		<recipe name="cntEPSBeerCooler" unlock_level="20"/>
+		<recipe name="cntEPSCoffin" unlock_level="20"/>
+		<recipe name="cntEPSGasPump" unlock_level="20"/>
+	</crafting_skill>
+
+	<crafting_skill name="Cooking" icon="run" description_key="The higher your skill in cooking the faster you can craft meals. You also gradually unlock new cooking recipes as you level." title_key="Cooking" group="crafting">
+		<effect name="CraftingTime">
+			<multiply skill_level="1,5" value="1,.931" />
+			<multiply skill_level="5,11" value=".931,.871" />
+			<multiply skill_level="11,19" value=".871,.813" />
+			<multiply skill_level="19,32" value=".813,.741" />
+			<multiply skill_level="32,49" value=".741,.667" />
+			<multiply skill_level="49,70" value=".667,.591" />
+			<multiply skill_level="70,100" value=".591,.5" />
+		</effect>
+		<recipe name="scrambledEggs" unlock_level="5"/>
+		<recipe name="bakedPotato" unlock_level="5"/>
+		<recipe name="creamedCorn" unlock_level="5"/>
+		<recipe name="cornOnTheCob" unlock_level="5"/>
+		<recipe name="Omelet" unlock_level="10"/>
+		<recipe name="baconEggSandwich" unlock_level="10"/>
+		<recipe name="baconAndEggs" unlock_level="10"/>
+		<recipe name="goldenRodTea" unlock_level="10"/>
+		<recipe name="cornBread" unlock_level="15"/>
+		<recipe name="redTea" unlock_level="15"/>
+		<recipe name="snowberryJuice" unlock_level="15"/>
+		<recipe name="biscuit" unlock_level="15"/>
+		<recipe name="applePie" unlock_level="20"/>
+		<recipe name="blueberryPie" unlock_level="20"/>
+		<recipe name="fishPie" unlock_level="20"/>
+		<recipe name="Bread" unlock_level="20"/>
+		<recipe name="Hamburger" unlock_level="25"/>
+		<recipe name="honeyHam" unlock_level="25"/>
+		<recipe name="meatStew" unlock_level="30"/>
+		<recipe name="vegetableStew" unlock_level="30"/>
+		<recipe name="soupMushroom" unlock_level="30"/>
+		<recipe name="steakSandwich" unlock_level="40"/>
+		<recipe name="grillSteak" unlock_level="40"/>
+		<recipe name="stewChunkyMeat" unlock_level="50"/>
+		<recipe name="mealDinner" unlock_level="50"/>
+		<recipe name="mealBreakfast" unlock_level="50"/>
+	</crafting_skill>
 	
 	<crafting_skill name="Miscellaneous Crafting" exp_to_level="300" icon="misc_crafting" description_key="miscCraftingDesc" title_key="miscCrafting" group="crafting">
 		<effect name="CraftingTime">
@@ -1382,7 +1567,7 @@
 			<multiply skill_level="5" value="0.5"/>
 		</effect>
 	</perk>
-<!--
+
 	<perk name="Breaking And Entering" icon="club" description_key="breakingAndEnteringDesc" title_key="breakingAndEntering" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 		<requirement perk_level="1" required_skill_name="Blunt Weapons" required_skill_level="1"/>
 		<requirement perk_level="1" required_skill_name="Pummel Pete" required_skill_level="1"/>
@@ -1398,7 +1583,7 @@
 			<multiply skill_level="4" value="1.8"/>
 			<multiply skill_level="5" value="2.0"/>
 		</effect>
-	</perk> -->
+	</perk>
 
 	<perk name="Miner 69er" icon="mining" description_key="miner69erDesc" title_key="miner69er" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 		<requirement perk_level="1" required_skill_name="Mining Tools" required_skill_level="1"/>
@@ -1482,29 +1667,13 @@
 		</effect>
 	</perk>
 
-
-<!-- Valmod -->
-<!-- This doesn't seem to work - it scales damage on EVERYTHING not just fists for some reason.
-	<action_skill name="Unarmed" icon="run" description_key="unarmedDesc" title_key="unarmedTitle" exp_to_level="500" group="health" >
-		<effect name="StaminaDegradation">
-			<multiply skill_level="1,15" value="1,.95" />
-			<multiply skill_level="15,25" value=".95,.87" />
-			<multiply skill_level="25,50" value=".87,.80" />
-			<multiply skill_level="50,100" value=".80,.76" />
-		</effect>
-		<effect name="EntityDamage">
-			<multiply skill_level="1,5" value="1,1.14" />
-			<multiply skill_level="5,11" value="1.14,1.35" />
-			<multiply skill_level="11,19" value="1.35,1.50" />
-			<multiply skill_level="19,32" value="1.50,1.80" />
-			<multiply skill_level="32,49" value="1.80,2.05" />
-			<multiply skill_level="49,69" value="2.05,2.55" />
-			<multiply skill_level="69,79" value="2.55,2.85" />
-			<multiply skill_level="79,89" value="2.85,3.23" />
-			<multiply skill_level="89,100" value="3.23,4.00" />
-		</effect>
-	</action_skill> -->
-
+	<perk name="Gun Rocket" icon="rifle" description_key="Max out this perk to learn how to assemble a rocket launcher." title_key="Gun: Rocket Launcher" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="firearms">
+		<recipe name="gunRocketLauncher" unlock_level="30"/>
+		<recipe name="rocket" unlock_level="30"/>
+		<recipe name="rocketCasing" unlock_level="30"/>
+		<recipe name="rocketTip" unlock_level="30"/>
+	</perk>
+	
 	<perk name="Electric Lights" icon="misc_crafting" description_key="Max out this perk to learn how to craft electric lights at the decor artisan station." title_key="Electrician" max_level="12" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement perk_level="12" required_skill_name="Mechanical" required_skill_level="10"/>
 		<recipe name="electricToolkit" unlock_level="12"/>
@@ -1524,201 +1693,31 @@
 		<recipe name="workstationOven" unlock_level="15"/>
 	</perk>
 
-	<perk name="Lockpicks" icon="run" description_key="Max out to learn how to make lockpicks to unlock gun safes. Doesn't work on doors." title_key="Safecracker" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="tools">
-		<requirement perk_level="15" required_skill_name="Scavenging" required_skill_level="15"/>
-		<recipe name="Lockpick" unlock_level="15"/>
-	</perk>
-
 	<perk name="Animal Traps" icon="misc_crafting" description_key="Max out this perk to learn how to craft animal snares and coops to capture animals." title_key="Animal Trapping" max_level="10" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="tools">
 		<requirement perk_level="10" required_skill_name="The Survivor" required_skill_level="1"/>
 		<recipe name="animalSnare" unlock_level="10"/>
 		<recipe name="chickenCoop" unlock_level="10"/>
 	</perk>
 
-	<perk name="Pottery" icon="misc_crafting" description_key="Max out this perk to learn how to craft clay bowls, plates and clay Amphora which are all essential for various cooking recipes." title_key="Pottery" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
-		<recipe name="bowl" unlock_level="3"/>
-		<recipe name="dinnerPlate" unlock_level="3"/>
-		<recipe name="clayBucket" unlock_level="3"/>
-	</perk>
-
-	<perk name="Chainsaw" icon="tool_smithing" description_key="Max out this perk to learn how to assemble a chainsaw." title_key="Chainsaw" max_level="8" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="tools">
-		<recipe name="chainsaw" unlock_level="8"/>
-	</perk>
-
-	<perk name="Nailgun" icon="tool_smithing" description_key="Max out this perk to learn how to assemble a nailgun." title_key="Nailgun" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="tools">
-		<recipe name="nailgun" unlock_level="15"/>
-	</perk>
-	
-	<perk name="Auger" icon="tool_smithing" description_key="Max out this perk to learn how to assemble an Auger." title_key="Auger" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="tools">
-		<recipe name="auger" unlock_level="15"/>
-		<recipe name="partsAuger_blade" unlock_level="15"/>
-	</perk>
-	
-	<perk name="Minibike" icon="misc_crafting" description_key="Max out this perk to learn how to assemble together a minibike." title_key="Minibikes" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="scavenging">
-		<requirement perk_level="30" required_skill_name="Mechanical" required_skill_level="30"/>
-		<recipe name="minibikeChassis" unlock_level="30"/>
-		<recipe name="minibikeWheels" unlock_level="30"/>
-		<recipe name="minibikeSeat" unlock_level="30"/>
-		<recipe name="minibikeHandlebars" unlock_level="30"/>
-	</perk>
-	
-	<perk name="Traps" icon="misc_crafting" description_key="Learn how to craft improvised traps. Every ten levels unlocks a new teir. Level 10 unlocks wood spikes. Level 20 unlocks explosive traps. Level 30 unlocks fire traps." title_key="Traps" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
-		<recipe name="trapSpikesNew" unlock_level="10"/>
-		<recipe name="woodLogSpike1" unlock_level="10"/>
-		<recipe name="scrapIronLogSpike4" unlock_level="10"/>
-		<recipe name="trapFall" unlock_level="10"/>
-		<recipe name="trussingSpike" unlock_level="20"/>
-		<recipe name="trussingWallSpike" unlock_level="20"/>
-		<recipe name="trapFire" unlock_level="30"/>
-		
-		<recipe name="tnt" unlock_level="20"/>
-		<recipe name="dynamite" unlock_level="20"/>
-		<recipe name="mineAirFilter" unlock_level="20"/>
-		<recipe name="mineCandyTin" unlock_level="20"/>
-		<recipe name="mineHubcap" unlock_level="20"/>
-		<recipe name="mineCookingPot" unlock_level="20"/>
-		<recipe name="pipeBomb" unlock_level="20"/>
-		<recipe name="rScrapIronPlateMine" unlock_level="20"/>
-		<recipe name="trapNailMine" unlock_level="20"/>
-	</perk>
-	
-	<perk name="Garden Tools" icon="resource" description_key="Max out this perk to learn how to craft various gardening tools." title_key="Garden Tools" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="tools">
-		<requirement perk_level="5" required_skill_name="Tool Smithing" required_skill_level="5"/>
-		<recipe name="shovelIron" unlock_level="5"/>
-		<recipe name="hoeIron" unlock_level="5"/>
-		<recipe name="weedCleaver" unlock_level="5"/>
-		<recipe name="shovelSteel" unlock_level="5"/>
-	</perk>
-	
-	<crafting_skill name="Blacksmith" icon="forge" description_key="Level this skill up by crafting various items and blocks in the forge. Levels 10, 15, 20, 25, 30, 50 and 80 all unlock new recipes." title_key="Blacksmith" group="crafting">
-		<effect name="CraftingTime">
-			<multiply skill_level="1,5" value="1,.931" />
-			<multiply skill_level="5,11" value=".931,.871" />
-			<multiply skill_level="11,19" value=".871,.813" />
-			<multiply skill_level="19,32" value=".813,.741" />
-			<multiply skill_level="32,49" value=".741,.667" />
-			<multiply skill_level="49,70" value=".667,.591" />
-			<multiply skill_level="70,100" value=".591,.5" />
-		</effect>
-
-		<recipe name="forge" unlock_level="10"/>
-		<recipe name="bellows" unlock_level="10"/>
-		<recipe name="forgedIron" unlock_level="10"/>
-		<recipe name="ironArrowHead" unlock_level="10"/>
-		<recipe name="emptyJar" unlock_level="15"/>
-		<recipe name="glassCTRSheet" unlock_level="15"/>
-		<recipe name="glassShowerBlock" unlock_level="15"/>
-		<recipe name="glassIndustrialCTRPlate" unlock_level="15"/>
-		<recipe name="glassIndustrial02CTRPlate" unlock_level="15"/>
-		<recipe name="glassBusinessSheet" unlock_level="15"/>
-		<recipe name="glassBusinessCTRSheet" unlock_level="15"/>
-		<recipe name="glassBusinessBlock" unlock_level="15"/>
-		<recipe name="ironRingsRivets" unlock_level="20"/>
-		<recipe name="weldingTorch" unlock_level="20"/>
-		<recipe name="beaker" unlock_level="25"/>
-		<recipe name="Syringe" unlock_level="25"/>
-		<recipe name="ironBars" unlock_level="30"/>
-		<recipe name="anvil" unlock_level="30"/>
-		<recipe name="calipers" unlock_level="50"/>
-		<recipe name="spring" unlock_level="50"/>
-		<recipe name="forgedSteel" unlock_level="80"/>
-		<recipe name="steelRingRivets" unlock_level="80"/>
-		<recipe name="steelArrowHead" unlock_level="80"/>
-		<recipe name="mechanicalParts" unlock_level="80"/>
-	</crafting_skill>
-
-	<crafting_skill name="Carpentry" icon="forge" description_key="Level this skill up to unlock more wood-related recipes such as woodframes and carpenter kits. Level 10 unlocks woodframe crafting." title_key="Carpentry" group="crafting">
-		<effect name="CraftingTime">
-			<multiply skill_level="1,5" value="1,.931" />
-			<multiply skill_level="5,11" value=".931,.871" />
-			<multiply skill_level="11,19" value=".871,.813" />
-			<multiply skill_level="19,32" value=".813,.741" />
-			<multiply skill_level="32,49" value=".741,.667" />
-			<multiply skill_level="49,70" value=".667,.591" />
-			<multiply skill_level="70,100" value=".591,.5" />
-		</effect>
-
-		<recipe name="handSaw" unlock_level="10"/>
-		<recipe name="carpenterKit" unlock_level="10"/>
-		<recipe name="woodFrameBlock" unlock_level="10"/>
-		<recipe name="woodFrameWedge" unlock_level="10"/>
-		<recipe name="woodFrameRamp" unlock_level="10"/>
-		<recipe name="woodFrameCNRInside" unlock_level="10"/>
-		<recipe name="woodFrameCNRFull" unlock_level="10"/>
-	</crafting_skill>
-
-	<perk name="Security" icon="misc_crafting" description_key="Level 5 unlocks wooden doors. Level 10 teaches how to craft secure storage containers, safes and iron doors in the Artisan Decor Station. Level 20 teaches the components needed for drawbridges." title_key="Security Measures" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
-		<requirement perk_level="10" required_skill_name="Carpentry" required_skill_level="10"/>
-		<requirement perk_level="20" required_skill_name="Mechanical" required_skill_level="10"/>
-		<recipe name="secureDoorWooden" unlock_level="5"/>
-		<recipe name="cntSecureStorageChest" unlock_level="10"/>
-		<recipe name="cntStorageAmmo" unlock_level="10"/>
-		<recipe name="cntStorageBuilding" unlock_level="10"/>
-		<recipe name="cntStorageExplosives" unlock_level="10"/>
-		<recipe name="cntStorageFood" unlock_level="10"/>
-		<recipe name="cntStorageHealth" unlock_level="10"/>
-		<recipe name="cntStorageWeapons" unlock_level="10"/>
-
-		<recipe name="cntEPSMunitionsBox" unlock_level="10"/>
-		<recipe name="cntEPSFileCabinet" unlock_level="10"/>
-		<recipe name="cntEPSLockers" unlock_level="10"/>
-		<recipe name="cntEPSFridge" unlock_level="10"/>
-		<recipe name="cntEPSFridgeBottom" unlock_level="10"/>
-		<recipe name="cntEPSFridgeTop" unlock_level="10"/>
-		<recipe name="cntEPSBookcase" unlock_level="10"/>
-		<recipe name="cntEPSMedicineCabinet" unlock_level="10"/>
-		<recipe name="cntEPSPillCase" unlock_level="10"/>
-		<recipe name="cntEPSBeerCooler" unlock_level="10"/>
-		<recipe name="cntEPSCoffin" unlock_level="10"/>
-		<recipe name="cntEPSGasPump" unlock_level="10"/>
-
-		<recipe name="gearMechanism" unlock_level="20"/>
-		<recipe name="Remote" unlock_level="20"/>
+	<perk name="Security" icon="misc_crafting" description_key="Max this perk to learn how to craft very durable gun safes, advanced doors, drawbridges and hidden walls." title_key="Security Measures" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
+		<requirement perk_level="20" required_skill_name="Carpentry" required_skill_level="20"/>
+		<requirement perk_level="20" required_skill_name="Mechanical" required_skill_level="20"/>
 		<recipe name="ironDoor1_v1" unlock_level="20"/>
+		<recipe name="cntDesk02" unlock_level="20"/>
+		<recipe name="cntDeskSafe" unlock_level="20"/>
+		<recipe name="cntGunSafe" unlock_level="20"/>
+		<recipe name="garageDoorMetal_v1" unlock_level="20"/>
+		<recipe name="cntEPSMunitionsBox" unlock_level="20"/>
+		<recipe name="metalReinforcedWoodDrawBridge" unlock_level="20"/>
+		<recipe name="vaultDoor01" unlock_level="20"/>
+		<recipe name="vaultHatch_v1" unlock_level="20"/>
+		<recipe name="cntEPSWallSafe" unlock_level="20"/>
+		<recipe name="hiddenWoodDoor" unlock_level="20"/>
+		<recipe name="hiddenConcreteDoor" unlock_level="20"/>
+		<recipe name="jailDoor" unlock_level="20"/>
+		<recipe name="Remote" unlock_level="20"/>
 	</perk>
 
-	<crafting_skill name="Masonry" icon="forge" description_key="Learn how to build with stone. Level 20 unlocks cement mixer and cobblestone blocks. Level 30 unlocks brick. Level 50 unlocks cement." title_key="Masonry" group="crafting">
-		<effect name="CraftingTime">
-			<multiply skill_level="1,5" value="1,.931" />
-			<multiply skill_level="5,11" value=".931,.871" />
-			<multiply skill_level="11,19" value=".871,.813" />
-			<multiply skill_level="19,32" value=".813,.741" />
-			<multiply skill_level="32,49" value=".741,.667" />
-			<multiply skill_level="49,70" value=".667,.591" />
-			<multiply skill_level="70,100" value=".591,.5" />
-		</effect>
-		<recipe name="cementMixer" unlock_level="20"/>
-		<recipe name="chisel" unlock_level="20"/>
-		<recipe name="cobblestones" unlock_level="20"/>
-		<recipe name="cobblestoneFrameBlock" unlock_level="20"/>
-		<recipe name="cobblestoneFrameRamp" unlock_level="20"/>
-		<recipe name="cobblestoneFrameWedge" unlock_level="20"/>
-		<recipe name="cobblestoneFrameWedgeTip" unlock_level="20"/>
-		<recipe name="cobblestoneFramePlate" unlock_level="20"/>
-		<recipe name="cobblestoneFrameCNRFull" unlock_level="20"/>
-		<recipe name="cobblestoneFrameCNRInside" unlock_level="20"/>
-		<recipe name="cobblestoneFramePillar100" unlock_level="20"/>
-		<recipe name="cobblestoneFramePillar50" unlock_level="20"/>		
-		<recipe name="cobblestoneFramePole" unlock_level="20"/>
-		<recipe name="cobblestoneFrameStairs25" unlock_level="20"/>
-		<recipe name="cobblestoneArrowSlitHalf" unlock_level="20"/>
-		
-		<recipe name="adobeWhiteBlock" unlock_level="30"/>
-		<recipe name="brickBlock" unlock_level="30"/>
-		<recipe name="brickCNRFull" unlock_level="30"/>
-		<recipe name="brickCNRInside" unlock_level="30"/>
-		<recipe name="brickCNRRamp" unlock_level="30"/>
-		<recipe name="brickDecayedBlock" unlock_level="30"/>
-		<recipe name="brickPaversBlock" unlock_level="30"/>
-		<recipe name="brickPaversStairs25" unlock_level="30"/>
-		<recipe name="brickRamp" unlock_level="30"/>
-		<recipe name="brickPlate" unlock_level="30"/>
-		
-		<recipe name="cement" unlock_level="50"/>
-		<recipe name="rebarFrameBlock" unlock_level="50"/>
-		<recipe name="rebarFrameRamp" unlock_level="50"/>
-		<recipe name="concreteMix" unlock_level="50"/>
-	</crafting_skill>
 
 </skills>
 

@@ -408,7 +408,6 @@
 	<item name="challengeSticky" count="1"/>
 	<item name="challengeBigBadBosses" count="1"/>
 	<item name="challengeAnkleBitters" count="1"/>
-	<item name="challengeAnimalTraps" count="1"/>
 	<item name="challengeLightThemUp" count="1"/>
 	<item name="challengeDogEatDog" count="1"/>
 	<item name="challengeFeedTheMole" count="1"/>
@@ -818,12 +817,10 @@
 	<item name="recipebookMasonry"/>
 	<item name="theEnforcerMagazine"/>
 	<item name="skillbookWasteland"/>
-	<item name="augerSchematic"/>
 	<item name="skillbookAssaultRifle"/>
 	<item name="skillbookRocket"/>
 	<item name="recipebookSinks"/>
 	<item name="recipebookOven"/>
-	<item name="recipebookNailgun"/>
 	<item name="skillbookForgedArmor"/>
 </lootgroup>
 
@@ -846,7 +843,6 @@
 	<item name="skillbookCrossbow"/>
 	<item name="skillbookChemistry"/>
 	<item name="skillbookMedical"/>
-	<item name="skillbookLockpick"/>
 	<item name="recipebookAnimalTraps"/>
 	<item name="recipebookPottery"/>
 	<item name="skillbookBlades"/>
@@ -856,7 +852,6 @@
 	<item name="skillbookKnight"/>
 	<item name="skillbookMining"/>
 	<item name="skillbookHunter"/>
-	<item name="chainsawSchematic"/>
 	<item name="macDyverBook"/>
 </lootgroup>
 <lootgroup name="loosePaper" count="1">
@@ -915,15 +910,18 @@
 	<item name="canPetfood"/>
 	<item name="canHam"/>
 	<item name="canLamb"/>
-	<item name="canMiso"/>
 	<item name="canPasta"/>
 	<item name="canPeas"/>
 	<item name="canSalmon"/>
 	<item name="canSoup"/>
 	<item name="canStock"/>
-	<item name="canTuna"/>
 	<item name="canPears"/>
 	<item name="foodHoney"/>
+</lootgroup>
+
+<lootgroup name="cupboardcannedfood">
+	<item group="cannedfood"/>
+	<item name="canUnlabeled"/>
 </lootgroup>
 
 <lootgroup name="seeds">
@@ -949,7 +947,6 @@
 	<item name="honeyHam"/>
 	<item name="bowlFruit"/>
 	<item name="bowlChili"/>
-	<item name="bowlMiso"/>
 	<item name="soupPea"/>
 	<item name="bowlPasta"/>
 	<item name="bowlSoup"/>
@@ -981,7 +978,7 @@
 </lootgroup>
 
 <lootgroup name="cupboardFood">
-	<item group="cannedfood" prob="0.3"/>
+	<item group="cupboardcannedfood" prob="0.3"/>
 	<item name="flour" count="1" prob="0.2"/>
 	<item name="Bread" count="1" prob="0.2"/>
 	<item name="ramenNoodles" prob="0.2"/>
@@ -1273,11 +1270,8 @@
 	<item name="macDyverBook"/>
 	<item name="skillbookBlacksmith"/>
 	<item name="recipebookMasonry"/>
-	<item name="chainsawSchematic"/>
 	<item name="recipebookSinks"/>
 	<item name="recipebookOven"/>
-	<item name="recipebookNailgun"/>
-	<item name="augerSchematic"/>
 	<item name="recipebookElectronics"/>
 	<item name="recipebookSecurity"/>
 	</lootgroup>
@@ -1497,7 +1491,6 @@
 	<item name="skillbookForgedArmor"/>
 	<item name="skillbookBlacksmith"/>
 	<item name="recipebookMasonry"/>
-	<item name="augerSchematic"/>
 	<item name="skillbookTools"/>
 	<item name="recipebookPottery"/>
 	<item name="skillbookMining"/>
@@ -1728,9 +1721,7 @@
 	<item name="minibikesForDumbshits"/>
 	<item name="recipebookSinks"/>
 	<item name="recipebookOven"/>
-	<item name="recipebookNailgun"/>
 	<item name="recipebookElectronics"/>
-	<item name="chainsawSchematic"/>
 	<item name="recipebookGardenTools"/>
 	</lootgroup>
 <lootcontainer id="22" count="0,3" size="4,3" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
@@ -2456,7 +2447,6 @@
 	<lootgroup name="LumberjackSchematics">
 		<item name="skillbookTools"/>
 		<item name="skillbookAxes"/>
-		<item name="chainsawSchematic" prob="0.1"/>
 	</lootgroup>
 	<lootgroup name="workerToolset">
         <item name="clawHammer" prob="0.2"/>
@@ -2676,7 +2666,6 @@
 	<item name="skillbookForgedArmor"/>
 	<item name="skillbookBlacksmith"/>
 	<item name="recipebookMasonry"/>
-	<item name="augerSchematic"/>
 	<item name="skillbookTools"/>
 	<item name="recipebookPottery"/>
 	<item name="skillbookMining"/>

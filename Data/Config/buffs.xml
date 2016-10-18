@@ -587,6 +587,22 @@ snowberryPlant feeds you for 90 sec. -->
 </buff>
 
 <buff id="nobleed" duration="1"  actions="debuff(bleeding)" overrides="bleeding" debuffif="health greater 0.1" buffif="health lequal 0.1" />
+
+<buff id="randomFood1" duration="1.5" stack="discard" >
+	<modify id="0" stat="food" amount="10" />
+</buff>
+<buff id="randomFood2" duration="1.5" stack="discard" >
+	<modify id="0" stat="food" amount="7" />
+</buff>
+<buff id="randomFood3" duration="1.5" stack="discard" >
+	<modify id="0" stat="food" amount="5" />
+</buff>
+<buff id="randomWater1" duration="1.5" stack="discard" >
+	<modify id="0" stat="water" amount="5" />
+</buff>
+<buff id="randomWater2" duration="1.5" stack="discard" >
+	<modify id="0" stat="water" amount="5" />
+</buff>
 <!--
 This requires a 50+ food bar:
 <buff id="eatFood_1_Trigger" mutex="notFullBlockerBuff" duration="1" debuffif="food > 0.5" actions="increment(CTRfood, 1, 0, 0, 1)"/>

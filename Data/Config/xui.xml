@@ -84,14 +84,14 @@
 		</window_group>
 		
 		<window_group name="compass">
-<!-- BEGIN_MOD: Red Eagle LXIX's Custom HUD : A14.2(b4) : v0.08 : pt 1 of 2 -->
+<!-- BEGIN_MOD: Red Eagle LXIX's Custom HUD : A15(b105) : v0.16 : pt 1 of 3 -->
   <!-- On the below line select the compass you want to use - 7DTD Default = windowCompass - RELXIX HUD = windowCompassRELXIX -->
 			<window name="windowCompassRELXIX" />  <!-- windowCompassRELXIX (RELXIX HUD) or windowCompass (7DTD Default) -->
   <!-- NOTE: You should also restore the default styles.xml if using the default compass else it will still be wider (only changes in styles.xml) -->
 <!-- Add windows to 2 window groups in this file - If using the default compass you may want to delete the next 2 lines -->
 			<window name="mapStatsHUD" />  	<!-- Window that displays Day & Time, Air Temp, Wind Speed, Current Elevation - Delete this line to remove these items -->
-		<!--	<window name="mapCoordsHUD" />-->	<!-- Window that displays Player Coordinates and Bedroll Coordinates - Delete this line to remove these items -->
-<!-- END_MOD: Red Eagle LXIX's Custom HUD : A14.2(b4) : v0.08 : pt 1 of 2 -->
+			<!--<window name="mapCoordsHUD" />--> <!-- v0.09 hotfix temporarily disabled - See post: https://7daystodie.com/forums/showthread.php?39731-mapArea-Controller-not-respecting-XUI-for-Waypoint-amp-Click-Layer-Moving-map-window -->	<!-- Window that displays Player Coordinates and Bedroll Coordinates - Delete this line to remove these items -->
+<!-- END_MOD: Red Eagle LXIX's Custom HUD : A15(b105) : v0.16 : pt 1 of 3 -->
 		</window_group>
 		
 		<window_group name="toolTip">
@@ -115,12 +115,12 @@
 			<window name="windowToolbelt" anchor="CenterBottom" />
 			<window name="HUDLeftStatBars" anchor="LeftBottom" />
 			<window name="HUDRightStatBars" anchor="RightBottom" />
-<!-- BEGIN_MOD: Red Eagle LXIX's Custom HUD : A14.2(b4) : v0.08 : pt 2 of 2 -->
+<!-- BEGIN_MOD: Red Eagle LXIX's Custom HUD : A15(b105) : v0.16 : pt 2 of 3 -->
 			<window name="windowToolbeltNumbersHUD" />	<!-- Window that displays Numbers on the tool belt for each slot  - Delete this line to remove these items -->
 			<window name="playerXPHUD" />	<!-- Window that displays XP bar and level  - Delete this line to remove these items -->
 			<window name="playerStatsHUD" />	<!-- Window that displays Player Temp, Hunger % and Thirst %  - Delete this line to remove these items -->
 			<window name="playerStatsBarsHUD" />	<!-- Window that displays Bars behind Player Temp, Hunger % and Thirst %  - Delete this line to remove these items -->
-<!-- END_MOD: Red Eagle LXIX's Custom HUD : A14.2(b4) : v0.08 : pt 2 of 2 -->
+<!-- END_MOD: Red Eagle LXIX's Custom HUD : A15(b105) : v0.16 : pt 2 of 3 -->
 			<window name="windowQuestTracker" anchor="RightTop" />
 		</window_group>
 		
@@ -197,7 +197,10 @@
 		</window_group>
 
 		<window_group name="rwgeditor" controller="XUiC_RWGEditorWindowGroup">
-			<window name="windowRWGPreview" />
+<!-- BEGIN_MOD: Red Eagle LXIX's Custom HUD : A15(b105) : v0.16 : pt 3 of 3 -->
+  <!-- On the below line select the RWG Preview Window Layout you want to use - 7DTD Default = windowRWGPreview - RELXIX HUD = windowRWGPreviewer -->
+			<window name="windowRWGPreviewer" />  <!-- windowRWGPreviewer (RELXIX HUD) or windowRWGPreview (7DTD Default) -->
+<!-- END_MOD: Red Eagle LXIX's Custom HUD : A15(b105) : v0.16 : pt 3 of 3 -->
 		</window_group>
 
 		<window_group name="workstation_workstationOven" controller="XUiC_WorkstationWindowGroup">

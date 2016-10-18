@@ -436,16 +436,45 @@
 		<reward type="Quest" id="challenge_animaltrap" />
 	</quest>
 	
-	<quest id="challenge_animaltrap" group_name_key="quest_hunter" name="Animal Trapping Quest" subtitle="Animal Trapping Challenge" description="Craft and place and bait some animal snares and chicken coops. (Requires Animal Trap knowledge)" icon="ui_game_symbol_archery" 
-		repeatable="true" category_key="challenge" offer="Craft and place and bait some animal snares and chicken coops. (Requires Animal Trap knowledge)" difficulty="easy">
+	<quest id="challenge_animaltrap" group_name_key="quest_hunter" name="Animal Trapping Quest 1/4" subtitle="Animal Trapping Challenge" description="Before you can craft an animal snare you're going to need some wood, fiber and some animal feed. Ensure you have everything before moving on." icon="ui_game_symbol_archery" 
+		repeatable="false" category_key="challenge" offer="Follow these steps to learn how to craft animal snares and chicken coops." difficulty="easy">
 		<action type="TrackQuest" />
-		<objective type="Craft" id="animalSnare" value="3" />
-		<objective type="BlockPlace" id="animalSnare" value="3" />
-		<objective type="Craft" id="chickenCoop" value="3" />
-		<objective type="BlockPlace" id="chickenCoop" value="3" />
-		<reward type="Item" id="animalFeed" value="10" />
+		<objective type="FetchKeep" id="wood" value="5" />
+		<objective type="FetchKeep" id="yuccaFibers" value="6" />
+		<objective type="Craft" id="animalFeed" value="2" />
+		<reward type="Recipe" id="animalSnare" />
+		<reward type="Quest" id="challenge_animaltrap2" />
 	</quest>
 	
+	<quest id="challenge_animaltrap2" group_name_key="quest_hunter" name="Animal Trapping Quest 2/4" subtitle="Animal Trapping Challenge" 
+	description="Now that you have the required ingredients buid and place your first animal snare. Be sure to place your snare outdoors with sunlight and grass to ensure you catch a critter!" icon="ui_game_symbol_archery" 
+		repeatable="false" category_key="challenge" difficulty="easy">
+		<action type="TrackQuest" />
+		<objective type="Craft" id="animalSnare" value="1" />
+		<objective type="BlockPlace" id="animalSnare" value="1" />
+		<reward type="Item" id="animalFeed" value="10" />
+		<reward type="Quest" id="challenge_animaltrap3" />
+	</quest>
+	
+	<quest id="challenge_animaltrap3" group_name_key="quest_hunter" name="Animal Trapping Quest 3/4" subtitle="Animal Trapping Challenge" 
+	description="Good job, you placed your first snare! You're well on your way to being a regular Elmer Fudd! Now come back in a few days to see if catches anything. Next lets craft a chicken coop. Gather the required ingredients." icon="ui_game_symbol_archery" 
+		repeatable="false" category_key="challenge" difficulty="easy">
+		<action type="TrackQuest" />
+		<objective type="FetchKeep" id="wood" value="10" />
+		<objective type="FetchKeep" id="yuccaFibers" value="15" />
+		<objective type="Craft" id="animalFeed" value="2" />
+		<reward type="Recipe" id="chickenCoop" />
+		<reward type="Quest" id="challenge_animaltrap4" />
+	</quest>
+
+	<quest id="challenge_animaltrap4" group_name_key="quest_hunter" name="Animal Trapping Quest 4/4" subtitle="Animal Trapping Challenge" 
+	description="Great! Chicken coops are handy for catching chikens for either their meat or for chicken nests. Place the chicken coop down outside under the sun to attract a chicken and then break the coop. This will give you some meat from killing the chicken, but you will lose your coop. If you leave the coop alone and return in a few days it will spawn a chicken nest ontop that you can loot for eggs and feathers. As long as you don't destroy the coop this can be a good renewable source of feathers and eggs!" icon="ui_game_symbol_archery" 
+		repeatable="true" category_key="challenge" difficulty="easy">
+		<action type="TrackQuest" />
+		<objective type="Craft" id="chickenCoop" value="1" />
+		<objective type="BlockPlace" id="chickenCoop" value="1" />
+	</quest>
+
 	<!-- Builder -->
 	<quest id="challenge_builder1" group_name_key="quest_builder" name="Builder Quest 1/3" subtitle="Builder Challenge 1" description="Gather some wood" icon="ui_game_symbol_hammer" 
 		repeatable="false" category_key="challenge" offer="A builder works with wood, you will get to know it well by the time you are done." difficulty="easy">
@@ -1169,10 +1198,8 @@ repeatable="true" category_key="challenge" difficulty="easy">
 <!-- Class Perks -->
 <quest id="perkHunter" name="Hunter Skills" subtitle="Hunter Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="Hunter's are trained in tracking down animals." difficulty="easy">
-	<reward type="Skill" id="Wooden Bow" value="5" />
 	<reward type="Skill" id="Leatherworking" value="15" />
 	<reward type="Skill" id="Archery" value="20" />
-	<reward type="Skill" id="Animal Traps" value="5" />
 	<reward type="Skill" id="Traps" value="5" />
 </quest>
 <quest id="perkRifleman" name="Rifleman Skills" subtitle="Rifleman Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
@@ -1189,7 +1216,6 @@ repeatable="false" category_key="challenge" offer="Veterans have past military e
 </quest>
 <quest id="perkSurvivor" name="Survivor Skills" subtitle="Survivor Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="Survivor's specialize in surviving off the land." difficulty="easy">
-	<reward type="Skill" id="Crossbow" value="10" />
 	<reward type="Skill" id="Wooden Bow" value="5" />
 	<reward type="Skill" id="Scavenging" value="10" />
 	<reward type="Skill" id="Lockpicks" value="10" />
@@ -1218,7 +1244,6 @@ repeatable="false" category_key="challenge" offer="The Bruiser has experience in
 <quest id="perkBuilder" name="Builder Skills" subtitle="Builder Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="Buildlers are skilled at crafting and building." difficulty="easy">
 	<reward type="Skill" id="Carpentry" value="10" />
-	<reward type="Skill" id="Chainsaw" value="5" />
 	<reward type="Skill" id="Axes" value="10" />
 	<reward type="Skill" id="Tool Smithing" value="10" />
 	<reward type="Skill" id="Construction Tools" value="15" />
