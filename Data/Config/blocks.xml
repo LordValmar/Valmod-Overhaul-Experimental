@@ -7952,7 +7952,7 @@ kind of free
 	<property name="Collide" value="melee" />
 	<property name="Texture" value="529" />
 	<property name="CropsGrown.BonusHarvestDivisor" value="8" />
-	<drop event="Destroy" name="blueberries" count="0" prob="1" />
+	<drop event="Destroy" name="corn" count="0" prob="1" />
 	<drop event="Harvest" name="corn" count="1" tool_category="Pluck" />
 	<property name="DowngradeBlock" value="plantedCorn1" />
 </block>
