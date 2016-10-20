@@ -4,7 +4,7 @@
 	<SMX_tb_item_stack_uf1>
 		<rect controller="ItemStack" style="SMXItemStack, hover">
 
-			<texture name="SMXToolbeltSlot" depth="0" size="83,83" texture="@http://i63.tinypic.com/2iide2a.jpg" material="Materials/Transparent" /> <!-- Local Asset Equivalent: toolbeltslot.png -->
+			<texture name="SMXToolbeltSlot" depth="0" size="83,83" texture="@file:Mods\SMX\Textures\Toolbelt\toolbeltslot.png" material="Materials/Transparent" /> <!-- Online Equivalent: http://i63.tinypic.com/2iide2a.jpg -->
 
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="78" height="78" color="[black]" type="sliced" fillcenter="false" visible="false" />
 			<sprite depth="3" name="background" sprite="menu_empty2px" width="83" height="83" color="[darkGrey]" type="sliced" globalopacity="true" fillcenter="false" />

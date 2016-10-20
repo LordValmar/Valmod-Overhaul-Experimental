@@ -12162,7 +12162,7 @@ which does not exist, yet. -->
 	<property name="Extends" value="stoneAxe" />
 	<property name="RepairTools" value="scrapIron" />
 	<property name="EconomicValue" value="5" />
-	<property name="CustomIcon" value="stoneAxe" />
+	<property name="Material" value="metal" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,14" />
 		<property name="BlockDamage" value="20,35" />
