@@ -2856,11 +2856,12 @@
 
 	<lootgroup name="HunterClass" count="all">	
 	    <item group="SurvivalGear"/>
-        <item name="woodenBow" count="1" quality="250,300"/>
-        <item name="arrow" count="90"/>
+        <item name="gunBoltRifle" count="1" quality="170,170"/>
+        <item name="762mmBullet" count="80"/>
         <item name="huntingKnife" count="1" quality="200,200"/>
 		<item name="tanningRack"/>
         <item name="animalHideHood" count="1" quality="170,170"/>
+        <item name="repairKit" count="4"/>
 		<item name="challengeClassHunter" count="1"/>
 		<item name="perkHunter" count="1"/>
 	</lootgroup>

@@ -1693,12 +1693,6 @@
 		<recipe name="workstationOven" unlock_level="15"/>
 	</perk>
 
-	<perk name="Animal Traps" icon="misc_crafting" description_key="Max out this perk to learn how to craft animal snares and coops to capture animals." title_key="Animal Trapping" max_level="10" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="tools">
-		<requirement perk_level="10" required_skill_name="The Survivor" required_skill_level="1"/>
-		<recipe name="animalSnare" unlock_level="10"/>
-		<recipe name="chickenCoop" unlock_level="10"/>
-	</perk>
-
 	<perk name="Security" icon="misc_crafting" description_key="Max this perk to learn how to craft very durable gun safes, advanced doors, drawbridges and hidden walls." title_key="Security Measures" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement perk_level="20" required_skill_name="Carpentry" required_skill_level="20"/>
 		<requirement perk_level="20" required_skill_name="Mechanical" required_skill_level="20"/>

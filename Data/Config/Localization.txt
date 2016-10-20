@@ -5068,7 +5068,7 @@ skillbookLockpick,items,Item Book,,Lockpicking,,
 skillbookLockpickDesc,items,Item Book,,"This book adds to your lockpicking skill which will eventually let you craft lockpicks that can crack into locked safes.",,
 
 
-classHunterDesc,blocks,Block Building,,"Hunter's start off with an Bow and hide armor. Recipes: Hunting Knife, Traps, Animal Traps, Animal Hide Armor, Wooden Bow.",,
+classHunterDesc,blocks,Block Building,,"Hunter's start off with a rifle and knowledge in rifles, traps and leatherworking.",,
 
 classHunterDesc2,blocks,Block Building,,"Hunter's start off with a bow and skills in leather tanning, archery, animal traps and a hunting knife.",,
 
@@ -5081,23 +5081,23 @@ classBuilderDesc2,blocks,Block Building,,"Builder's start off with a supply of w
 
 classRiflemanDesc,blocks,Block Building,,"The Rifleman starts off with a bolt rifle. He has superior skill in rifles.",,
 
-classVeteranDesc,blocks,Block Building,,"The Veteran starts off with army clothes and an Assault Rifle. Recipes: Assault Rifle, Explosives",,
+classVeteranDesc,blocks,Block Building,,"The Veteran starts off with army clothes and a SMG.",,
 
 classVeteranDesc2,blocks,Block Building,,"The Veteran starts off with army clothes and an Assault Rifle. Has superior skill in rifles and gun smithing.",,
 
 classBruiserDesc,blocks,Block Building,,"The Bruiser starts off with a spiked club and a sawed off shotgun. Skilled with melee weapons and shotguns for up-close encounters.",,
 
-classGunmanDesc,blocks,Block Building,,"The Gunman starts off with a 44Magnum. Skilled in gun smithing, pistols and bartering.",,
+classGunmanDesc,blocks,Block Building,,"The Gunman starts off with a 44Magnum and skill in pistols.",,
 
-classMinerDesc,blocks,Block Building,,"The Miner starts off with an pickaxe and pistol. Skilled in masonry, mining tools, forge and explosives.",,
+classMinerDesc,blocks,Block Building,,"The Miner starts off with an pickaxe and pistol. Skilled in masonry, mining tools and blacksmithing.",,
 
 classMinerDesc2,blocks,Block Building,,"The Miner starts off with a pickaxe and pistol. Skilled in mining tools, armor smithing and auger.",,
 
-classSurvivorDesc,blocks,Block Building,,"The survivor starts off with a crossbow and more food supplies. Skilled in archery, lockpicks and tool smithing.",,
+classSurvivorDesc,blocks,Block Building,,"The survivor starts off with a crossbow and more food supplies. Skilled in archery, scavenging and tool smithing.",,
 
 classSurvivorDesc2,blocks,Block Building,,"The survivor starts off with an iron crossbow and more food supplies. Skilled in archery, lockpicks, scavenging and tool smithing.",,
 
-classMedicDesc,blocks,Block Building,,"The medic starts off with extra medical supplies and a pistol. Skilled in medicine, science and chemistry.",,
+classMedicDesc,blocks,Block Building,,"The medic starts off with extra medical supplies and a pistol. Skilled in medicine and science.",,
 classMedicDesc2,blocks,Block Building,,"The medic starts off with extra medical supplies and a pistol. Skilled in medicine, science and first aid.",,
 
 clubBurning,items,Item Melee,,Burning Club,,

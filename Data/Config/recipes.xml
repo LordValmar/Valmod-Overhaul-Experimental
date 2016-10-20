@@ -3481,9 +3481,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="Class - Builder (Locked)" count="1" >
   <ingredient name="classSelection" count="1" />
   </recipe>
-	<recipe name="Class - Rifleman (Locked)" count="1" >
-  <ingredient name="classSelection" count="1" />
-	</recipe>
 	<recipe name="Class - Veteran (Locked)" count="1" >
   <ingredient name="classSelection" count="1" />
 	</recipe>
