@@ -388,7 +388,8 @@
 			<requirement type="Holding" id="gunHuntingRifle" />
 		</requirement>
 		<objective type="AnimalKill" value="5"  />
-		<reward type="Skill" id="Rifles" value="1" />
+		<reward type="Skill" id="Leatherworking" value="1" />
+		<reward type="Skill" id="Blade Weapons" value="1" />
 		<reward type="Item" id="762mmBullet" value="15" />
 		<reward type="Quest" id="challenge_hunter2" />
 	</quest>
@@ -400,7 +401,8 @@
 			<requirement type="Holding" id="gunHuntingRifle" />
 		</requirement>
 		<objective type="AnimalKill" value="25"  />
-		<reward type="Skill" id="Rifles" value="1" />
+		<reward type="Skill" id="Leatherworking" value="2" />
+		<reward type="Skill" id="Blade Weapons" value="2" />
 		<reward type="Item" id="762mmBullet" value="35" />
 		<reward type="Quest" id="challenge_hunter3" />
 	</quest>
@@ -412,7 +414,8 @@
 			<requirement type="Holding" id="gunHuntingRifle" />
 		</requirement>
 		<objective type="AnimalKill" value="50"  />
-		<reward type="Skill" id="Rifles" value="1" />
+		<reward type="Skill" id="Leatherworking" value="2" />
+		<reward type="Skill" id="Blade Weapons" value="2" />
 		<reward type="Item" id="762mmBullet" value="60" />
 		<reward type="Quest" id="challenge_animaltrap" />
 	</quest>
@@ -435,6 +438,7 @@
 		<objective type="BlockPlace" id="animalSnare" value="1" />
 		<reward type="Item" id="animalFeed" value="10" />
 		<reward type="Quest" id="challenge_animaltrap3" />
+		<reward type="Skill" id="Leatherworking" value="1" />
 	</quest>
 	
 	<quest id="challenge_animaltrap3" group_name_key="quest_hunter" name="Animal Trapping Quest 3/4" subtitle="Animal Trapping Challenge" 
@@ -454,6 +458,7 @@
 		<action type="TrackQuest" />
 		<objective type="Craft" id="chickenCoop" value="1" />
 		<objective type="BlockPlace" id="chickenCoop" value="1" />
+		<reward type="Skill" id="Leatherworking" value="1" />
 	</quest>
 
 	<!-- Builder -->
@@ -1119,7 +1124,8 @@ repeatable="true" category_key="challenge" difficulty="easy">
 <!-- Class Perks -->
 <quest id="perkHunter" name="Hunter Skills" subtitle="Hunter Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="Hunter's are trained in tracking down animals." difficulty="easy">
-	<reward type="Skill" id="Leatherworking" value="15" />
+	<reward type="Skill" id="Leatherworking" value="10" />
+	<reward type="Skill" id="Blade Weapons" value="5" />
 	<reward type="Skill" id="Rifles" value="20" />
 	<reward type="Skill" id="Traps" value="5" />
 	<reward type="Skill" id="762mm Round Crafting" value="1" />
