@@ -15171,6 +15171,9 @@ kind of free
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />
 		<property name="Group" value="Tools/Traps" />
 		<property name="CraftingSkillGroup" value="Traps"/>
+		<property class="RepairItems">
+			<property name="gasCan" value="5" />
+		</property>
 	</block>
 	<block id="1999" name="trapFireEmpty">
 		<property name="CustomIcon" value="trapFire" />
@@ -15259,6 +15262,9 @@ kind of free
 	<property name="EconomicValue" value="160" />
 	<property name="Group" value="Tools/Traps" />
 	<property name="CraftingSkillGroup" value="Traps"/>
+	<property class="RepairItems">
+		<property name="gasCan" value="5" />
+	</property>
 	</block>
 	<block id="2005" name="trapNailMine">
 		<property name="DescriptionKey" value="trapNailMineDesc"/>

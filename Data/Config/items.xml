@@ -2004,6 +2004,7 @@ which does not exist, yet. -->
 	<property name="EconomicBundleSize" value="100" />
 	<property name="CraftingSkillGroup" value="Science"/>
 	<property name="Group" value="Resources,Chemicals" />
+	<property name="RepairAmount" value="100" />
 </item>
 
 <item id="164" name="arrow">
