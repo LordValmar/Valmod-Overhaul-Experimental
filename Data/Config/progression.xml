@@ -1250,6 +1250,7 @@
 		<recipe name="clayBucket" unlock_level="5"/>
 		<recipe name="cementMixer" unlock_level="20"/>
 		<recipe name="chisel" unlock_level="20"/>
+		<recipe name="adobeWhiteBlock" unlock_level="20"/>
 		<recipe name="cobblestones" unlock_level="20"/>
 		<recipe name="cobblestoneFrameBlock" unlock_level="20"/>
 		<recipe name="cobblestoneFrameRamp" unlock_level="20"/>
@@ -1264,7 +1265,6 @@
 		<recipe name="cobblestoneFrameStairs25" unlock_level="20"/>
 		<recipe name="cobblestoneArrowSlitHalf" unlock_level="20"/>
 		
-		<recipe name="adobeWhiteBlock" unlock_level="30"/>
 		<recipe name="brickBlock" unlock_level="30"/>
 		<recipe name="brickCNRFull" unlock_level="30"/>
 		<recipe name="brickCNRInside" unlock_level="30"/>
