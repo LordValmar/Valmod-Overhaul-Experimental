@@ -355,7 +355,7 @@
 			<add skill_level="90,100" value="48,50"/>
 		</effect>
 		<effect name="RepairQualityLoss">
-			<multiply skill_level="1,100" value="1,1" />
+			<multiply skill_level="1,5" value="12,10.572" />
 			<multiply skill_level="5,11" value="10.572,9.323" />
 			<multiply skill_level="11,19" value="9.323,8.119" />
 			<multiply skill_level="19,32" value="8.119,6.619" />
@@ -450,7 +450,7 @@
 			<add skill_level="90,100" value="48,50"/>
 		</effect>
 		<effect name="RepairQualityLoss">
-			<multiply skill_level="1,100" value="1,1" />
+			<multiply skill_level="1,5" value="12,10.572" />
 			<multiply skill_level="5,11" value="10.572,9.323" />
 			<multiply skill_level="11,19" value="9.323,8.119" />
 			<multiply skill_level="19,32" value="8.119,6.619" />
@@ -544,7 +544,7 @@
 			<add skill_level="90,100" value="48,50"/>
 		</effect>
 		<effect name="RepairQualityLoss">
-			<multiply skill_level="1,100" value="1,1" />
+			<multiply skill_level="1,5" value="12,10.572" />
 			<multiply skill_level="5,11" value="10.572,9.323" />
 			<multiply skill_level="11,19" value="9.323,8.119" />
 			<multiply skill_level="19,32" value="8.119,6.619" />
@@ -631,7 +631,7 @@
 			<add skill_level="90,100" value="48,50"/>
 		</effect>
 		<effect name="RepairQualityLoss">
-			<multiply skill_level="1,100" value="1,1" />
+			<multiply skill_level="1,5" value="12,10.572" />
 			<multiply skill_level="5,11" value="10.572,9.323" />
 			<multiply skill_level="11,19" value="9.323,8.119" />
 			<multiply skill_level="19,32" value="8.119,6.619" />
