@@ -5878,7 +5878,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>-->
-	<archetype name="ZombieLumberjack" male="true" hair_color="98,85,79" eye_color="100,110,115" skin_color="110,173,255" type="Zombie">
+	<archetype name="ZombieLumberjack" male="true" hair_color="98,85,79" eye_color="100,110,115" skin_color="110,173,255" type="Player">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -6252,7 +6252,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>-->
-	<archetype name="ZombieTrucker" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="155,218,179" type="Zombie">
+	<archetype name="ZombieTrucker" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="155,218,179" type="Player">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -6826,7 +6826,7 @@
 			<gene name="breastSize" value="1"/>
 		</dna>
 	</archetype>-->
-	<archetype name="ZombieRaveReaper" male="false" hair_color="196,131,255" eye_color="172,33,50" skin_color="155,218,179" type="Zombie">
+	<archetype name="ZombieRaveReaper" male="false" hair_color="196,131,255" eye_color="172,33,50" skin_color="155,218,179" type="Player">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="female_base_face">
 				<texture name="female_head_zombie" color="skin"/>
@@ -7177,7 +7177,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>-->
-	<archetype name="ZombieRavager" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="220,220,220" type="Zombie">
+	<archetype name="ZombieRavager" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="220,220,220" type="Player">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -7845,7 +7845,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>-->
-	<archetype name="ZombieBrute" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="155,218,179" type="Zombie">
+	<archetype name="ZombieBrute" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="155,218,179" type="Player">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
@@ -7986,7 +7986,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>
-	<archetype name="ZombieCharred" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="0,0,0" type="Zombie">
+	<archetype name="ZombieCharred" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="0,0,0" type="Player">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_zombie" color="skin"/>
