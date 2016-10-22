@@ -40,12 +40,14 @@
         <spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
         
         <spawn maxcount="1" respawndelay="15" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0" />
+        <spawn maxcount="1" respawndelay="5" time="Night" entitygroup="JasonGroup" />
     </biome>
 	
     <biome name="pine_forest">
         <spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
         
         <spawn maxcount="1" respawndelay="15" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0" />
+        <spawn maxcount="1" respawndelay="5" time="Night" entitygroup="JasonGroup" />
     </biome>	
 
     <biome name="plains">

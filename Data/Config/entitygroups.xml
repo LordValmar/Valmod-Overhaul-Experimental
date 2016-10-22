@@ -455,6 +455,11 @@
 	
     <entitygroup name="BookstoreGroup">
         <entity name="zombieArlene" />
+    </entitygroup>
+	
+    <entitygroup name="JasonGroup">
+		<entity name="zombieBoe" prob="0.85"/>
+		<entity name="ZombieJason" prob="0.15"/>
     </entitygroup>	
 	
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  start: auto generated horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
