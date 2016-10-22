@@ -15479,6 +15479,7 @@ kind of free
     <drop event="Destroy" name="Wheat" count="0" />
     <drop event="Harvest" name="Wheat" tool_category="Pluck" count="2" />
         <property name="Group" value="Food/Cooking" />
+	<property name="CropsGrown.BonusHarvestDivisor" value="5" />
   </block>  
 	<block id="2035" name="seedGrape">
     <property name="Class" value="PlantGrowing" />
@@ -15508,6 +15509,7 @@ kind of free
     <drop event="Harvest" name="Grapes" tool_category="Pluck" count="2" />
 	<property name="Group" value="Food/Cooking" />
 	<property name="DowngradeBlock" value="seedGrape" />
+	<property name="CropsGrown.BonusHarvestDivisor" value="5" />
   </block>  
 	<block id="2039" name="plantSeed">
 	<property name="DescriptionKey" value="plantSeedDesc"/>
