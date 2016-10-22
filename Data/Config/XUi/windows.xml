@@ -1576,17 +1576,17 @@
 		</rect>
 	</window>
 	
-	<window name="windowVehicleStorage" width="228" height="262" depth="5" anchor="CenterTop" panel="Right" backgroundcolor="[black]">
+	<window name="windowVehicleStorage" width="380" height="262" depth="5" anchor="CenterTop" panel="Right" backgroundcolor="[black]">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="1" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_loot_sack"/>
 			<label style="header.name" text="MINIBIKE STORAGE" text_key="xuiMinibikeStorage" />
 		</panel>
 		
-		<grid depth="2" name="inventory" rows="6" cols="3" pos="3,-46" cell_width="75" cell_height="75" repeat_content="true" controller="VehicleContainer">
+		<grid depth="2" name="inventory" rows="5" cols="6" pos="3,-46" cell_width="75" cell_height="75" repeat_content="true" controller="VehicleContainer">
 			<item_stack name="0"/>
 		</grid>
 		
-		<panel name="emptyPanel" height="450" depth="4" pos="0,-49" backgroundcolor="[darkGrey]" bordercolor="[black]" visible="false">			
+		<panel name="emptyPanel" width="380" height="739" depth="4" pos="0,-49" backgroundcolor="[darkGrey]" bordercolor="[black]" visible="false">			
 			<sprite depth="4" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />	
 			<label pos="0,-180" depth="3" name="descriptionText" width="100%" height="80" text="ADD BASKET TO ACCESS STORAGE." text_key="xuiEmptyVehicleStorage" justify="center" font_size="24"/>			
 		</panel>
