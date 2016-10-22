@@ -104,6 +104,8 @@
 		<style_entry name="red" 					value="255,0,0"/>
 		<style_entry name="green" 					value="0,255,0"/>
 		<style_entry name="transparent" 	value="0,0,0,0"/>
+		<style_entry name="gold" 					value="245,196,0"/>
+		<style_entry name="yellow" 					value="247,255,0"/>
 		
 		<style_entry name="white_half_alpha" 				value="255,255,255,128"/>
 		<style_entry name="mediumGrey_half_alpha" 	value="96,96,96,128"/>
