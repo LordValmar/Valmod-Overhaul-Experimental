@@ -1428,6 +1428,33 @@
 </entity_class>
 
 <!-- New Enemies -->
+    <entity_class name="Feral Ravager" extends="zombie01">
+        <property name="Mesh"   value="Zombies/zombieStandardFeralRagdoll" />
+        <property name="SoundRandom"     value="Enemies/Feral_Zombie/zombieferalroam" />
+        <property name="SoundAlert"     value="Enemies/Feral_Zombie/zombieferalalert" />
+        <property name="SoundAttack"     value="Enemies/Feral_Zombie/zombieferalattack" />
+        <property name="SoundHurt"     value="Enemies/Feral_Zombie/zombieferalpain" />
+        <property name="SoundDeath"   value="Enemies/Feral_Zombie/zombieferaldeath" />
+        <property name="SoundSense"  value="Enemies/Feral_Zombie/zombieferalsense" />
+        <property name="SoundFootstepModifier"  value="Enemies/Feral_Zombie/zombieferalfootstep" />
+		<property name="HandItem"             value="handFeralRavager" />
+        <property name="MaxHealth"    value="450" />
+		<property name="ExperienceGain" value="300"/>
+		<property name="LootListOnDeath"  value="88" />
+        <property name="AvatarController" value="AvatarZombie01Controller" />
+		<property name="PhysicsBody" value="zombieStandardFemale" />
+        <property name="Class"  value="EntityZombieCrawl" />
+	    <property name="WalkType"  value="4" />
+		<property name="RootMotion"   value="true" />
+	    <property name="CanClimbLadders"     value="false" />
+        <property name="RotateToGround" value="true"/>
+        <property name="WanderSpeed"        value="0.5" />
+        <property name="ApproachSpeed"      value="1.3" />
+        <property name="NightWanderSpeed"   value="0.5" />
+        <property name="NightApproachSpeed" value="1.5" />
+        <property name="PanicSpeed"         value="1.3" />
+		<property name="HasDeathAnim" value="false" />
+    </entity_class>
 <entity_class name="Bloated Walker" extends="zombieMoe">
 	    <property name="WalkType"  value="2" />
 	    <property name="LootListOnDeath"  value="87" />
@@ -1618,19 +1645,30 @@
 <entity_class name="ZombieRavager" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieRavager"/>
 	<property name="WalkType" value="4" />
-	<property name="SoundRandom"	value="Enemies/Feral_Zombie/zombieferalroam" />
-	<property name="SoundAlert"		value="Enemies/Feral_Zombie/zombieferalalert" />
-	<property name="SoundAttack"	value="Enemies/Feral_Zombie/zombieferalattack" />
-	<property name="SoundHurt"		value="Enemies/Feral_Zombie/zombieferalpain" />
-	<property name="SoundDeath"		value="Enemies/Feral_Zombie/zombieferaldeath" />
-	<property name="SoundSense"		value="Enemies/Feral_Zombie/zombieferalsense" />
-	<property name="SoundFootstepModifier"	value="Enemies/Feral_Zombie/zombieferalfootstep" />
-	<property name="HandItem"		value="handFeralRavager" />
-	<property name="MaxHealth"		value="450" />
-	<property name="ExperienceGain"	value="300"/>
+	<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam" />
+	<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert" />
+	<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
+	<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
+	<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
+	<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+	<property name="CanClimbVertical" value="true" />
+	<property name="WalkType" value="8" />
+	<property name="MaxHealth"    value="200" />
+	<property name="ExperienceGain" value="80"/>
+	<property name="WanderSpeed"        value="0.3" />
+	<property name="ApproachSpeed"      value="0.7" />
+	<property name="NightWanderSpeed"   value="0.5" />
+	<property name="NightApproachSpeed" value="1.5" />
+	<property name="PanicSpeed"         value="1.6" />
+	<property name="HeadDismemberThreshold" value="0"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="HasDeathAnim" value="false" />		
 	<property name="LootListOnDeath"	value="88" />
 	<property name="ApproachSpeed" value="1.3" />
-	<property name="NightApproachSpeed" value="1.3" />	
+	<property name="NightApproachSpeed" value="1.3" />
 </entity_class>
 <!--<entity_class name="ZombieNerd" extends="zombieUMA" >
 	<property name="Archetype" value="ZombieNerd"/>
