@@ -4557,7 +4557,7 @@ animalFeedDesc,items,Item Food,,Animal feed is used in crafting animal snares an
 maniacPowder,items,Item Food,,Maniac Powder,,
 maniacPowderDesc,items,Item Food,,A dangerous drug that can temporarily make you a fearless killing machine.,,
 
-RemoteDesc,items,Item Tool,,These are used to toggle hidden doors or bridges.,,
+RemoteDesc,items,Item Tool,,These are used to toggle hidden doors by clicking on them.,,
 
 survivorNotes,items,Item Tool,,Survivor Notes,,
 survivorNotesDesc,items,Item Tool,,Gather enough of these to craft skill books at the Study Desk.,,
@@ -4583,7 +4583,7 @@ ClingwrapDesc,items,Item Food,,You can turn clingwrap into strips to seal up raw
 stripsClingwrap,items,Item Food,,Clingwrap Strips,,
 stripsClingwrapDesc,items,Item Food,,You can use these to seal up raw meat to preserve it and mask the smell.,,
 sealedMeat,items,Item Food,,Sealed Meat,,
-SealedMeatDesc,items,Item Food,,This raw meat has been sealed with clingfilm to preserve it and mask the smell.,,
+sealedMeatDesc,items,Item Food,,This raw meat has been sealed with clingfilm to preserve it and mask the smell.,,
 
 gearMechanism,items,Item Tool,,Gear Mechanism,,
 gearMechanismDesc,items,Item Tool,,"These gears are required for making hidden doors, bridges, vaults and safes.",,
