@@ -1111,7 +1111,8 @@ repeatable="true" category_key="challenge" offer="Open this to get some ammo for
 <reward type="Item" id="shotgunShell" value="50" />
 </quest>
 
-<quest id="survivorNotes" name="Survivor Experience" subtitle="Survivor Experience" description="Your experience surviving in this harsh world has given you a skill point." icon="misc_crafting" 
+<quest id="survivorNotes" name="Survivor Experience" subtitle="Survivor Experience" 
+offer="This crumbled, bloodied note from a survivor might give you a little insight on surviving in this harsh world. Or at least teach you how not to end up like one who left the note..." description="Your experience surviving in this harsh world has given you a skill point." icon="misc_crafting" 
 repeatable="true" category_key="challenge" difficulty="easy">
 	<reward type="SkillPoints" value="1" />
 </quest>
