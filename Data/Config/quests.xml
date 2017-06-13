@@ -1163,13 +1163,13 @@ repeatable="false" category_key="challenge" offer="The Bruiser has experience in
 	<reward type="Skill" id="Blunt Weapons" value="20" />
 	<reward type="Skill" id="Blade Weapons" value="10" />
 	<reward type="Skill" id="Shotguns" value="10" />
-	<reward type="Skill" id="Armor Smithing" value="10" />
+	<reward type="Skill" id="craftSkillArmor" value="1" />
 </quest>
 <quest id="perkBuilder" name="Builder Skills" subtitle="Builder Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="Buildlers are skilled at crafting and building." difficulty="easy">
 	<reward type="Skill" id="Carpentry" value="10" />
 	<reward type="Skill" id="Axes" value="10" />
-	<reward type="Skill" id="craftSkillTools" value="10" />
+	<reward type="Skill" id="craftSkillTools" value="3" />
 	<reward type="Skill" id="Construction Tools" value="20" />
 </quest>
 <quest id="perkMiner" name="Miner Skills" subtitle="Miner Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
