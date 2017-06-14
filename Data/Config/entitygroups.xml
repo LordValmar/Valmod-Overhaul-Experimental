@@ -257,9 +257,10 @@
 
 	<entitygroup name="ZombiesBoss">
         <entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieFatCop" prob="0.5"/>
+		<entity name="zombieFatCop" prob="0.45"/>
 		<entity name="Burning Boss" prob="0.05"/>
 		<entity name="ZombieRegen" prob="0.05"/>
+		<entity name="zombieWightFeralRadiated" prob="0.05"/>
 		<entity name="ZombieTrucker" prob="0.1"/>
 	</entitygroup>
 
