@@ -56,7 +56,7 @@
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 </entity_class>
 
-<entity_class name="playerFemale" extends="playerMale">
+<entity_class name="playerFemale" extends="playerMale"> <!-- ignore="<excluded defs>" to not extend unwanted properties -->
 	<property name="Mesh" value="Player/Female/player_femaleRagdoll"/>
 	<property name="IsMale" value="false"/>
 	<property name="CrouchYOffsetFP" value="-0.55"/>
@@ -93,7 +93,7 @@
 	<!-- <property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="30"/> with give up time -->
 	<property name="AITask-1" value="BreakDoor"/>
 	<property name="AITask-2" value="BreakBlock"/>
-	<property name="AITask-3" value="Territorial" param1="10"/>
+	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC"/>
 	<property name="AITask-6" value="ApproachSpot"/>
@@ -263,6 +263,8 @@
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
+
+<!--
 <entity_class name="zombieBehemoth" extends="zombieTemplateMale">
 	<property name="Prefab" value="NPC4m"/>
 	<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
@@ -285,6 +287,7 @@
 	<property name="HandItem" value="handZombieBehemoth"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
+-->
 
 <!-- Missing: zombieBehemothRadiated -->
 <!-- Missing: zombieBehemothFeral -->
@@ -1385,6 +1388,7 @@
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="9"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9"/>
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
+	<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3" />
 </entity_class>
 
 <entity_class name="animalRabbit" extends="animalTemplateTimid">
@@ -1406,6 +1410,7 @@
 	<property name="DeadBodyHitPoints" value="175"/>
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="3"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2"/>
+	<drop event="Harvest" name="animalHide" tool_category="Skinner" count="1" />
 </entity_class>
 
 <entity_class name="animalChicken" extends="animalTemplateTimid">
@@ -1445,6 +1450,7 @@
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="7"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="7"/>
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="6"/>
+	<drop event="Harvest" name="animalHide" tool_category="Skinner" count="2" />
 </entity_class>
 
 
@@ -1530,7 +1536,7 @@
 	<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
 	<property name="AITask-1" value="BreakDoor"/>
 	<property name="AITask-2" value="BreakBlock"/>
-	<property name="AITask-3" value="Territorial" param1="10"/>
+	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="20"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC" param2="20"/>
 	<!--property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalBear" /-->
@@ -1588,7 +1594,7 @@
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakDoor"/>
 	<property name="AITask-3" value="BreakBlock"/>
-	<property name="AITask-4" value="Territorial" param1="10"/>
+	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40"/>
 	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25"/>
 	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30"/>
@@ -1612,6 +1618,7 @@
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="15"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="15"/>
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="7"/>
+	<drop event="Harvest" name="animalHide" tool_category="Skinner" count="5" />
 </entity_class>
 
 <entity_class name="animalZombieBear" extends="animalBear">
@@ -1624,6 +1631,7 @@
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="12"/>
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="3"/>
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="4"/>
+	<drop event="Harvest" name="animalHide" tool_category="Skinner" count="4" />
 </entity_class>
 
 <entity_class name="animalWolf" extends="animalTemplateHostile">
@@ -1659,7 +1667,7 @@
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakDoor"/>
 	<property name="AITask-3" value="BreakBlock"/>
-	<property name="AITask-4" value="Territorial" param1="10"/>
+	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40"/>
 	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="15"/>
 	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30"/>
@@ -1684,6 +1692,7 @@
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="9"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="10"/>
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
+	<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3" />
 </entity_class>
 
 <entity_class name="animalDireWolf" extends="animalWolf">
@@ -1695,7 +1704,7 @@
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakDoor"/>
 	<property name="AITask-3" value="BreakBlock"/>
-	<property name="AITask-4" value="Territorial" param1="15"/>
+	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40"/>
 	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="45"/>
 	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30"/>
@@ -1710,6 +1719,7 @@
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="10"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="12"/>
 	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="7"/>
+	<drop event="Harvest" name="animalHide" tool_category="Skinner" count="4" />
 </entity_class>
 
 <entity_class name="animalVulture" extends="animalTemplateHostile">
@@ -1728,14 +1738,13 @@
 	<property class="MechanimAttackStates">
 		<property name="state0" value="Attack"/>
 	</property>
-	<property name="AITask-1" value="Swim"/>
-	<property name="AITask-2" value="BreakDoor"/>
-	<property name="AITask-3" value="BreakBlock"/>
-	<property name="AITask-4" value="Territorial" param1="10"/>
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="30"/>
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25"/>
-	<property name="AITask-7" value="ApproachSpot"/>
-	<property name="AITask-8" value="Wander"/>
+	<property name="AITask-1" value="BreakDoor"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-3" value="Territorial"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="30"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Wander"/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
 	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="8"/>
@@ -1769,7 +1778,7 @@
 	<property name="PanicSpeed" value="2.0"/>
 	<property name="AITask-1" value="BreakDoor"/>
 	<property name="AITask-2" value="BreakBlock"/>
-	<property name="AITask-3" value="Territorial" param1="3"/>
+	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="15"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC" param2="15"/>
 	<property name="AITask-6" value="ApproachSpot"/>
@@ -1850,13 +1859,18 @@
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>
-	<property name="PhysicsBody" value="wolf"/>
+	<property name="PhysicsBody" value="boar"/>
 	<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
 	<property name="HandItem" value="handAnimalWolf"/>
-	<property name="MaxHealth" value="200"/>
+	<property name="MaxHealth" value="90"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
+	<property name="WanderSpeed" value="0.2"/>
+	<property name="PanicSpeed" value="2.0"/>
+	<property name="ApproachSpeed" value="1.3"/>
+	<property name="NightWanderSpeed" value="0.2"/>
+	<property name="NightApproachSpeed" value="1.3"/>
 	<property class="MechanimAttackTriggers">
 		<property name="state0" value="AttackTrigger"/>
 	</property>
@@ -1876,29 +1890,13 @@
 	<property class="MechanimDeathStates">
 		<property name="state0" value="Death"/>
 	</property>
-	<property name="AITask-1" value="Swim"/>
-	<property name="AITask-2" value="BreakDoor"/>
-	<property name="AITask-3" value="BreakBlock"/>
-	<property name="AITask-4" value="Territorial" param1="10"/>
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40"/>
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="15"/>
-	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30"/>
-	<property name="AITask-8" value="ApproachSpot"/>
-	<property name="AITask-9" value="Wander"/>
-	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
-	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="8"/>
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalStag"/>
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombie"/>
-
-	<property name="SmellAlertThreshold" value="5"/> <!-- for awake zombies -->
-	
 	<property name="SoundHurt" value="Animals/pigpain"/>
 	<property name="SoundDeath" value="Animals/pigdeath"/>
 	<property name="ExperienceGain" value="990"/>
-	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="9"/>
-	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="10"/>
-	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
+	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="7"/>
+	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="7"/>
+	<drop event="Harvest" name="animalFat" tool_category="Butcher" count="6"/>
+	<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3" />
 </entity_class>
 
 

@@ -9,7 +9,7 @@
 		<texture name="Valmod" depth="0" size="53,35" texture="@file:Mods\SMX\UITextures\valmodhat.png" material="Materials/Transparent Colored" pos="-160,-6" /> <!-- Online Mac: @http://i.imgur.com/41Ldkxq.png -->
 		<label name="SMX" depth="0" size="53,35" text="SMX UI" font_size="20" effect="outline" color="[white]" justify="center" pos="-220,-15" overflow="resizeheight" />
 		<!-- Valmod Version -->
-		<label name="SMXServerInfo1" depth="0" size="53,35" text="VMO EXP 1" font_size="20" effect="outline" color="[white]" justify="center" pos="-160,-15" overflow="resizeheight" />
+		<label name="SMXServerInfo1" depth="0" size="53,35" text="VMO EXP 2" font_size="20" effect="outline" color="[white]" justify="center" pos="-160,-15" overflow="resizeheight" />
 
 	</window>
 
@@ -1759,9 +1759,11 @@
 				<sprite depth="1" pos="-3,8" width="151" height="91" name="background" color="[mediumGrey]" type="sliced"/> 
 				<grid rows="2" cols="1" pos="0,5" width="144" cell_width="144" cell_height="43" controller="ItemActionList">
 					<skill_action_entry />
-					<skill_action_entry /> 
+					<!-- <skill_action_entry />  -->
 				</grid>
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,8" width="151" height="91" color="[black]" type="sliced" fillcenter="false" />
+				<sprite depth="3" pos="75,-59" width="150" height="43" color="[mediumGrey]" pivot="center" type="sliced" />
+				<label depth="8" pos="75,-59" width="150" height="43" text="{buycost}" pivot="center" justify="center" />
 			</panel>
 			<rect depth="1" pos="148,0" width="454" height="234" >
 				<sprite depth="1" name="background" color="[mediumGrey]" type="sliced"/> 

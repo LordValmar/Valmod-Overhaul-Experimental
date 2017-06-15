@@ -1,5 +1,4 @@
 Key,Source,Context,Changes,English,French,German,Klingon,Spanish
-cobblestoneFrameGroupDesc,blocks,Block,EnChanged,"Used for bases. Upgrade & repair with cobblestone rocks. Upgrade more with iron, concrete mix & others.",,Wird für Basen verwendet. Kann mit Pflastersteinen aufgewertet und repariert werden. Kann unter anderem mit Eisen und Betonmischung weiter aufgewertet werden.,,
 keystoneBlockDesc,blocks,Block,EnChanged,A land claim block can be placed to protect an area from other players in PVP. The green box shows the size of the area.,Bloc de revendication de terrain à placer pour fournir à la zone autour une protection supplémentaire contre les autres joueurs en JcJ.,Ein Gebietsschutzblock kann platziert werden um einen Bereich vor anderen Spielern im PvP zu schützen. Die grüne Box zeigt die Grösse des Bereichs an.,,Se puede colocar un bloque para reclamar un territorio y darle al área circundante una protección extra frente a otros jugadores en JcJ.
 scrapFrameGroupDesc,blocks,Block,EnChanged,Used for bases. Upgrade & repair with a construction tool & iron. Upgrade more with concrete mix & others.,,Wird für Basen verwendet. Kann mit Eisen und Bauwerkzeugen aufgewertet und repariert werden. Kann mit Betonmischung und geschmiedetem Stahl weiter aufgewertet werden.,,
 scrapHatch_v1Desc,blocks,Block,EnChanged,Press & hold [activate] to lock it or set a combination. Upgrade & repair with iron and a construction tool using the secondary action.,,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit Eisen und Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,
@@ -55,7 +54,6 @@ shotgunShellCraftingDesc,progression,Skill,EnChanged,Learn to craft shotgun shel
 runForestRun,progression,Skill,EnChanged FrChanged,Run Forrest Run,"Cours Forrest, cours","Lauf Forrest, lauf!",,"Corre, Forrest, corre"
 goDifficulty2,UI,Menu,EnChanged FrChanged GrChanged SpChanged ,Adventurer,Aventurier,Abenteurer,,Aventurero
 goDifficulty3,UI,Menu,EnChanged FrChanged GrChanged SpChanged ,Nomad (default),Nomade (par défaut),Nomade (Standard),,Nómada (predeterminado)
-spotlightPlayerDesc,blocks,Block,EnChanged GrChanged,A mobile spotlight you can light up your fort or mine with. Use a wrench to disassemble and move it.,Un projecteur portable peut éclairer votre forteresse ou une zone où extraire. Servez-vous d'un marteau et de clous pour le faire tenir en place.,Zum Beleuchten deines Forts oder deiner Mine. Benutze einen Schraubenschlüssel um ihn zu demontieren und neu aufzustellen.,,Un foco móvil con el que puedes iluminar tu fuerte o mina. Usa un mazo y un par de clavos para asegurarlo.
 woodenBowDesc,items,Gun,EnChanged GrChanged,Good for hunting and killing zombies. Uses stone and iron-tipped arrows for ammunition. Hold reload to use alternate ammo.,Un arc en bois. Idéal pour la chasse et pour tuer des zombies. Requiert des flèches comme munitions. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Gut für die Jagd und um Zombies zu töten. Verwendet Pfeile mit Stein- oder Eisenspitzen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Un arco de madera. Ideal para cazar y matar zombis. Usa flechas como munición. Mantén presionado recargar para usar munición alternativa.
 cementDesc,items,Item,EnChanged GrChanged,Cement is used to craft concrete mix. This requires the 'concrete' perk and a cement mixer.,"Après avoir acheté l'avantage du béton, le ciment sert à fabriquer de la dalle et du béton.",Zement wird benutzt um Betonmischung zu fertigen. Daür brauchst du auch die Fertigkeit „Beton“ und einen Zementmischer.,,Se puede usar el cemento para fabricar baldosas. También puedes producir hormigón una vez que hayas comprado el beneficio de hormigón.
 rock01,blocks,Block,EnChanged GrChanged KgNone,Small Rock 01,Petite pierre,Kleiner Stein 01,,Piedra pequeña
@@ -72,10 +70,13 @@ rock11,blocks,Block,EnChanged GrChanged KgNone,Small Rock 11,Petite pierre,Klein
 rock12,blocks,Block,EnChanged GrChanged KgNone,Small Rock 12,Petite pierre,Kleiner Stein 12,,Piedra pequeña
 craftSkillArmor,progression,Skill,EnChanged KeyChanged,Armor Crafting,Forgeron d'armures,Rüstungsschmied,,Forjar armaduras
 craftSkillArmorDesc,progression,Skill,EnChanged KeyChanged,"Craft armor and clothes faster and at better quality while repairing them more efficiently. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.",,"Fertige Rüstungen und Kleidung schneller und von besserer Qualität und repariere sie zugleich effizienter. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,
-candleTable,blocks,Block,EnChanged KgNone,Candle Table,Bougie,Kerze Freistehend,,Vela
-candleWall,blocks,Block,EnChanged KgNone,Candle Wall,Bougie,Kerze mit Wandhalterung,,Vela
+candleTable,blocks,Block,EnChanged KgNone,Candle Table (POI),Bougie,Kerze Freistehend (POI),,Vela
+candleWall,blocks,Block,EnChanged KgNone,Candle Wall (POI),Bougie,Kerze mit Wandhalterung (POI),,Vela
+candleTablePlayer,blocks,Block,New,Candle Table,Bougie,Kerze Freistehend,,Vela
+candleWallPlayer,blocks,Block,New,Candle Wall,Bougie,Kerze mit Wandhalterung,,Vela
 treeAzalea,blocks,Block,EnChanged KgNone,Azalea,Bois,Holz,,Madera
-wallTorch,blocks,Block,EnChanged KgNone,Wall Torch,Torche,Fackel mit Wandhalterung,,Antorcha
+wallTorch,blocks,Block,EnChanged KgNone,Wall Torch (POI),Torche,Fackel mit Wandhalterung (POI),,Antorcha
+wallTorchPlayer,blocks,Block,New,Wall Torch,Torche,Fackel mit Wandhalterung,,Antorcha
 woodStairsBoard,blocks,Block,EnChanged KgNone,Wood board stairs,Marches d'escaliers en bois,Holzstufen – Brett,,Tabla de escaleras de madera
 mushroom01,blocks,Farming,EnChanged,Mushrooms 01 (POI),Champignons 01,Pilze 01 (POI),,Setas 01
 mushroom02,blocks,Farming,EnChanged,Mushrooms 02 (POI),Champignons 02,Pilze 02 (POI),,Setas 02
@@ -188,17 +189,6 @@ craftSkillMiscellaneous,progression,Skill,KeyChanged,Misc Crafting,Fabrication d
 craftSkillScience,progression,Skill,KeyChanged,Science,Science,Wissenschaft,,Por la ciencia
 craftSkillTools,progression,Skill,KeyChanged,Tool Smithing,Forgeron d'outils,Werkzeugschmied,,Forja de herramientas
 craftSkillWeapons,progression,Skill,KeyChanged,Weapon Smithing,Forgeron d'armes,Waffenschmied,,Forja de armas
-adobeBlock,blocks,Block,KeyChanged EnChanged,Adobe Block,Bloc d'adobe pêche,Adobe – Block,,Bloque de adobe color melocotón
-adobeCNRFull,blocks,Block,KeyChanged EnChanged,Adobe Full Corner,Angle complet en adobe pêche,Adobe – Komplette Ecke,,Esquina de adobe color melocotón
-adobeCNRInside,blocks,Block,KeyChanged EnChanged,Adobe Inside Corner,Angle intérieur en adobe pêche,Adobe – Innenecke,,Esquina interior de adobe color melocotón
-adobeCNRRamp,blocks,Block,KeyChanged EnChanged,Adobe Ramp Corner,Angle de rampe en adobe pêche,Adobe – Rampenecke,,Esquina de la rampa de adobe color melocotón
-adobePillar100,blocks,Block,KeyChanged EnChanged,Adobe Pillar 100,Pilier 100 en adobe pêche,Adobe – Säule 100,,Pilar de adobe color melocotón 100
-adobePillar50,blocks,Block,KeyChanged EnChanged,Adobe Pillar 50,Pilier 50 en adobe pêche,Adobe – Säule 50,,Pilar de adobe color melocotón 50
-adobePlate,blocks,Block,KeyChanged EnChanged,Adobe Plate,Plaque en adobe pêche,Adobe – Platte,,Placa de adobe color melocotón
-adobePole,blocks,Block,KeyChanged EnChanged,Adobe Pole,Poteau en adobe pêche,Adobe – Pfosten,,Poste de adobe color melocotón
-adobeRamp,blocks,Block,KeyChanged EnChanged,Adobe Ramp,Rampe en adobe pêche,Adobe – Rampe,,Rampa de adobe color melocotón
-adobeWedge,blocks,Block,KeyChanged EnChanged,Adobe Wedge,Pente en adobe pêche,Adobe – Schräge,,Cuña de adobe color melocotón
-adobeWedgeTip,blocks,Block,KeyChanged EnChanged,Adobe Wedge Tip,Sommet de pente en adobe pêche,Adobe – Schrägenspitze,,Punta de cuña de adobe color melocotón
 awningBlock,blocks,Block,KeyChanged EnChanged,Awning Block,Bloc en toile marron,Stoffplane – Block,,Bloque canela de toldo
 awningCNRFull,blocks,Block,KeyChanged EnChanged,Awning Corner Full,Angle complet en toile marron,Stoffplane – Komplette Ecke,,Esquina canela de toldo
 awningCNRInside,blocks,Block,KeyChanged EnChanged,Awning Corner Inside,Angle intérieur en toile marron,Stoffplane – Innenecke,,Esquina interior canela de toldo
@@ -211,7 +201,7 @@ cntShippingCrateShamway,blocks,Container,KeyChanged EnChanged,Shamway Shipping C
 cntShippingCrateShotgunMessiah,blocks,Container,KeyChanged EnChanged,Shotgun Messiah Shipping Crate,Caisse de provisions Shotgun Messiah,Revolverheld-Frachtkiste,,Caja de suministros de escopeta Mesías
 cntShippingCrateWorkingStiffs,blocks,Container,KeyChanged EnChanged,Working Stiffs Shipping Crate,Caisse de provisions Working Stiffs,Working-Stiffs-Frachtkiste,,Caja de suministros de Working Stiffs
 craftSkillGunsDesc,progression,Skill,KeyChanged EnChanged,"Decrease repair penalties and get more from repair kits. Reduce ammunition crafting time. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.",Diminuez les pénalités de réparation et obtenez davantage de kits de réparation. Diminuez le temps de fabrication des munitions. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.,"Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Senke die benötigte Zeit, um Munition zu fertigen. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,Disminuye los castigos de reparación y otorga más kits de reparación. Reduce el tiempo de fabricación de munición. Mejora tu habilidad fabricando y reparando objetos de este grupo.
-craftSkillMiscellaneousDesc,progression,Skill,KeyChanged EnChanged,Craft anything from the Misc Crafting group faster. Gain skill by crafting and repairing items from this group. This skill's levels cannot be purchased.,Fabriquez plus rapidement n'importe quel élément du groupe Fabrication diverse. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.,"Fertige alles in der Kategorie „Sonstiges“ schneller. Erhalte die Fertigkeit, indem du Gegenstände aus dieser Kategorie fertigst und reparierst. Das Level dieser Fertigkeit kann nicht erworben werden.",,Fabrica cualquier objeto del grupo Fabricación varia más rápido. Mejora tu habilidad fabricando y reparando objetos de este grupo.
+craftSkillMiscellaneousDesc,progression,Skill,KeyChanged EnChanged,Craft anything from the Misc Crafting group faster. Gain skill by crafting and repairing items from this group.,Fabriquez plus rapidement n'importe quel élément du groupe Fabrication diverse. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.,"Fertige alles in der Kategorie „Sonstiges“ schneller. Erhalte die Fertigkeit, indem du Gegenstände aus dieser Kategorie fertigst und reparierst.",,Fabrica cualquier objeto del grupo Fabricación varia más rápido. Mejora tu habilidad fabricando y reparando objetos de este grupo.
 craftSkillScienceDesc,progression,Skill,KeyChanged EnChanged,"Craft medical, chemical, mechanical and trap items faster and at better quality if applicable. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.","Fabriquez des objets médicaux, chimiques, mécaniques et des pièges plus rapidement et de meilleure qualité, le cas échéant. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.","Fertige medizinische, chemische und mechanische Gegenstände sowie Fallen schneller und von besserer Qualität, falls zutreffend. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,"Cuando aplique, fabrica objetos médicos, químicos, mecánicos y trampas más rápido y con mejor calidad. Mejora tu habilidad fabricando y reparando objetos de este grupo."
 craftSkillToolsDesc,progression,Skill,KeyChanged EnChanged,"Craft handheld and motorized tools faster and at better quality. Decrease repair penalties and get more from repair kits. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.",Fabriquez les outils manuels et motorisés plus rapidement et de meilleure qualité. Diminuez les pénalités de réparation et obtenez davantage de kits de réparation. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.,"Fertige Handwerkzeuge und motorisierte Werkzeuge schneller und von besserer Qualität. Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,Fabrica herramientas de mano y motorizadas más rápido y de mejor calidad. Disminuye los castigos de reparación y otorga más kits de reparación. Mejora tu habilidad fabricando y reparando objetos de este grupo.
 craftSkillWeaponsDesc,progression,Skill,KeyChanged EnChanged,"Craft bows, crossbows, their ammo and handheld melee weapons faster and with higher quality. Lower repair penalties and get more from repair kits. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.","Fabriquez des arcs, des arbalètes, des flèches et des carreaux, et des armes de mêlée plus rapidement et de meilleure qualité. Réduisez les pénalités de réparation et obtenez davantage des kits de réparation. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.","Fertige Bogen, Armbrüste, die jeweilige Munition und Nahkampfwaffen schneller und von besserer Qualität. Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,"Fabrica arcos, ballestas, su munición y armas cuerpo a cuerpo de mano más rápido y de mejor calidad. Reduce los castigos de reparación y otorga más kits de reparación. Mejora tu habilidad al fabricar y reparar objetos de este grupo."
@@ -226,7 +216,6 @@ burntWoodWedge7,blocks,Block,KeyChanged EnChanged GrChanged,Burnt Wood Wedge 7,B
 leatherChairCouchSofa,blocks,Block,KeyChanged EnChanged GrChanged,Leather Chair,Chaise 04,Ledersessel,,Silla04
 leatherCouchSofa,blocks,Block,KeyChanged EnChanged GrChanged,Leather Sofa,Canapé 02,Ledersofa,,Sofá02
 painKillersTooltip,buffs,Buff,KeyCon KgNone,You took painkillers.,Vous avez pris des antidouleurs.,Du hast Schmerzmittel genommen.,,Tomaste analgésicos.
-adobeGroupDesc,blocks,Block,KgNone,In desert regions adobe is easy to make and it requires no special tools.,"Dans les régions désertes, l'adobe est simple à fabriquer. Vous n'avez besoin d'aucun outil en particulier.",Adobe ist in Wüstenregionen einfach herzustellen und es erfordert keine besonderen Werkzeuge.,,"En regiones desérticas, el adobe es fácil de hacer. Además, no se necesitan herramientas especiales."
 airConditioner,blocks,Block,KgNone,Air Conditioner,Climatiseur,Klimaanlage,,Aire acondicionado
 alphabetLetterSignGroupDesc,blocks,Block,KgNone,Create your own billboards with these single letter signs.,Créez vos propres panneaux grâce à ces lettres.,Erstelle mit diesen Buchstaben deine eigenen Plakatwände.,,Crea tus propios carteles con estas letras.
 awningGroupDesc,blocks,Block,KgNone,An awning made from cloth.,Une toile en tissu.,Eine Stoffplane.,,Un toldo hecho de tela.
@@ -269,8 +258,6 @@ cinderBlocks01,blocks,Block,KgNone,Cinder Blocks01,Parpaings 01,Porenbetonsteine
 cinderBlocks02,blocks,Block,KgNone,Cinder Blocks02,Parpaings 02,Porenbetonsteine 02,,Bloques de cemento 02
 cinderBlocks03,blocks,Block,KgNone,Cinder Blocks03,Parpaings 03,Porenbetonsteine 03,,Bloques de cemento 03
 cobblestoneBlock,blocks,Block,KgNone,Cobblestone Block,Bloc de pavés,Pflastersteinblock,,Bloque de adoquines
-cobblestoneFrameBlock,blocks,Block,KgNone,Cobblestone Frame,Structure en pavés,Pflastersteinrahmen,,Estructura de adoquines
-cobblestoneFrameRamp,blocks,Block,KgNone,Cobblestone Frame Ramp,Rampe avec structure en pavés,Pflastersteinrahmenrampe,,Rampa de estructura de adoquines
 cobblestoneRamp,blocks,Block,KgNone,Cobblestone Ramp,Rampe en pavés,Pflastersteinrampe,,Rampa de adoquines
 cobblestoneStairs25,blocks,Block,KgNone,Cobblestone Stairs,Escaliers en pavés,Pflastersteinstufen,,Escaleras de adoquines
 cobblestoneStairs25Desc,blocks,Block,KgNone,Can be upgraded to concrete.,Ils peuvent également être améliorés pour obtenir des escaliers en béton.,Aufwertung zu Beton möglich.,,Se puede mejorar a hormigón.
@@ -366,8 +353,8 @@ faucetBrass04,blocks,Block,KgNone,Brass Faucet,Robinet en laiton,Messingwasserha
 fencesGroupDesc,blocks,Block,KgNone,Fences and railings can keep the neighbors out. Unless they have turned into zombies. Still useful for not falling from high places.,"Les clôtures et les rambardes vous protègent des voisins envahissants. Sauf s'ils se sont transformés en zombies. Dans tous les cas, elles permettent d'éviter de tomber des espaces en hauteur.","Zäune und Geländer können Nachbarn fernhalten. Außer sie sind Zombies. Dennoch sind sie nützlich, um nicht von hochgelegenen Orten zu fallen.",,"Las alambradas y barandillas pueden mantener alejados a los vecinos. A menos que se hayan convertido en zombis. Aun así, son útiles para no caerte desde lugares altos."
 flagstoneBlock,blocks,Block,KgNone,Flagstone Block,Bloc de dalle,Steinplattenblock,,Bloque de baldosas
 flagstoneGable,blocks,Block,KgNone,Flagstone Gable,Pignon en dalle,Steinplatte – Giebel,,Frontón de baldosas
-flagstoneGroupDesc,blocks,Block,KgNone,Flagstone is not very sturdy but easy to craft early on.,"La dalle n'est pas très solide, mais facile à fabriquer au départ.","Steinplatten sind nicht besonders stabil, aber können schon früh leicht gefertigt werden.",,"Las baldosas no son muy robustas, pero resultan fáciles de fabricar en las primeras fases."
-flagstoneRamp,blocks,Block,KgNone,Flagstone Cabin Ramp,Rampe de cabane en dalle,Steinplattenhütte – Rampe,,Rampa de cabaña de baldosas
+flagstoneGroupDesc,blocks,Block,EnChanged,"Flagstone is easy to craft early on. Upgrade & repair with cobblestone rocks. Upgrade more with iron, concrete mix & others.","La dalle n'est pas très solide, mais facile à fabriquer au départ.",Steinplatten sind einfach zu fertigen. Kann mit Pflastersteinen aufgewertet und repariert werden. Kann unter anderem mit Betonmischung weiter aufgewertet werden.,,"Las baldosas no son muy robustas, pero resultan fáciles de fabricar en las primeras fases."
+flagstoneRamp,blocks,Block,EnChanged,Flagstone Ramp,Rampe de cabane en dalle,Steinplatten – Rampe,,Rampa de cabaña de baldosas
 flagstoneStairs25,blocks,Block,KgNone,Flagstone Stairs,Escaliers en dalle,Steinplattenstufen,,Escaleras de baldosas
 forestCNRCurb,blocks,Block,KgNone,Forest Corner Curb,Angle de bordure de chemin de forêt,Waldrand – Ecke,,Esquina del cordón forestal
 forestCurb,blocks,Block,KgNone,Forest Curb,Bordure de chemin de forêt,Waldrand,,Cordón forestal
@@ -501,7 +488,7 @@ rConcreteWedge,blocks,Block,KgNone,Reinforced Concrete Wedge,Pente en béton ren
 rConcreteWedgeTip,blocks,Block,KgNone,Reinforced Concrete Wedge Tip,Sommet de pente en béton renforcé,Verstärkter Beton – Schrägenspitze,,Punta de cuña de hormigón reforzada
 rebarDestroyed,blocks,Block,KgNone,Rebar Destroyed,Fer à béton détruit,Zerstörtes Stahlgerüst,,Barra de refuerzo destruida
 rebarFrameBlock,blocks,Block,KgNone,Rebar Frame,Structure en fer à béton,Stahlgerüst,,Estructura de barras de refuerzo
-rebarFrameCNRInside,blocks,Block,KgNone,Rebar Frame Inner Corner,Angle intérieur avec structure en fer à béton,Stahlgerüst – Innenecke,,Esquina interior de estructura de barras de refuerzo
+rebarFrameCNRInside,blocks,Block,KgNone,Rebar Frame Inside Corner,Angle intérieur avec structure en fer à béton,Stahlgerüst – Innenecke,,Esquina interior de estructura de barras de refuerzo
 rebarFramePillar100,blocks,Block,KgNone,Rebar Frame Pillar 100,Pilier 100 avec structure en fer à béton,Stahlgerüstsäule 100,,Pilar de estructura de barras de refuerzo 100
 rebarFrameRamp,blocks,Block,KgNone,Rebar Frame Ramp,Rampe avec structure en fer à béton,Stahlgerüstrampe,,Rampa de estructura de barras de refuerzo
 roadRailing,blocks,Block,KgNone,Road Railing,Rambarde de route,Straßengeländer,,Barandilla de carretera
@@ -564,7 +551,7 @@ scrapIronCNRFull,blocks,Block,KgNone,Scrap Iron Corner Full,Angle complet en fer
 scrapIronCNRInside,blocks,Block,KgNone,Scrap Iron Corner Inside,Angle intérieur en ferraille,Alteisen – Innenecke,,Esquina interior de chatarra de hierro
 scrapIronFrameBlock,blocks,Block,KgNone,Scrap Frame,Structure en ferraille,Alteisenrahmen,,Estructura de chatarra
 scrapIronFrameCNRFull,blocks,Block,KgNone,Scrap Frame Full Corner,Angle complet avec structure en ferraille,Alteisenrahmen – Komplette Ecke,,Esquina de estructura de chatarra
-scrapIronFrameCNRInside,blocks,Block,KgNone,Scrap Frame Inner Corner,Angle intérieur avec structure en ferraille,Alteisenrahmen – Innenecke,,Esquina interior de estructura de chatarra
+scrapIronFrameCNRInside,blocks,Block,KgNone,Scrap Frame Inside Corner,Angle intérieur avec structure en ferraille,Alteisenrahmen – Innenecke,,Esquina interior de estructura de chatarra
 scrapIronFrameRamp,blocks,Block,KgNone,Scrap Frame Ramp,Rampe avec structure en ferraille,Alteisenrahmen – Rampe,,Rampa de estructura de chatarra
 scrapIronFrameWedge,blocks,Block,KgNone,Scrap Frame Wedge,Pente avec structure en ferraille,Alteisenrahmen – Schräge,,Cuña de estructura de chatarra
 scrapIronGroupDesc,blocks,Block,KgNone,"While not as sturdy as solid concrete, metal constructions have high structural integrity, requiring fewer support pillars.","N'étant pas aussi solides et robustes que le béton, les constructions en métal sont idéales à la conception des structures et nécessitent moins de piliers.","Metallkonstruktionen sind nicht so stabil wie Massivbeton, doch sie verfügen über eine hohe Standsicherheit und benötigen weniger Stützpfeiler.",,"A pesar de no tener tanta robustez como el hormigón sólido, las construcciones de metal tienen una integridad estructural elevada, por lo que necesitan menos pilares de apoyo."
@@ -634,7 +621,7 @@ storeShelving01Double,blocks,Block,KgNone,Store Shelves Double,Double rayonnage,
 storeShelving01Top,blocks,Block,KgNone,Store Shelves (Top),Rayonnage (haut),Ladenregale (Oberteil),,Estanterías de almacenaje (superior)
 storeShelving01TopDouble,blocks,Block,KgNone,Store Shelves Double (Top),Double rayonnage (haut),Doppelte Ladenregale (Oberteil),,Estanterías de almacenaje doble (superior)
 streetLight01,blocks,Block,EnChanged,Street Light (POI),Lampadaire,Straßenlaterne (POI),,Farol
-tire,blocks,Block,KgNone,Tire,Pneu,Reifen,,Rueda
+tireBlockMinibike,blocks,Block,KgNone,Tire (POI),Pneu,Reifen (POI),,Rueda
 torchWallHolder,blocks,Block,KgNone,Torch Wall Holder,Support mural pour torche,Fackel-Wandhalter,,Portantorchas de pared
 treeBirch10m,blocks,Block,KgNone,Tree Birch10m,Bouleau 10 m,Baum – Birke 10 m,,"Árbol: Abedul, 10 m"
 treeBirch12m,blocks,Block,KgNone,Tree Birch12m,Bouleau 12 m,Baum – Birke 12 m,,"Árbol: Abedul, 12 m"
@@ -729,7 +716,7 @@ woodFenceFarmSheet,blocks,Block,KgNone,Wood Farm Fence,Clôture de ferme en bois
 woodFenceSheet,blocks,Block,KgNone,Wood Fence,Clôture en bois,Holzzaun,,Valla de madera
 woodFrameBlock,blocks,Block,KgNone,Wood Frame,Structure en bois,Holzrahmen,,Estructura de madera
 woodFrameCNRFull,blocks,Block,KgNone,Wood Frame Full Corner,Angle complet avec structure en bois,Holzrahmen – Komplette Ecke,,Esquina de estructura de madera
-woodFrameCNRInside,blocks,Block,KgNone,Wood Frame Inner Corner,Angle intérieur avec structure en bois,Holzrahmen – Innenecke,,Esquina interior de estructura de madera
+woodFrameCNRInside,blocks,Block,KgNone,Wood Frame Inside Corner,Angle intérieur avec structure en bois,Holzrahmen – Innenecke,,Esquina interior de estructura de madera
 woodFrameRamp,blocks,Block,KgNone,Wood Frame Ramp,Rampe avec structure en bois,Holzrahmen – Rampe,,Rampa de estructura de madera
 woodFrameWedge,blocks,Block,KgNone,Wood Frame Wedge,Pente avec structure en bois,Holzrahmen – Schräge,,Cuña de estructura de madera
 woodHalf,blocks,Block,KgNone,Wood 1/2 Block,1/2 de bloc de bois,1/2 Holzblock,,Mitad de madera
@@ -742,7 +729,7 @@ woodLogPillar100Desc,blocks,Block,KgNone,Wood logs are good for crude walls to p
 woodPillar100,blocks,Block,KgNone,Wood Pillar 100,Pilier 100 en bois,Holzsäule 100,,Pilar de madera 100
 woodPillar100Desc,blocks,Block,KgNone,A pillar to build a strong fence or a temple.,Un pilier pouvant servir à construire une clôture solide ou un temple.,Eine Säule für einen stabilen Zaun oder einen Tempel.,,Un pilar para construir una valla resistente o un templo.
 woodPlate,blocks,Block,KgNone,Wood Plate,Plaque en bois,Holzplatte,,Placa de madera
-woodPole,blocks,Block,KgNone,Wooden Pole,Poteau en bois,Holzpfosten,,Poste de madera
+woodPole,blocks,Block,KgNone,Wood Pole,Poteau en bois,Holzpfosten,,Poste de madera
 woodPoleSupport,blocks,Block,KgNone,Wood Pole Support,Support de poteau en bois,Stützender Holzpfosten,,Poste de apoyo de madera
 woodPoleSupport2,blocks,Block,KgNone,Wood Pole Support2,Support de poteau en bois 2,Stützender Holzpfosten 2,,Poste de apoyo 2 de madera
 woodPoleSupportCtr,blocks,Block,KgNone,Wood Pole Support Ctr,Support central de poteau en bois,Stützender Holzpfosten - Mittelstück,,Poste de apoyo de madera Ctr
@@ -750,7 +737,7 @@ woodQuarter,blocks,Block,KgNone,Wood 1/4 Block,1/4 de bloc de bois,1/4 Holzblock
 woodRamp,blocks,Block,KgNone,Wood Ramp,Rampe en bois,Holzrampe,,Rampa de madera
 woodStairs25,blocks,Block,KgNone,Wood Stairs,Escaliers en bois,Holzstufen,,Escaleras de madera
 woodStairs50,blocks,Block,KgNone,Wood Stairs50,Escaliers 50 en bois,Holzstufen 50,,Escaleras de madera 50
-woodSupport,blocks,Block,KgNone,Wooden Support Beam,Poutre de soutien en bois,Hölzerner Stützbalken,,Viga de apoyo de madera
+woodSupport,blocks,Block,KgNone,Wood Support Beam,Poutre de soutien en bois,Hölzerner Stützbalken,,Viga de apoyo de madera
 woodTable,blocks,Block,KgNone,Wood Table,Table en bois,Holztisch,,Mesa de madera
 woodWedge,blocks,Block,KgNone,Wood Wedge,Pente en bois,Holzschräge,,Cuña de madera
 woodWedgeTip,blocks,Block,KgNone,Wood Wedge Tip,Sommet de pente en bois,Holz – Schrägenspitze,,Punta de cuña de madera
@@ -1577,7 +1564,7 @@ clothDesc,items,Item,KgNone,"Cloth is a staple for survival used for clothing, b
 coal,items,Item,KgNone,Lump of Coal,Morceau de charbon,Kohlebrocken,,Trozo de carbón
 coalDesc,items,Item,EnChanged,A great fuel source and a core ingredient for gunpowder.,Un très bon combustible. Peut également servir à fabriquer des torches ou comme composant principal de la poudre à canon.,Eine sehr gutes Brennmaterial und ist eine der wichtigsten Zutaten für die Fertigung von Schießpulver.,,"Una gran fuente de combustible. También se puede usar para fabricar antorchas, así como ingrediente principal para la pólvora."
 cobblestones,items,Item,KgNone,Cobblestone Rocks,Pierres à pavés,Pflastersteine,,Adoquines
-cobblestonesDesc,items,Item,KgNone,Cobblestone rocks can be used to build surprisingly sturdy cobblestone structures.,Les pierres à pavés servent à construire des structures en pavés étonnamment robustes.,Mit Pflastersteinen können erstaunlich gute Pflastersteinstrukturen gebaut werden.,,Los adoquines se pueden usar para construir estructuras de adoquines sorprendentemente robustas.
+cobblestonesDesc,items,Item,EnChanged,Cobblestone rocks can be used to build surprisingly sturdy flagstone and cobblestone structures.,Les pierres à pavés servent à construire des structures en pavés étonnamment robustes.,Mit Pflastersteinen können erstaunlich stabile Steinplatten- und Pflastersteinstrukturen gebaut werden.,,Los adoquines se pueden usar para construir estructuras de adoquines sorprendentemente robustas.
 concreteMix,items,Item,KgNone,Concrete Mix,Mélange à béton,Betonmischung,,Mezcla de hormigón
 concreteMixDesc,items,Item,KgNone,Can be used as a resource to make rebar frames into solid concrete walls once you've bought the concrete perk.,"Après avoir acheté l'avantage du béton, peut servir de ressource pour transformer les structures en fer à béton en murs de béton solides.","Wenn du die Fertigkeit „Beton“ erworben hast, können damit aus Stahlgerüsten solide Betonwände gemacht werden.",,Se puede usar como un recurso para convertir las estructuras en paredes de hormigón una vez que hayas comprado el beneficio de hormigón.
 cookingGrill,items,Item,KgNone,Cooking Grill,Grill,Kochgrill,,Parrilla
@@ -3433,9 +3420,6 @@ sawedoffPumpShotgunSchematicDesc,items,Book,LEGACY,"Learn how to assemble, repai
 10mmRoundCraftingDesc,progression,Skill,LEGACY,Learn to craft 10mm rounds at a workbench.,Apprenez à fabriquer des cartouches de calibre 10 mm.,"Lerne, wie 10 mm Patronen gefertigt werden.",,Aprende a fabricar balas de 10 mm.
 armorSmithing,progression,Skill,LEGACY,Armor Smithing,Forgeron d'armures,Rüstungsschmied,,Forjar armaduras
 miscellaneousCrafting,progression,Skill,LEGACY,Miscellaneous Crafting,Divers Fabrication,Sonstiges Fertigung,,Varios Fabricación
-adobeArrowSlitHalf,blocks,Block,New,Adobe Arrow Slit,,,,
-adobeCTRpole,blocks,Block,New,Adobe Pole Centered,,,,
-adobePyramid,blocks,Block,New,Adobe Pyramid,,,,
 arrowSlit,blocks,Block,New,Arrow Slit,,,,
 awningCNRRoundTop,blocks,Block,New,Awning Corner Round Top,,,,
 barStool,blocks,Block,New,Bar Stool,,Barhocker,,
@@ -3449,15 +3433,10 @@ burningBarrelDesc,blocks,Block,New,The burning barrel is an essential prop in ev
 cobblestoneArrowSlitHalf,blocks,Block,New,Cobblestone Arrow Slit,,,,
 cobblestoneCNRFull,blocks,Block,New,Cobblestone Full Corner,,,,
 cobblestoneCNRInside,blocks,Block,New,Cobblestone Inside Corner,,,,
-cobblestoneCTRpole,blocks,Block,New,cobblestone Pole Centered,,,,
-cobblestoneFrameCNRFull,blocks,Block,New,Cobblestone Frame Full Corner,,,,
-cobblestoneFrameCNRInside,blocks,Block,New,Cobblestone Frame Inside Corner,,,,
-cobblestoneFramePillar100,blocks,Block,New,Cobblestone Frame Pillar 100,,,,
-cobblestoneFramePillar50,blocks,Block,New,Cobblestone Frame Pillar 50,,,,
-cobblestoneFramePlate,blocks,Block,New,Cobblestone Frame Plate,,,,
-cobblestoneFrameStairs25,blocks,Block,New,Cobblestone Frame Stairs,,,,
-cobblestoneFrameWedge,blocks,Block,New,Cobblestone Frame Wedge,,,,
-cobblestoneFrameWedgeTip,blocks,Block,New,Cobblestone Frame Wedge Tip,,,,
+flagstonePillar100,blocks,Block,New,Flagstone Pillar 100,,,,
+flagstonePillar50,blocks,Block,New,Flagstone Pillar 50,,,,
+flagstoneWedgeTip,blocks,Block,New,Flagstone Wedge Tip,,,,
+flagstonePole,blocks,Block,New,Flagstone Pole,,,,
 cobblestoneHalf,blocks,Block,New,cobblestone Half,,,,
 cobblestonePillar100,blocks,Block,New,Cobblestone Pillar 100,,,,
 cobblestonePillar50,blocks,Block,New,Cobblestone Pillar 50,,,,
@@ -3486,14 +3465,15 @@ corrugatedMetalSheetBent3,blocks,Block,New,corrugated Metal Sheet Bent 3,,,,
 corrugatedMetalSheetBent4,blocks,Block,New,corrugated Metal Sheet Bent 4,,,,
 corrugatedMetalWedge,blocks,Block,New,corrugated Metal Wedge,,,,
 corrugatedMetalWedgeIncline,blocks,Block,New,corrugated Metal Wedge Incline,,,,
+cobblestoneWedgeIncline,blocks,Block,New,Cobblestone Wedge Incline,,,,
 corrugatedMetalWedgeTip,blocks,Block,New,corrugated Metal Wedge Tip,,,,
 decorationBlockGroupDesc,blocks,Block,New,A decorative block from the creative menu.,,,,
 drawBridgeGroupDesc,blocks,Block,New,It's old-fashioned but with everything that's happening you might just need a little old-fashioned. ,,Sieht mittelalterlich aus aber das hat im Mittellater schon recht gut funktioniert.,,
 fertilizedFarmland,blocks,Block,New,Fertilized Farmland,,,,
 flagPoleWhiteRiver,blocks,Block,New,White River Flagpole,,,,
 flagstoneArrowSlitHalf,blocks,Block,New,Flagstone Arrow Slit,,,,
-flagstoneCNRFull,blocks,Block,New,flagstone CNR Full,,,,
-flagstoneCNRInside,blocks,Block,New,flagstone CNR Inside,,,,
+flagstoneCNRFull,blocks,Block,New,flagstone Corner Full,,Steinplatten – Komplette Ecke,,
+flagstoneCNRInside,blocks,Block,New,Flagstone Inside Corner,,Steinplatten – Innenecke,,
 flagstoneCTRpole,blocks,Block,New,flagstone Pole Centered,,,,
 flagstoneHalf,blocks,Block,New,flagstone Half,,,,
 flagstonePlate,blocks,Block,New,flagstone Plate,,,,
@@ -3515,7 +3495,7 @@ hubcapNoMineDesc,blocks,Block,New,Some car lost a hubcap here.,,,,
 ironBarsCentered,blocks,Block,New,Iron Bars Centered,,Eisenstangen mittig,,Barras de hierro centrada
 jailDoor,blocks,Block,New,Jail Door,,Gefängnistür,,
 jailDoorDesc,blocks,Block,New,Where do you think you're going?,,,,
-legacyBlockDesc,blocks,Block,New,This item or block has been removed from the game. The ID persists for savegame compatibility.,,,,
+legacyBlockDesc,blocks,Block,New,This item or block has been or will be removed from the game. The ID persists for savegame compatibility.,,,,
 loudspeaker,blocks,Block,New,Loudspeaker (POI),,Lautsprecher (POI),,
 metalCatwalk,blocks,Block,New,Metal Catwalk,, ,,
 metalCatwalkGroupDesc,blocks,Block,New,Metal stairs and catwalks are essential for that industrial look.,,,,
@@ -3540,6 +3520,7 @@ rConcreteCTREighth,blocks,Block,New,rConcrete CTR Eighth,,,,
 rConcreteCTRpole,blocks,Block,New,rConcrete Pole Centered,,,,
 rScrapIronArrowSlitHalf,blocks,Block,New,Reinforced Scrap Iron Arrow Slit,,,,
 rScrapIronCNRRamp,blocks,Block,New,rScrapIron CNR Ramp,,,,
+cobblestoneCNRRamp,blocks,Block,New,Cobblestone CNR Ramp,,,,
 rScrapIronCNRRound,blocks,Block,New,rScrapIron CNR Round,,,,
 rScrapIronCNRRoundTop,blocks,Block,New,rScrapIron CNR RoundTop,,,,
 rScrapIronCTRPlate,blocks,Block,New,rScrapIron CTR Plate,,,,
@@ -3572,6 +3553,7 @@ stainlessSteelBlock,blocks,Block,New,Stainless Steel Block,,,,
 stainlessSteelCNRFull,blocks,Block,New,Stainless Steel Full Corner,,,,
 stainlessSteelCNRInside,blocks,Block,New,Stainless Steel Inside Corner,,,,
 stainlessSteelCNRRamp,blocks,Block,New,Stainless Steel Ramp Corner,,,,
+flagstoneCNRRamp,blocks,Block,New,Flagstone Ramp Corner,,,,
 stainlessSteelCNRRound,blocks,Block,New,Stainless Steel Corner Round,,,,
 stainlessSteelCNRRoundTop,blocks,Block,New,Stainless Steel Corner Round Top,,,,
 stainlessSteelCTREighth,blocks,Block,New,stainless Steel CTR Eighth,,,,
@@ -3584,6 +3566,8 @@ stainlessSteelPillar50,blocks,Block,New,Stainless Steel Pillar 50,,,,
 stainlessSteelPlate,blocks,Block,New,Stainless Steel Plate,,,,
 stainlessSteelPole,blocks,Block,New,Stainless Steel Pole,,,,
 stainlessSteelPyramid,blocks,Block,New,Stainless Steel Pyramid,,,,
+flagstonePyramid,blocks,Block,New,Flagstone Pyramid,,,,
+cobblestonePyramid,blocks,Block,New,Cobblestone Pyramid,,,,
 stainlessSteelQuarter,blocks,Block,New,Stainless Steel 1/4 Block,,,,
 stainlessSteelRamp,blocks,Block,New,Stainless Steel Ramp,,,,
 stainlessSteelStairs25,blocks,Block,New,Stainless Steel Stairs,,,,
@@ -3928,10 +3912,11 @@ partsNailgun_parts,items,Part,New,Nailgun Parts,,,,
 partsNailgun_receiver,items,Part,New,Nailgun Receiver,,,,
 partsNailgunGroupDesc,items,Part,New,A part of the nailgun. Assemble with other parts to create a complete nailgun once you've read the nailgun book.,,,,
 solarCell,items,Part,New,Solar Cell,,,,
+solarCellDesc,items,Part,New,Place solar cells into a solar cell bank to generate power.,,,,
 hammerOfGod,items,Tool,New,Hammer Of God,,Hammer der Götter,,
 hammerOfGodDesc,items,Tool,New,Ragnarök!,,Ragnarök!,,
 paintTool,items,Tool,New,Paint Brush,,Malerpinsel,,
-paintToolDesc,items,Tool,New,Uses paint to paint building blocks. You can also erase unwanted paint from blocks.,,Benutze Farbe um Blöcke anzumalen. Du kannst die Farbe von angemalten Blöcken auch wieder entfernen.,,
+paintToolDesc,items,Tool,New,Use paint to paint building blocks and hold Reload action to choose paint options. You can also erase unwanted paint from blocks with the secondary action.,,Benutze Farbe um Blöcke anzumalen und halte die Nachladen Aktion für Optionen. Mit der sekundären Aktion kannst Du die Farbe von angemalten Blöcken wieder entfernen.,,
 wireTool,items,Tool,New,Wire Tool,,,,
 wireToolDesc,items,Tool,New,Use the wire tool to wire electrical components. See Journal Tip for more info.,,,,
 txGroupDecoration,painting,Group,New,Decorations,,,,
@@ -4285,17 +4270,17 @@ rebarFrameGroupDesc,blocks,Block,New,Place and upgrade with concrete mix and a c
 concreteGroupDesc,blocks,Block,New,A very flexible building material. Place and wait for the concrete to set. Can be upgraded to reinforced concrete.,"Offrant une bonne protection, le béton est un matériau de construction très souple qui vous permet de fabriquer de nombreuses formes. Peut être amélioré.",Ein sehr flexibles Baumaterial. Braucht Zeit zum Aushärten. Kann zu verstärktem Beton aufgewertet werden.,,"El hormigón ofrece una buena protección y es un material de construcción muy flexible, por lo que se puede moldear mientras se usa. Se puede mejorar."
 ttRepairBeforePickup,UI,Tooltip,New,You must repair this before picking it up.,,,,
 electricBasicsName,progression,Perk,New,Electricity Basics,,,,
-electricBasicsDesc,progression,Perk,New,Lorem ipsum dolor sit amet,,,,
+electricBasicsDesc,progression,Perk,New,This perk will unlock recipes for electrical devices.,,,,
 electricTriggersName,progression,Perk,New,Switches and Triggers,,,,
-electricTriggersDesc,progression,Perk,New,Lorem ipsum dolor sit amet,,,,
+electricTriggersDesc,progression,Perk,New,This perk will unlock recipes for electrical devices.,,,,
 electricTrapsMeleeName,progression,Perk,New,Melee Traps,,,,
-electricTrapsMeleeDesc,progression,Perk,New,Lorem ipsum dolor sit amet,,,,
+electricTrapsMeleeDesc,progression,Perk,New,This perk will unlock recipes for electrical devices.,,,,
 electricTrapsRangedName,progression,Perk,New,Ranged Traps,,,,
-electricTrapsRangedDesc,progression,Perk,New,Lorem ipsum dolor sit amet,,,,
+electricTrapsRangedDesc,progression,Perk,New,This perk will unlock recipes for electrical devices.,,,,
 electricGeneratorName,progression,Perk,New,Generator Bank,,,,
-electricGeneratorDesc,progression,Perk,New,Lorem ipsum dolor sit amet,,,,
+electricGeneratorDesc,progression,Perk,New,This perk will unlock recipes for electrical devices.,,,,
 electricBatteryBankName,progression,Perk,New,Battery Bank,,,,
-electricBatteryBankDesc,progression,Perk,New,Schematic or Book Rare Loot Only,,,,
+electricBatteryBankDesc,progression,Perk,New,This perk will unlock recipes for electrical devices. This perk cannot be bought but a a schematic can be found in the world.,,,,
 electricSolarBankName,progression,Perk,New,Solar Power,,,,
 electricSolarBankDesc,progression,Perk,New,Trader Only,,,,
 doItYourselfName,progression,Perk,New,Do It Yourself,,,,
@@ -4367,12 +4352,7 @@ zombieUtilityWorkerFeral,entityclasses,Entity,New,Feral Utility Worker,,,,
 zombieWightFeralRadiated,entityclasses,Entity,New,Feral Radiated Wight,,"Wilder Streuner, verstrahlt",,
 zombieYoFeral,entityclasses,Entity,New,Feral Carcass,,,,
 blockcommand_options,blocks,Radial,New,Options,,Optionen,,
-adobeWedgeTipCNRFullBottom,blocks,Block,New,Adobe Wedge Full Corner Bottom,,Adobe Schrägenspitze Komplette Ecke Unten,,
-adobeStairs25CornerCNR,blocks,Block,New,Adobe Stairs Corner,,Adobe Stufenecke,,
-adobeWedgeCNRInsideBottom,blocks,Block,New,Adobe Wedge Inside Corner Bottom,,Adobe Schräge Innenecke Unten,,
-adobeWedgeCNRInsideTop,blocks,Block,New,Adobe Wedge Inside Corner Top,,Adobe Schräge Innenecke Oben,,
-adobeWedgeIncline,blocks,Block,New,Adobe Wedge Incline,,Adobe Dachvorsprung,,
-adobeWedgeTipCNRFullTop,blocks,Block,New,Adobe Wedge Full Corner Top,,Adobe Schrägenspitze Komplette Ecke Oben,,
+flagstoneWedgeIncline,blocks,Block,New,Flagstone Wedge Incline,,Steinplatten Dachvorsprung,,
 brickWedgeTipCNRFullBottom,blocks,Block,New,Brick Wedge Full Corner Bottom,,Ziegel Schrägenspitze Komplette Ecke Unten,,
 brickStairs25CornerCNR,blocks,Block,New,Brick Stairs Corner,,Ziegel Stufenecke,,
 brickWedgeCNRInsideBottom,blocks,Block,New,Brick Wedge Inside Corner Bottom,,Ziegel Schräge Innenecke Unten,,
@@ -4380,11 +4360,11 @@ brickWedgeCNRInsideTop,blocks,Block,New,Brick Wedge Inside Corner Top,,Ziegel Sc
 brickWedgeIncline,blocks,Block,New,Brick Wedge Incline,,Ziegel Dachvorsprung,,
 brickWedgeTipCNRFullTop,blocks,Block,New,Brick Wedge Full Corner Top,,Ziegel Schrägenspitze Komplette Ecke Oben,,
 cobblestoneWedgeTipCNRFullBottom,blocks,Block,New,Cobblestone Wedge Full Corner Bottom,,Pflasterstein Schrägenspitze Komplette Ecke Unten,,
-cobblestoneFrameWedgeTipCNRFullBottom,blocks,Block,New,Cobblestone Frame Wedge Full Corner Bottom,,Pflastersteinrahmen Schrägenspitze Komplette Ecke Unten,,
-cobblestoneFrameStairs25CornerCNR,blocks,Block,New,Cobblestone Frame Stairs Corner,,Pflastersteinrahmen Stufenecke,,
-cobblestoneFrameWedgeCNRInsideBottom,blocks,Block,New,Cobblestone Frame Wedge Inside Corner Bottom,,Pflastersteinrahmen Schräge Innenecke Unten,,
-cobblestoneFrameWedgeCNRInsideTop,blocks,Block,New,Cobblestone Frame Wedge Inside Corner Top,,Pflastersteinrahmen Schräge Innenecke Oben,,
-cobblestoneFrameWedgeTipCNRFullTop,blocks,Block,New,Cobblestone Frame Wedge Full Corner Top,,Pflastersteinrahmen Schrägenspitze Komplette Ecke Oben,,
+flagstoneWedgeTipCNRFullBottom,blocks,Block,New,Flagstone Wedge Full Corner Bottom,,Steinplatten Schrägenspitze Komplette Ecke Unten,,
+flagstoneStairs25CornerCNR,blocks,Block,New,Flagstone Stairs Corner,,Steinplatten Stufenecke,,
+flagstoneWedgeCNRInsideBottom,blocks,Block,New,Flagstone Wedge Inside Corner Bottom,,Steinplatten Schräge Innenecke Unten,,
+flagstoneWedgeCNRInsideTop,blocks,Block,New,Flagstone Wedge Inside Corner Top,,Steinplatten Schräge Innenecke Oben,,
+flagstoneWedgeTipCNRFullTop,blocks,Block,New,Flagstone Wedge Full Corner Top,,Steinplatten Schrägenspitze Komplette Ecke Oben,,
 cobblestoneStairs25CornerCNR,blocks,Block,New,Cobblestone Stairs Corner,,Pflasterstein Stufenecke,,
 cobblestoneWedgeCNRInsideBottom,blocks,Block,New,Cobblestone Wedge Inside Corner Bottom,,Pflasterstein Schräge Innenecke Unten,,
 cobblestoneWedgeCNRInsideTop,blocks,Block,New,Cobblestone Wedge Inside Corner Top,,Pflasterstein Schräge Innenecke Oben,,
@@ -4413,7 +4393,7 @@ rScrapIronWedgeCNRInsideBottom,blocks,Block,New,Reinforced Scrap Iron Wedge Insi
 rScrapIronWedgeCNRInsideTop,blocks,Block,New,Reinforced Scrap Iron Wedge Inside Corner Top,,Verstärktes Alteisen - Schräge Innenecke Oben,,
 rScrapIronWedgeIncline,blocks,Block,New,Reinforced Scrap Iron Wedge Incline,,Verstärktes Alteisen - Dachvorsprung,,
 rScrapIronWedgeTipCNRFullTop,blocks,Block,New,Reinforced Scrap Iron Wedge Full Corner Top,,Verstärktes Alteisen - Schrägenspitze Komplette Ecke Oben,,
-rWoodWedgeTipCNRFullBottom,blocks,Block,New,Reinforced Wood Metal Wedge Full Corner Bottom,,Verstärktes Holz – Schrägenspitze Komplette Ecke Unten,,
+rWoodWedgeTipCNRFullBottom,blocks,Block,New,Reinforced Wood Wedge Full Corner Bottom,,Verstärktes Holz – Schrägenspitze Komplette Ecke Unten,,
 rWoodMetalWedgeTipCNRFullBottom,blocks,Block,New,Reinforced Wood Metal Wedge Full Corner Bottom,,Metallverstärktes Holz – Schrägenspitze Komplette Ecke Unten,,
 rWoodMetalStairs25CornerCNR,blocks,Block,New,Reinforced Wood Metal Stairs Corner,,Metallverstärktes Holz – Stufenecke,,
 rWoodMetalWedgeCNRInsideBottom,blocks,Block,New,Reinforced Wood Metal Wedge Inside Corner Bottom,,Metallverstärktes Holz – Schräge Innenecke Unten,,
@@ -4472,10 +4452,9 @@ woodWedgeCNRInsideBottom,blocks,Block,New,Wood Wedge Inside Corner Bottom,,Holz 
 woodWedgeTipCNRFullBottom,blocks,Block,New,Wood Wedge Full Corner Bottom,,Holz Schrägenspitze Komplette Ecke Unten,,
 woodWedgeIncline,blocks,Block,New,Wood Wedge Incline,,Holz Dachvorsprung,,
 pouredConcreteCTRpole,blocks,Block,New,Wet Concrete Pole Centered,,Feuchter Beton - Pfosten Zentriert,,
-adobeCNRRampFiller,blocks,Block,New,Adobe Ramp Corner Filler,,Adobe – Rampenecke Füller,,
 brickCNRRampFiller,blocks,Block,New,Brick Ramp Corner Filler,,Ziegel – Rampenecke Füller,,
 cobblestoneCNRRampFiller,blocks,Block,New,Cobblestone Ramp Corner Filler,,Pflasterstein – Rampenecke Füller,,
-cobblestoneFrameCNRRampFiller,blocks,Block,New,Cobblestone Frame Ramp Corner Filler,,Pflastersteinrahmen – Rampenecke Füller,,
+flagstoneCNRRampFiller,blocks,Block,New,Flagstone Ramp Corner Filler,,Steinplatten – Rampenecke Füller,,
 concreteCNRRampFiller,blocks,Block,New,Concrete Ramp Corner Filler,,Beton – Rampenecke Füller,,
 pouredConcreteCNRRampFiller,blocks,Block,New,Wet Concrete Ramp Corner Filler,,Feuchter Beton – Rampenecke Füller,,
 rConcreteCNRRampFiller,blocks,Block,New,Reinforced Concrete Ramp Corner Filler,,Verstärkter Beton – Rampenecke Füller,,
@@ -4639,13 +4618,14 @@ insulator,items,Item,New,Insulator,,,,
 insulatorDesc,items,Item,New,Used to build electrical devices.,,,,
 ttCantHaveParent,UI,Tooltip,New,This power source cannot have a parent connection.,,,,
 ttWireLimit,UI,Tooltip,New,This power component has the maximum number of wired connections.,,,,
-torchGroupDesc,blocks,Block,New,The smell and flickering light of torches (less so with candles) will attract zombies.,,Der Geruch und das flackernde Licht von Fackeln (weniger bei Kerzen) wird Zombies anziehen.,,
+torchGroupDesc,blocks,Block,New,CREATIVE: Has no effect on the heat map.,,,,
+torchPlayerGroupDesc,blocks,Block,New,The smell and flickering light of torches (less so with candles) will attract zombies.,,Der Geruch und das flackernde Licht von Fackeln (weniger bei Kerzen) wird Zombies anziehen.,,
 looseBoardsTrapPlate1x1,blocks,Block,New,Loose Boards Plate 1x1,,,,
 looseBoardsTrapPlate1x1Desc,blocks,Block,New,A false floor or drop ceiling plate that will disintegrate when stepped on.,,,,
 opaqueBusinessGlass,blocks,Block,New,Opaque Business Glass,,,,
-adobeWhiteArch3m,blocks,Block,New,Adobe Arch 3m Corner,,,,
-adobeWhiteArch3m_tip,blocks,Block,New,Adobe Arch 3m Tip,,,,
-adobeWhiteArch3m_center,blocks,Block,New,Adobe Arch 3m Middle,,,,
+flagstoneArch3m,blocks,Block,New,Flagstone Arch 3m Corner,,,,
+flagstoneArch3m_tip,blocks,Block,New,Flagstone Arch 3m Tip,,,,
+flagstoneArch3m_center,blocks,Block,New,Flagstone Arch 3m Middle,,,,
 pressureplateLong,blocks,Electricity,New,Pressure Plate 1x5,,,,
 doorGroupDesc,blocks,Block,New,Press & hold [activate] to lock it or set a combination. Upgrade & repair with a construction tool using the secondary action.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide de bois et d'un outil de construction grâce à l'action secondaire.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Usa la acción secundaria para mejorar y reparar con madera y con una herramienta de construcción.
 ttBlockMissingPickup,UI,Tooltip,New,The block is no longer available for pickup.,,,,
@@ -4676,6 +4656,196 @@ lblLightValue,UI,Item Info,New,Light Value,,,,
 ttPowerSourceUnderwater,UI,Tooltip,New,This power source cannot be activated while in water.,,,,
 trapGlassBusinessSheet1x1,blocks,Block,New,Business Glass Pane (Trap),,Geschäftsglasscheibe (Falle),,
 trapGlassBusinessCTRSheet1x1,blocks,Block,New,Business Glass Centered (Trap),,Geschäftsglasblock mittig (Falle),,
+brickArch,blocks,Block,New,Brick Arch 2m,,,,
+cobblestoneArch,blocks,Block,New,Cobblestone Arch 2m,,,,
+flagstoneArch,blocks,Block,New,Flagstone Arch 2m,,,,
+concreteArch,blocks,Block,New,Concrete Arch 2m,,,,
+pouredConcreteArch,blocks,Block,New,Wet Concrete Arch 2m,,,,
+rConcreteArch,blocks,Block,New,Reinforced Concrete Arch 2m,,,,
+rScrapIronArch,blocks,Block,New,Reinforced Scrap Iron Arch 2m,,,,
+rWoodArch,blocks,Block,New,Reinforced Wood Arch 2m,,,,
+rWoodMetalArch,blocks,Block,New,Reinforced Wood Metal Arch 2m,,,,
+scrapIronArch,blocks,Block,New,Scrap Iron Arch 2m,,,,
+scrapIronFrameArch,blocks,Block,New,Scrap Iron Frame Arch 2m,,,,
+solidScrapIronFrameArch,blocks,Block,New,Solid Scrap Iron Frame Arch 2m,,,,
+solidWoodFrameArch,blocks,Block,New,Solid Wood Frame Arch 2m,,,,
+stainlessSteelArch,blocks,Block,New,Stainless Steel Arch 2m,,,,
+steelArch,blocks,Block,New,Steel Arch 2m,,,,
+woodArch,blocks,Block,New,Wood Arch 2m,,,,
+woodFrameArch,blocks,Block,New,Wood Frame Arch 2m,,,,
+lightPlayerGroupDesc,blocks,Block,New,Use the wiring tool to connect a power source to this light and you should be able to turn it on.,,,,
+lightPOIGroupDesc,blocks,Block,New,CREATIVE: Requires no power and can be turned on/off when designing prefabs.,,,,
+ttPaintTextureIsLocked,UI,Tooltip,New,This paint texture is locked.,,,,
+ttSkillRankAlreadyKnown,UI,Tooltip,New,This skill rank is already known.,,,,
+lblContextActionCurrent,UI,Item Context Menu,New,Current,,,,
+xuiUnlockAmmo,UI,Menu,New,Unlock Ammo,,,,
+xuiLockAmmo,UI,Menu,New,Lock Ammo,,,,
+decorativeBlockGroupDesc,blocks,Block,New,An item of mostly decorative value.,,,,
+inpGrpPlayerControlName,UI,Controls Dialog,,Player movement,,,,
+inpGrpPlayerControlDesc,UI,Controls Dialog,,Controlling your character, interacting with the world,,,,
+inpGrpToolbeltName,UI,Controls Dialog,,Toolbelt,,,,
+inpGrpToolbeltDesc,UI,Controls Dialog,,Toolbelt slot selection,,,,
+inpGrpMenuName,UI,Controls Dialog,,Menu,,,,
+inpGrpMenuDesc,UI,Controls Dialog,,,,,,
+inpGrpDialogsName,UI,Controls Dialog,,Dialogs,,,,
+inpGrpDialogsDesc,UI,Controls Dialog,,In game dialog keys,,,,
+inpGrpMpName,UI,Controls Dialog,,Multiplayer,,,,
+inpGrpMpDesc,UI,Controls Dialog,,Features for multiplayer,,,,
+inpGrpUiName,UI,Controls Dialog,,UI,,,,
+inpGrpUiDesc,UI,Controls Dialog,,Controlling the UI,,,,
+inpGrpAdminName,UI,Controls Dialog,,Admin,,,,
+inpGrpAdminDesc,UI,Controls Dialog,,Admin mode features,,,,
+inpGrpGlobalFunctionsName,UI,Controls Dialog,,Generic,,,,
+inpGrpGlobalFunctionsDesc,UI,Controls Dialog,,Global generic hotkeys not related to actual gameplay,,,,
+inpGrpEditName,UI,Controls Dialog,,Edit Mode,,,,
+inpGrpEditDesc,UI,Controls Dialog,,Keys for the editor features,,,,
+inpActPlayerMoveForwardName,UI,Controls Dialog,,Forward,,,,
+inpActPlayerMoveForwardDesc,UI,Controls Dialog,,Move forward,,,,
+inpActPlayerMoveBackName,UI,Controls Dialog,,Back,,,,
+inpActPlayerMoveBackDesc,UI,Controls Dialog,,Move backward,,,,
+inpActPlayerMoveLeftName,UI,Controls Dialog,,Left,,,,
+inpActPlayerMoveLeftDesc,UI,Controls Dialog,,Strafe left,,,,
+inpActPlayerMoveRightName,UI,Controls Dialog,,Right,,,,
+inpActPlayerMoveRightDesc,UI,Controls Dialog,,Strafe right,,,,
+inpActPlayerPrimaryName,UI,Controls Dialog,,Primary,,,,
+inpActPlayerPrimaryDesc,UI,Controls Dialog,,"Shooting, rotating blocks, etc.",,,,
+inpActPlayerSecondaryName,UI,Controls Dialog,,Secondary,,,,
+inpActPlayerSecondaryDesc,UI,Controls Dialog,,"Aim down sights, place blocks, etc.",,,,
+inpActPlayerRunName,UI,Controls Dialog,,Run,,,,
+inpActPlayerRunDesc,UI,Controls Dialog,,Hold for running,,,,
+inpActPlayerJumpName,UI,Controls Dialog,,Jump,,,,
+inpActPlayerJumpDesc,UI,Controls Dialog,,Jump,,,,
+inpActPlayerCrouchName,UI,Controls Dialog,,Crouch,,,,
+inpActPlayerCrouchDesc,UI,Controls Dialog,,Hold for crouching,,,,
+inpActPlayerToggleCrouchName,UI,Controls Dialog,,Toggle Crouch,,,,
+inpActPlayerToggleCrouchDesc,UI,Controls Dialog,,Toggle crouching,,,,
+inpActScopeZoomInName,UI,Controls Dialog,,Scope Zoom In,,,,
+inpActScopeZoomInDesc,UI,Controls Dialog,,Also used for scrolling through toolbelt slots,,,,
+inpActScopeZoomOutName,UI,Controls Dialog,,Scope Zoom Out,,,,
+inpActScopeZoomOutDesc,UI,Controls Dialog,,Also used for scrolling through toolbelt slots,,,,
+inpActPlayerDropName,UI,Controls Dialog,,Drop Toolbelt Item,,,,
+inpActPlayerDropDesc,UI,Controls Dialog,,Drops the item from the currently active toolbelt slot,,,,
+inpActPlayerToggleFlashlightName,UI,Controls Dialog,,Toggle Flashlight,,,,
+inpActPlayerToggleFlashlightDesc,UI,Controls Dialog,,"Toggle all sorts of player lights, e.g.\nflashlights, gun mounted lights, nightvision",,,,
+inpActHonkHornName,UI,Controls Dialog,,Honk Horn,,,,
+inpActHonkHornDesc,UI,Controls Dialog,,Honk the horn while on the minibike,,,,
+inpActReloadTakeAllName,UI,Controls Dialog,,Reload / Take All,,,,
+inpActReloadTakeAllDesc,UI,Controls Dialog,,Reload currently hold item or keep pressed for\na moment to select ammunition / block rotation / paint type.\nAlso used to take everything from the currently opened loot container.,,,,
+inpActActivateName,UI,Controls Dialog,,Interact,,,,
+inpActActivateDesc,UI,Controls Dialog,,"Interact with containers, workstations etc. in the world",,,,
+inpActInventorySlot1Name,UI,Controls Dialog,,Slot 1,,,,
+inpActInventorySlot1Desc,UI,Controls Dialog,,Select toolbelt slot 1,,,,
+inpActInventorySlot2Name,UI,Controls Dialog,,Slot 2,,,,
+inpActInventorySlot2Desc,UI,Controls Dialog,,Select toolbelt slot 2,,,,
+inpActInventorySlot3Name,UI,Controls Dialog,,Slot 3,,,,
+inpActInventorySlot3Desc,UI,Controls Dialog,,Select toolbelt slot 3,,,,
+inpActInventorySlot4Name,UI,Controls Dialog,,Slot 4,,,,
+inpActInventorySlot4Desc,UI,Controls Dialog,,Select toolbelt slot 4,,,,
+inpActInventorySlot5Name,UI,Controls Dialog,,Slot 5,,,,
+inpActInventorySlot5Desc,UI,Controls Dialog,,Select toolbelt slot 5,,,,
+inpActInventorySlot6Name,UI,Controls Dialog,,Slot 6,,,,
+inpActInventorySlot6Desc,UI,Controls Dialog,,Select toolbelt slot 6,,,,
+inpActInventorySlot7Name,UI,Controls Dialog,,Slot 7,,,,
+inpActInventorySlot7Desc,UI,Controls Dialog,,Select toolbelt slot 7,,,,
+inpActInventorySlot8Name,UI,Controls Dialog,,Slot 8,,,,
+inpActInventorySlot8Desc,UI,Controls Dialog,,Select toolbelt slot 8,,,,
+inpActInventorySlotLeftName,UI,Controls Dialog,,Previous Slot,,,,
+inpActInventorySlotLeftDesc,UI,Controls Dialog,,Cycle toolbelt slot to the left,,,,
+inpActInventorySlotRightName,UI,Controls Dialog,,Next Slot,,,,
+inpActInventorySlotRightDesc,UI,Controls Dialog,,Cycle toolbelt slot to the right,,,,
+inpActMenuName,UI,Controls Dialog,,Menu,,,,
+inpActMenuDesc,UI,Controls Dialog,,Open menu,,,,
+inpActInventoryName,UI,Controls Dialog,,Inventory,,,,
+inpActInventoryDesc,UI,Controls Dialog,,Open crafting tab of inventory. Hold for a moment\nto bring up radial to select dialog instead.,,,,
+inpActSkillsName,UI,Controls Dialog,,Skills,,,,
+inpActSkillsDesc,UI,Controls Dialog,,Open skills tab,,,,
+inpActQuestsName,UI,Controls Dialog,,Quests,,,,
+inpActQuestsDesc,UI,Controls Dialog,,Open quests tab,,,,
+inpActJournalName,UI,Controls Dialog,,Journal,,,,
+inpActJournalDesc,UI,Controls Dialog,,Open journal tab,,,,
+inpActCharacterName,UI,Controls Dialog,,Character,,,,
+inpActCharacterDesc,UI,Controls Dialog,,Open character tab of inventory,,,,
+inpActMapName,UI,Controls Dialog,,Map,,,,
+inpActMapDesc,UI,Controls Dialog,,Open map tab,,,,
+inpActCreativeName,UI,Controls Dialog,,Creative Menu,,,,
+inpActCreativeDesc,UI,Controls Dialog,,Open creative menu tab,,,,
+inpActScoreboardName,UI,Controls Dialog,,Scoreboard,,,,
+inpActScoreboardDesc,UI,Controls Dialog,,Open scoreboard tab,,,,
+inpActChatName,UI,Controls Dialog,,Chat,,,,
+inpActChatDesc,UI,Controls Dialog,,Open chat window,,,,
+inpActPushToTalkName,UI,Controls Dialog,,Push to Talk,,,,
+inpActPushToTalkDesc,UI,Controls Dialog,,,,,,
+inpActActionHotkey1Name,UI,Controls Dialog,,Action hotkey 1,,,,
+inpActActionHotkey1Desc,UI,Controls Dialog,,Used for quick actions,,,,
+inpActActionHotkey2Name,UI,Controls Dialog,,Action hotkey 2,,,,
+inpActActionHotkey2Desc,UI,Controls Dialog,,Used for quick actions,,,,
+inpActActionHotkey3Name,UI,Controls Dialog,,Action hotkey 3,,,,
+inpActActionHotkey3Desc,UI,Controls Dialog,,Used for quick actions,,,,
+inpActActionHotkey4Name,UI,Controls Dialog,,Action hotkey 4,,,,
+inpActActionHotkey4Desc,UI,Controls Dialog,,Used for quick actions,,,,
+inpActPageDownName,UI,Controls Dialog,,Page Down,,,,
+inpActPageDownDesc,UI,Controls Dialog,,Previous page in lists,,,,
+inpActPageUpName,UI,Controls Dialog,,Page Up,,,,
+inpActPageUpDesc,UI,Controls Dialog,,Next page in lists,,,,
+inpActUiCancelName,UI,Controls Dialog,,Close Windows,,,,
+inpActUiCancelDesc,UI,Controls Dialog,,Close currently open UI windows,,,,
+inpActFocusSearchName,UI,Controls Dialog,,Focus Search,,,,
+inpActFocusSearchDesc,UI,Controls Dialog,,Set input focus to search field of current dialog,,,,
+inpActUiTabLeftName,UI,Controls Dialog,,Previous Tab,,,,
+inpActUiTabLeftDesc,UI,Controls Dialog,,Cycle through the dialog tabs left,,,,
+inpActUiTabRightName,UI,Controls Dialog,,Next Tab,,,,
+inpActUiTabRightDesc,UI,Controls Dialog,,Cycle through the dialog tabs right,,,,
+inpActCategoryRightName,UI,Controls Dialog,,Previous Category,,,,
+inpActCategoryRightDesc,UI,Controls Dialog,,"Select previous filter category,\ne.g. in workstations or creative menu",,,,
+inpActCategoryLeftName,UI,Controls Dialog,,Next Category,,,,
+inpActCategoryLeftDesc,UI,Controls Dialog,,"Select next filter category,\ne.g. in workstations or creative menu",,,,
+inpActGodModeName,UI,Controls Dialog,,God Mode,,,,
+inpActGodModeDesc,UI,Controls Dialog,,"Toggle god mode (fly, no clip, invulnerability)",,,,
+inpActFlyModeName,UI,Controls Dialog,,Fly Mode,,,,
+inpActFlyModeDesc,UI,Controls Dialog,,Toggle fly mode,,,,
+inpActInvisibleModeName,UI,Controls Dialog,,Invisible Mode,,,,
+inpActInvisibleModeDesc,UI,Controls Dialog,,Toggle invisible mode,,,,
+inpActIncGodSpeedName,UI,Controls Dialog,,Increase God Speed,,,,
+inpActIncGodSpeedDesc,UI,Controls Dialog,,Increase movement speed for god mode (when not running),,,,
+inpActDecGodSpeedName,UI,Controls Dialog,,Decrease God Speed,,,,
+inpActDecGodSpeedDesc,UI,Controls Dialog,,Decrease movement speed for god mode (when not running),,,,
+inpActConsoleName,UI,Controls Dialog,,Console,,,,
+inpActConsoleDesc,UI,Controls Dialog,,Toggle console window,,,,
+inpActShowDebugDataName,UI,Controls Dialog,,Debug Window,,,,
+inpActShowDebugDataDesc,UI,Controls Dialog,,Cycle through debug windows,,,,
+inpActFullscreenName,UI,Controls Dialog,,Fullscreen,,,,
+inpActFullscreenDesc,UI,Controls Dialog,,Toggle fullscreen mode,,,,
+inpActSwitchViewName,UI,Controls Dialog,,Switch View,,,,
+inpActSwitchViewDesc,UI,Controls Dialog,,Toggle between first-person and third-person mode,,,,
+inpActDebugSpawnName,UI,Controls Dialog,,Entity Spawner,,,,
+inpActDebugSpawnDesc,UI,Controls Dialog,,Toggle entity spawner window,,,,
+inpActSwitchHUDName,UI,Controls Dialog,,Toggle HUD,,,,
+inpActSwitchHUDDesc,UI,Controls Dialog,,Toggle HUD on/off,,,,
+inpActShowFPSName,UI,Controls Dialog,,FPS display,,,,
+inpActShowFPSDesc,UI,Controls Dialog,,Toggle FPS display on/off,,,,
+inpActScreenshotName,UI,Controls Dialog,,Screenshot,,,,
+inpActScreenshotDesc,UI,Controls Dialog,,"Take screenshot, saved in game directory",,,,
+inpActBackgroundedScreenshotName,UI,Controls Dialog,,Backgrounded Screenshot,,,,
+inpActBackgroundedScreenshotDesc,UI,Controls Dialog,,,,,,
+inpActFreeCameraMoveName,UI,Controls Dialog,,Free Camera Move,,,,
+inpActFreeCameraMoveDesc,UI,Controls Dialog,,,,,,
+inpActDetachCameraName,UI,Controls Dialog,,Detach Camera,,,,
+inpActDetachCameraDesc,UI,Controls Dialog,,,,,,
+inpActToggleDCMoveName,UI,Controls Dialog,,Toggle DC Move,,,,
+inpActToggleDCMoveDesc,UI,Controls Dialog,,,,,,
+inpActLockFreeCameraName,UI,Controls Dialog,,Lock Free Camera,,,,
+inpActLockFreeCameraDesc,UI,Controls Dialog,,,,,,
+inpActSelectionFillName,UI,Controls Dialog,,Selection Fill,,,,
+inpActSelectionFillDesc,UI,Controls Dialog,,,,,,
+inpActSelectionClearName,UI,Controls Dialog,,Selection Clear,,,,
+inpActSelectionClearDesc,UI,Controls Dialog,,,,,,
+inpActSelectionSetName,UI,Controls Dialog,,Selection Set,,,,
+inpActSelectionSetDesc,UI,Controls Dialog,,,,,,
+inpActPrefabName,UI,Controls Dialog,,Prefab,,,,
+inpActPrefabDesc,UI,Controls Dialog,,,,,,
+
+
+
 
 
 gunPistolSilenced,items,Item Gun,,Pistol (Silenced),,

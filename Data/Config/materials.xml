@@ -912,8 +912,8 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 </material>
 
 <material id="MglassBulletproof">
-	<property name="damage_category" value="stone" />
-	<property name="surface_category" value="stone" />
+	<property name="damage_category" value="glass" />
+	<property name="surface_category" value="glass" />
 	<property name="forge_category" value="glass" />
 	<property name="Hardness" type="float" value="1" />
 	<property name="lightopacity" value="2" />
@@ -924,6 +924,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="MaxDamage" value="3000" />
 	<property name="Experience" value="2"/>
 </material>
+
 
 <!-- snow needs to have 1+ fertile_level or the decorator will not spawn any plants in the snow biome -->
 <material id="snow">
@@ -1036,7 +1037,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="stepsound" value="stone" />
 	<property name="stability_glue" value="120" />
 	<property name="Mass" type="int" value="10" />
-	<property name="MaxDamage" value="1300" />
+	<property name="MaxDamage" value="1500" />
 	<property name="Experience" value="3.0"/>
 </material>
 

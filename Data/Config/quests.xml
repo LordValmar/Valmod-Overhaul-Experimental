@@ -42,7 +42,7 @@
 
 		<objective type="FetchKeep" id="yuccaFibers" value="2" />
 		<objective type="FetchKeep" id="wood" value="2" />
-		<objective type="FetchKeep" id="rockSmall" value="5" />
+		<objective type="FetchKeep" id="rockSmall" value="4" />
 
 		<objective type="Craft" id="stoneAxe" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival5" />
@@ -74,7 +74,7 @@
 
 	<!-- Basic Survival 5 - Craft a Wooden Club /> -->
 	<quest id="quest_BasicSurvival5" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival5" subtitle_key="quest_BasicSurvival5_subtitle" description_key="quest_BasicSurvival5_description" icon="ui_game_symbol_club" category_key="quest">
-		<objective type="FetchKeep" id="wood" value="10" />
+		<objective type="FetchKeep" id="wood" value="6" />
 		<objective type="Craft" id="clubWood" value="1" />
 
 		<reward type="Quest" id="quest_BasicSurvival7" />
@@ -82,7 +82,7 @@
 
 	<!-- Basic Survival 6 - Craft Bow & Arrows /> -->
 	<quest id="quest_BasicSurvival6" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival6" subtitle_key="quest_BasicSurvival6_subtitle" description_key="quest_BasicSurvival6_description" icon="ui_game_symbol_archery" category_key="quest">
-		<objective type="FetchKeep" id="wood" value="14" />
+		<objective type="FetchKeep" id="wood" value="6" />
 		<objective type="FetchKeep" id="yuccaFibers" value="3" />
 		<objective type="FetchKeep" id="feather" value="2" />
 		<objective type="FetchKeep" id="rockSmall" value="2" />
@@ -1165,7 +1165,7 @@ repeatable="false" category_key="challenge" offer="The Bruiser has experience in
 repeatable="false" category_key="challenge" offer="Buildlers are skilled at crafting and building." difficulty="easy">
 	<reward type="Skill" id="Carpentry" value="10" />
 	<reward type="Skill" id="Axes" value="10" />
-	<reward type="Skill" id="craftSkillTools" value="3" />
+	<reward type="Skill" id="craftSkillTools" value="1" />
 	<reward type="Skill" id="Construction Tools" value="20" />
 </quest>
 <quest id="perkMiner" name="Miner Skills" subtitle="Miner Skills" description="This teaches you the skills of the class." icon="misc_crafting" 

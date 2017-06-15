@@ -2223,19 +2223,11 @@
 	<item name="padlock" prob=".5"/>
 </lootcontainer>
 
-<!-- "Loot" corpses
-<lootcontainer id="37" count="0,2" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-	<item group="junk"/>
-	<item group="ammo"/>
-	<item group="weaponsMagnumParts"/>
-	<item group="clothes" prob="0.3"/>
-	<item group="questChallenge" count="1" prob="0.035"/>
-	<item group="treasureMaps" count="1" prob="0.035"/> total 2.2% for a quest thing
+<!-- gore block dummy -->
 
-
-
-	<item name="molotovCocktail" prob="0.1"/>
-</lootcontainer>  -->
+<lootcontainer id="37" count="0" size="5,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item name="cobweb" count="1"/>
+</lootcontainer>
 
 <!-- fatHawaiianZombie, fat zombie -->
 <lootgroup name="FattyFood">

@@ -40,36 +40,36 @@
     </biome>
 
     <biome name="forest">
-        <spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
+        <spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="5" time="Night" entitygroup="JasonGroup" />
     </biome>
 
     <biome name="pine_forest">
-        <spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
+        <spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="5" time="Night" entitygroup="JasonGroup" />
     </biome>
 
     <biome name="plains">
-        <spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
+        <spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsPlains" spawnDeadChance="0" />
     </biome>
 
     <biome name="desert">
-        <spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
+        <spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
     </biome>
 
     <biome name="wasteland">
-        <spawn maxcount="1" respawndelay="1" time="Day"   entitygroup="ZombiesAll" />
-        <spawn maxcount="1" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
+        <spawn maxcount="2" respawndelay="1" time="Day"   entitygroup="ZombiesAll" />
+        <spawn maxcount="2" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
         <spawn maxcount="1" respawndelay="1" time="Any"   entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
 
     </biome>
 
     <biome name="burnt_forest">
-        <spawn maxcount="1" respawndelay="4" time="Any"   entitygroup="ZombiesBurntForest" />
+        <spawn maxcount="2" respawndelay="4" time="Any"   entitygroup="ZombiesBurntForest" />
 		<spawn maxcount="1" respawndelay="7" time="Any"   entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0" />
 		</biome>
 
