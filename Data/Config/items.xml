@@ -10206,7 +10206,6 @@ Mesh files no longer used:
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 		<property name="AttachmentFlashlight" value="flashlight02"/>
 		<property name="Group" value="Ammo/Weapons"/>
-		<property name="ActionSkillGroup" value="craftSkillScience"/>
 		<property class="Preview">
 			<property name="Zoom" value="14"/>
 			<property name="Pos" value="0.1,-0.1"/>
