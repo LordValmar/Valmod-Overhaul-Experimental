@@ -711,7 +711,6 @@
 		<requirement perk_level="8" required_player_level="80"/>
 		<requirement perk_level="9" required_player_level="100"/>
 		<requirement perk_level="10" required_player_level="120"/>
-		<recipe name="machete" unlock_level="10"/>
 		<effect name="CraftingTime">
 			<multiply skill_level="0,1" value="1.0,.95"/>
 			<multiply skill_level="1,2" value=".95,.90"/>
