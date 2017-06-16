@@ -947,6 +947,11 @@
 		<recipe name="shotgunShellINC" unlock_level="2"/>
 		<recipe name="SiegeShell" unlock_level="2"/>
 	</perk>
+	<perk name="ChemStationPerk" icon="resource" description_key="chemStationPerkDesc" title_key="chemistryStation" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="2"/>
+		<recipe name="chemistryStation" unlock_level="1"/>
+	</perk>
 	<perk name="craftSkillScience" max_level="10" skill_point_cost_multiplier="1.25" skill_point_cost_per_level="3" exp_to_level="5000000"
 	icon="science" description_key="At level 15 and 20 in this skill you unlock many various new recipes. Level 80 unlocks steel polish." title_key="craftSkillScience" group="science" exp_gain_multiplier="0">
 		<requirement perk_level="3" required_player_level="10"/>
@@ -1018,19 +1023,18 @@
 			<multiply skill_level="8,9" value="0.0084,0.0067"/>
 			<multiply skill_level="9,10" value="0.0067,0.0053"/>
 		</effect>
-		<recipe name="chemistryStation" unlock_level="15"/>
-		<recipe name="fuelLog" unlock_level="15"/>
-		<recipe name="beer" unlock_level="15"/>
-		<recipe name="Mead" unlock_level="15"/>
-		<recipe name="meadBlueberry" unlock_level="15"/>
-		<recipe name="appleCider" unlock_level="15"/>
-		<recipe name="glue" unlock_level="20"/>
-		<recipe name="oil" unlock_level="20"/>
-		<recipe name="grainAlcohol" unlock_level="20"/>
-		<recipe name="biofuel" unlock_level="20"/>
-		<recipe name="chemicalAgent" unlock_level="20"/>
-		<recipe name="gasCan" unlock_level="20"/>
-		<recipe name="steelPolish" unlock_level="80"/>
+		<recipe name="fuelLog" unlock_level="2"/>
+		<recipe name="beer" unlock_level="2"/>
+		<recipe name="Mead" unlock_level="2"/>
+		<recipe name="meadBlueberry" unlock_level="2"/>
+		<recipe name="appleCider" unlock_level="2"/>
+		<recipe name="glue" unlock_level="3"/>
+		<recipe name="oil" unlock_level="5"/>
+		<recipe name="grainAlcohol" unlock_level="5"/>
+		<recipe name="biofuel" unlock_level="5"/>
+		<recipe name="chemicalAgent" unlock_level="5"/>
+		<recipe name="gasCan" unlock_level="5"/>
+		<recipe name="steelPolish" unlock_level="10"/>
 	</perk>
 
 	<perk name="electricBasicsPerk" icon="electric_power" description_key="electricBasicsDesc" title_key="electricBasicsName" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="science">
@@ -1603,6 +1607,7 @@
 		<recipe name="weldingTorch" unlock_level="20"/>
 		<recipe name="beaker" unlock_level="25"/>
 		<recipe name="ironBars" unlock_level="30"/>
+		<recipe name="ironBarsCentered" unlock_level="30"/>
 		<recipe name="calipers" unlock_level="50"/>
 		<recipe name="spring" unlock_level="50"/>
 		<recipe name="forgedSteel" unlock_level="80"/>
