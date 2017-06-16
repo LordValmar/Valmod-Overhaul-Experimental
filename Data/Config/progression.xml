@@ -953,7 +953,7 @@
 		<recipe name="chemistryStation" unlock_level="1"/>
 	</perk>
 	<perk name="craftSkillScience" max_level="10" skill_point_cost_multiplier="1.25" skill_point_cost_per_level="3" exp_to_level="5000000"
-	icon="science" description_key="At level 15 and 20 in this skill you unlock many various new recipes. Level 80 unlocks steel polish." title_key="craftSkillScience" group="science" exp_gain_multiplier="0">
+	icon="science" description_key="Unlock various recipes as you level through this perk." title_key="craftSkillScience" group="science" exp_gain_multiplier="0">
 		<requirement perk_level="3" required_player_level="10"/>
 		<requirement perk_level="4" required_player_level="20"/>
 		<requirement perk_level="5" required_player_level="30"/>
