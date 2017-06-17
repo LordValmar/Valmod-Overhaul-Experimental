@@ -3078,6 +3078,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 		<!-- Misc Recipes Mod -->
+<recipe name="logCabinBlock" count="1" craft_exp_gain="5">
+	<ingredient name="wood" count="20"/>
+</recipe>
 <recipe name="workstationCombine" count="1" craft_area="workbench">
 	<ingredient name="wood" count="200"/>
 	<ingredient name="nail" count="10"/>

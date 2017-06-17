@@ -16303,6 +16303,18 @@ kind of free
 			<property name="UpgradeHitCount" value="4" />
 		</property>
 	</block>
+	
+<block id="1733" name="logCabinBlock">
+	<property name="Extends" value="woodWeakNoUpgradeMaster" />
+	<property name="Texture" value="43" />
+	<property name="FuelValue" value="160" />
+	<drop event="Destroy" name="wood" count="1" prob="1" />
+	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="EconomicValue" value="10" />
+	<property name="EconomicBundleSize" value="10" />
+	<drop event="Destroy" name="nail" count="0" prob="1" />
+	<property name="CraftingSkillGroup" value="Carpentry"/>
+</block>
 	<!-- Expanded Player Storage -->
 	<block id="1734" name="cntEPSMunitionsBox">
 		<property name="Extends" value="cntMunitionsBox" />
