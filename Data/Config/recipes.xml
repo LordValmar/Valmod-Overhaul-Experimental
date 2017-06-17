@@ -802,6 +802,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rockSmall" count="50"/>
 </recipe>
 
+<recipe name="cobblestones" count="1">
+	<ingredient name="clayLump" count="1"/>
+	<ingredient name="rockSmall" count="1"/>
+</recipe>
+
 <recipe name="coffee" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="coffeeBeans" count="1"/>
 	<ingredient name="bottledWater" count="1"/>
