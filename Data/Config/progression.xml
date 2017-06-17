@@ -1560,7 +1560,7 @@
 		<recipe name="trapFire" unlock_level="30"/>
 	</crafting_skill>
 	
-	<crafting_skill name="Masonry" icon="forge" description_key="Learn how to build with stone. Level 5 unlocks clay bowl and plate. Level 20 unlocks cement mixer and cobblestone blocks. Level 30 unlocks brick. Level 50 unlocks cement." title_key="Masonry" group="crafting">
+	<crafting_skill name="Masonry" icon="forge" description_key="Learn how to build with stone. Level 5 unlocks clay bowl and plate. Level 10 unlocks cobblestones. Level 20 unlocks cement mixer, chisel and bricks. Level 50 unlocks cement." title_key="Masonry" group="crafting">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,100" value="1,.5"/>
 		</effect>
@@ -1570,7 +1570,7 @@
 
 		<recipe name="cementMixer" unlock_level="20"/>
 		<recipe name="chisel" unlock_level="20"/>
-		<recipe name="cobblestones" unlock_level="20"/>
+		<recipe name="cobblestones" unlock_level="10"/>
 		
 		<recipe name="brickBlock" unlock_level="30"/>
 		<recipe name="brickCNRFull" unlock_level="30"/>
@@ -1580,14 +1580,14 @@
 		<recipe name="rebarFrameRamp" unlock_level="50"/>
 		<recipe name="concreteMix" unlock_level="50"/>
 
-		<recipe name="brickCNRInside" unlock_level="30"/>
-		<recipe name="brickCNRRamp" unlock_level="30"/>
-		<recipe name="brickDecayedBlock" unlock_level="30"/>
-		<recipe name="brickPaversBlock" unlock_level="30"/>
-		<recipe name="brickPaversStairs25" unlock_level="30"/>
-		<recipe name="brickRamp" unlock_level="30"/>
-		<recipe name="brickPlate" unlock_level="30"/>
-		<recipe name="brickArch" unlock_level="30"/>
+		<recipe name="brickCNRInside" unlock_level="20"/>
+		<recipe name="brickCNRRamp" unlock_level="20"/>
+		<recipe name="brickDecayedBlock" unlock_level="20"/>
+		<recipe name="brickPaversBlock" unlock_level="20"/>
+		<recipe name="brickPaversStairs25" unlock_level="20"/>
+		<recipe name="brickRamp" unlock_level="20"/>
+		<recipe name="brickPlate" unlock_level="20"/>
+		<recipe name="brickArch" unlock_level="20"/>
 	</crafting_skill>
 	
 	
