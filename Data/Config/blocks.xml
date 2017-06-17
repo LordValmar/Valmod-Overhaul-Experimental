@@ -2247,7 +2247,7 @@ group desc for stuff like metal siding
 
 <block id="210" name="brickBlock">
 	<property name="Extends" value="brickMaster"/>
-	<property class="UpgradeBlock">	<property name="ToBlock" value="pouredConcreteBlock"/> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteBlock"/> </property>
 </block>
 
 <block id="211" name="concreteBlock">
@@ -2736,7 +2736,7 @@ group desc for stuff like metal siding
     <!-- WILL NOT WORK WITH GORE ANY MORE
 	<property name="UpgradeRated.ToBlock" value="air"/--> <!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
 	<!-- property name="UpgradeRated.Rate" value="15"/>
-    -->    
+    -->
 	<property name="Density" value="0.1"/>
 	<property name="HeatMapStrength" value="4.0"/>
 	<!-- HeatMapTime: Every "bit" of heat is like a game object. It DECAYS in x seconds. (scales with game time)
@@ -2976,9 +2976,8 @@ group desc for stuff like metal siding
 	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
 	<property name="Mesh" value="opaque"/>
 	<property name="Shape" value="New"/>
-	<property name="Model" value="cube"/>
-	<property name="Mesh" value="cutout"/>
-	<property name="Texture" value="381"/>
+	<property name="Model" value="cube_frame"/>
+	<property name="Texture" value="241"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="Group" value="Building,Basics"/>
 	<property name="CanPickup" value="true"/>
@@ -4209,27 +4208,27 @@ group desc for stuff like metal siding
 	<property name="Extends" value="trapSpikesDamage1"/>
 	<property name="Model" value="Traps/trap_spikes01_damage02" param1="main_mesh"/>
 	<property name="DowngradeBlock" value="trapSpikesDamage3"/>
-	<property class="UpgradeBlock"> <property name="ItemCount" value="24"/> <property name="ToBlock" value="trapSpikesNew"/> </property>
+	<property class="UpgradeBlock"> <property name="ItemCount" value="6"/> <property name="ToBlock" value="trapSpikesNew"/> </property>
 </block>
 
 <block id="411" name="trapSpikesDamage3">
 	<property name="Extends" value="trapSpikesDamage1"/>
 	<property name="Model" value="Traps/trap_spikes01_damage03" param1="main_mesh"/>
 	<property name="DowngradeBlock" value="trapSpikesDamage4"/>
-	<property class="UpgradeBlock"> <property name="ItemCount" value="36"/> <property name="ToBlock" value="trapSpikesNew"/> </property>
+	<property class="UpgradeBlock"> <property name="ItemCount" value="9"/> <property name="ToBlock" value="trapSpikesNew"/> </property>
 </block>
 
 <block id="412" name="trapSpikesDamage4">
 	<property name="Extends" value="trapSpikesDamage1"/>
 	<property name="Model" value="Traps/trap_spikes01_damage04" param1="main_mesh"/>
 	<property name="DowngradeBlock" value="trapSpikesDamage5"/>
-	<property class="UpgradeBlock"> <property name="ItemCount" value="48"/> <property name="ToBlock" value="trapSpikesNew"/> </property>
+	<property class="UpgradeBlock"> <property name="ItemCount" value="12"/> <property name="ToBlock" value="trapSpikesNew"/> </property>
 </block>
 
 <block id="413" name="trapSpikesDamage5">
 	<property name="Extends" value="trapSpikesDamage1" param1="DowngradeBlock"/>
 	<property name="Model" value="Traps/trap_spikes01_damage04" param1="main_mesh"/>
-	<property class="UpgradeBlock"> <property name="ItemCount" value="60"/> <property name="ToBlock" value="trapSpikesNew"/> </property>
+	<property class="UpgradeBlock"> <property name="ItemCount" value="15"/> <property name="ToBlock" value="trapSpikesNew"/> </property>
 </block>
 
 <block id="414" name="steelBlock">
@@ -4327,7 +4326,7 @@ group desc for stuff like metal siding
 	<property name="ParticleName" value="chemistryStation"/>
 	<property name="ParticleOffset" value="0,0,0"/>
 	<property name="Model" value="Entities/Crafting/chemistry_stationPrefab"/>
-	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="MultiBlockDim" value="3,2,1"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -5419,6 +5418,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
 </block>
 
 <block id="548" name="endTableLamp">
@@ -6010,7 +6010,7 @@ kind of free
 </block>
 
 <block id="605" name="looseBoardsTrapBlock3x3">
-	<property name="Extends" value="looseBoardsTrapBlock1x1" param1="CustomIcon,DescriptionKey"/>
+	<property name="Extends" value="looseBoardsTrapBlock1x1" param1="CustomIcon"/>
 	<property name="Model" value="floor_trap_3x3"/>
 	<property name="MultiBlockDim" value="3,1,3"/>
 	<property name="ActivationDistance" value="6"/>
@@ -6919,7 +6919,7 @@ kind of free
 	<property name="Extends" value="concreteMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_incline"/> <property name="Place" value="TowardsPlacerInverted"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeIncline"/> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredRConcreteWedgeIncline"/> </property>
 </block>
 
 <block id="687" name="pouredRConcreteWedgeIncline">
@@ -7094,7 +7094,7 @@ kind of free
 	<property name="MaxDamage" value="500"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/chemistry_stationPrefab"/>
-	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="MultiBlockDim" value="3,2,1"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -7170,7 +7170,7 @@ kind of free
 		<property name="UpgradeRated.ToBlock" value="air"/>
 		<property name="UpgradeRated.Rate" value="25"/>
         -->
-    <property name="LootList" value="1"/>  <!-- dummy loot list, will be overridden by the zombie that died -->    
+    <property name="LootList" value="1"/>  <!-- dummy loot list, will be overridden by the zombie that died -->
 	<drop event="Harvest" name="" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="femur" count="1" prob=".4" tool_category="Butcher"/>
 	<drop event="Destroy" name="femur" count="1" prob="1"/>
@@ -10134,7 +10134,7 @@ kind of free
 	<property name="Extends" value="rScrapIronMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteArch" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteArch" /> </property>
 	<property name="DowngradeBlock" value="scrapIronArch" />
 </block>
 
@@ -10301,7 +10301,7 @@ kind of free
 	<property name="Extends" value="brickMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock">	<property name="ToBlock" value="concreteArch" /> </property>
+	<property class="UpgradeBlock">	<property name="ToBlock" value="pouredConcreteArch" /> </property>
 </block>
 <block id="1132" name="rConcreteCTREighth">
 	<property name="Extends" value="concreteNoUpgradeMaster"/>
@@ -11287,7 +11287,7 @@ kind of free
 	<property name="Extends" value="woodHatch1_v1"/>
 	<property name="DescriptionKey" value="doorGroupDesc"/>
 	<property name="Material" value="wood+wood"/>
-	<property name="Model" value="Entities/Doors/woodenHatch1_v2Prefab"/><property name="ModelOffset" value="0,0,0"/>
+	<property name="Model" value="Entities/Doors/woodenHatch1_v2Prefab"/><property name="ModelOffset" value="0,.5,0"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="woodHatch1_v3"/>
 		<property name="Item" value="scrapIron"/>
@@ -11301,7 +11301,7 @@ kind of free
 	<property name="Extends" value="woodHatch1_v1"/>
 	<property name="DescriptionKey" value="doorGroupDesc"/>
 	<property name="Material" value="wood+metal"/>
-	<property name="Model" value="Entities/Doors/woodenHatch1_v3Prefab"/><property name="ModelOffset" value="0,0,0"/>
+	<property name="Model" value="Entities/Doors/woodenHatch1_v3Prefab"/><property name="ModelOffset" value="0,.5,0"/>
 	<property class="RepairItems"> <property name="scrapIron" value="20"/> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="scrapHatch_v1"/>
@@ -11953,7 +11953,7 @@ kind of free
 	<property name="Extends" value="cobblestoneMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteArch" />	</property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteArch" />	</property>
 </block>
 
 <block id="1330" name="cntShippingCrateWorkingStiffs">
@@ -13286,7 +13286,7 @@ kind of free
 <block id="1465" name="scrapHatch_v3">
 	<property name="Extends" value="scrapHatch_v1"/>
 	<property name="DescriptionKey" value="doorGroupDesc"/>
-	<property name="Model" value="Entities/Doors/scrap_hatch_v3Prefab"/>
+	<property name="Model" value="Entities/Doors/scrap_hatch_v3Prefab"/><property name="ModelOffset" value="0,.5,0"/>
 	<property name="OpenSound" value="open_hatch_scrap"/>
 	<property name="CloseSound" value="close_hatch_scrap"/>
 	<property class="UpgradeBlock">
@@ -13348,7 +13348,7 @@ kind of free
 	<property name="Extends" value="vaultDoor01"/>
 	<property name="CustomIcon" value="vaultHatch_v1"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
-	<property name="Model" value="Entities/Doors/steel_hatch_v1Prefab"/>
+	<property name="Model" value="Entities/Doors/steel_hatch_v1Prefab"/> <property name="ModelOffset" value="0,.5,0" />
 	<property name="MultiBlockDim" value="1,1,1"/>
 	<property name="ImposterExchange" value="imposterPlate" param1="77"/>
 	<property name="OpenSound" value="open_hatch_vault"/>
@@ -13362,7 +13362,7 @@ kind of free
 	<property name="Extends" value="vaultHatch_v1"/>
 	<property name="DescriptionKey" value="doorGroupDesc"/>
 	<property name="Material" value="Msteel"/>
-	<property name="Model" value="Entities/Doors/steel_hatch_v2Prefab"/>
+	<property name="Model" value="Entities/Doors/steel_hatch_v2Prefab"/> <property name="ModelOffset" value="0,.5,0" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="vaultHatch_v3"/> </property>
 	<property name="DowngradeBlock" value="vaultHatch_v1"/>
 </block>
@@ -13371,7 +13371,7 @@ kind of free
 	<property name="Extends" value="vaultDoor03"/>
 	<property name="DescriptionKey" value="doorGroupDesc"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
-	<property name="Model" value="Entities/Doors/steel_hatch_v3Prefab"/>
+	<property name="Model" value="Entities/Doors/steel_hatch_v3Prefab"/> <property name="ModelOffset" value="0,.5,0" />
 	<property name="MultiBlockDim" value="1,1,1"/>
 	<property name="ImposterExchange" value="imposterPlate" param1="77"/>
 	<property name="OpenSound" value="open_hatch_vault"/>
@@ -16457,22 +16457,26 @@ kind of free
 	<property name="CustomIcon" value="cntGraniteSink" />	
 	<property name="Class" value="SecureLoot" />
 	<property name="LootList" value="130" />
-	<property name="Material" value="metal" />
-	<property name="Shape" value="New" />
-	<property name="Model" value="counter_sink" />
-	<property name="Texture" value="373,228,262,228,228,228" />
-	<drop event="Destroy" name="scrapIron" count="1" prob="1" />
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
-	<drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble" />
-	<drop event="Harvest" name="scrapIron" count="2" tool_category="Disassemble" />
-	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property name="Material" value="metal"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="counter_sink"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="Texture" value="373,261,262,345,345,345"/> <!-- 373/374=sink, 82=cabinetWood -->
+	<property name="LootList" value="8"/>
+	<drop event="Destroy" name="scrapIron" count="5" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1"/>
+	<drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble"/>
+	<drop event="Harvest" name="scrapIron" count="10" tool_category="Disassemble"/>
+	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="80"/> <!-- disassemble value -->
+	<property name="ImposterExchange" value="imposterBlock" param1="116"/>
 	<property name="CraftingSkillGroup" value="Mechanical"/>
 	<property class="RepairItems"> <property name="scrapIron" value="10" /> </property>
 	</block>
 	<block id="1750" name="workingCabinetSink">
 		<property name="Extends" value="workingGranitSink" />
 		<property name="CustomIcon" value="cntCabinetOldSink" />
-		<property name="Texture" value="374,84,79,82,82,82" />
+		<property name="Texture" value="374,78,79,84,84,84"/> <!-- 373/374=sink, 84=cabinetWood -->
 	</block>
 	<!-- Class Mod -->
 	<block id="1751" name="Class - Hunter (Locked)">

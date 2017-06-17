@@ -262,7 +262,7 @@
 
 	<quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
-		<objective type="AnimalKill" id="animalPig" value="5"  />
+		<objective type="AnimalKill" id="animalBoar" value="5"  />
 
 		<reward type="SkillPoints" value="1" />
 	</quest>
@@ -286,7 +286,7 @@
 	repeatable="true" category_key="challenge" offer_key="challenge_buythefarm_offer" difficulty="medium">
 		<objective type="AnimalKill" id="animalRabbit" value="1"  />
 		<objective type="AnimalKill" id="animalChicken" value="1"  />
-		<objective type="AnimalKill" id="animalPig" value="1"  />
+		<objective type="AnimalKill" id="animalBoar" value="1"  />
 		<objective type="AnimalKill" id="animalStag" value="1"  />
 		<objective type="AnimalKill" id="animalBear" value="1"  />
 

@@ -1629,6 +1629,7 @@
 		
 		<recipe name="glassCTRSheet" unlock_level="15"/>
 		<recipe name="glassShowerBlock" unlock_level="15"/>
+		<recipe name="glassShowerRamp" unlock_level="15"/>
 		<recipe name="glassIndustrialCTRPlate" unlock_level="15"/>
 		<recipe name="glassIndustrial02CTRPlate" unlock_level="15"/>
 		<recipe name="glassBusinessSheet" unlock_level="15"/>
@@ -1641,6 +1642,7 @@
 		<recipe name="glassBulletproofPlateCurved" unlock_level="25"/>
 		<recipe name="glassBusinessPlate" unlock_level="25"/>
 		<recipe name="glassBusinessPlateCurved" unlock_level="25"/>
+		<recipe name="glassBulletproofRamp" unlock_level="25"/>
 	</crafting_skill>
 	
 	<crafting_skill name="Carpentry" icon="forge" description_key="Level this skill up to unlock more wood-related recipes such as woodframes and carpenter kits. Level 10 unlocks woodframe crafting." title_key="Carpentry" group="crafting">

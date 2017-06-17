@@ -316,8 +316,8 @@
 		<entity name="animalStag" prob="0.4" />
 		<entity name="animalVulture" />
 		<entity name="animalWolf" prob="0.4" />
-		<entity name="animalDireWolf" prob="0.15" />
-		<entity name="animalBear" prob="0.15" />
+		<entity name="animalDireWolf" prob="0.05" />
+		<entity name="animalBear" prob="0.05" />
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsForest">
@@ -326,8 +326,8 @@
 		<entity name="animalBoar" prob="0.4" />
 		<entity name="animalStag" prob="0.4" />
 		<entity name="animalWolf" prob="0.4" />
-		<entity name="animalBear" prob="0.15" />
-		<entity name="animalDireWolf" prob="0.15" />
+		<entity name="animalBear" prob="0.05" />
+		<entity name="animalDireWolf" prob="0.05" />
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsBurntForest">

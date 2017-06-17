@@ -2046,7 +2046,7 @@ Imposters / Distant POI
 	<property name="Extends" value="rScrapIronMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteWedgeID" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeID" /> </property>
 	<property name="DowngradeBlock" value="scrapIronWedgeID" />
 </block>
 
@@ -2099,18 +2099,11 @@ Imposters / Distant POI
 	<property name="DowngradeBlock" value="rConcreteWedgeID" />
 </block>
 
-<block id="bbbbbb" name="adobeWedgeID">
-	<property name="Extends" value="adobeMaster" />
-	<property name="Shape" value="New" />
-	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteWedgeID" /> </property>
-</block>
-
 <block id="bbbbbb" name="brickWedgeID">
 	<property name="Extends" value="brickMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock">	<property name="ToBlock" value="concreteWedgeID" /> </property>
+	<property class="UpgradeBlock">	<property name="ToBlock" value="pouredConcreteWedgeID" /> </property>
 </block>
 
 <block id="bbbbbb" name="cobblestoneFrameWedgeID">
@@ -2125,7 +2118,7 @@ Imposters / Distant POI
 	<property name="Extends" value="cobblestoneMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteWedgeID" />	</property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeID" />	</property>
 </block>
 
 

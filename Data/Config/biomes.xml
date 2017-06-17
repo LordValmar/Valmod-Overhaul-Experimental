@@ -140,7 +140,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Snow Main Biome -->
 	<biome name="snow" biomemapcolor="#FFFFFF">
 		<weather>
-			<Temperature min="-50" max="-30" prob="1"/>
+			<Temperature min="-70" max="-80" prob="1"/>
 			<Fog min="0" max="0" prob=".9"/>
 			<Fog min="100" max="100" prob=".1"/>
 			<CloudThickness min="0" max="100" prob=".5"/>
@@ -304,7 +304,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Forest Main Biome -->
 	<biome name="forest" biomemapcolor="#008D00" >
 		<weather>
-			<Temperature min="-15" max="15" prob="1"/>
+			<Temperature min="-35" max="5" prob="1"/>
 			<Fog min="0" max="0" prob=".9"/>
 			<Fog min="100" max="100" prob=".1"/>
 			<CloudThickness min="0" max="0" prob=".2"/>
@@ -444,7 +444,7 @@ If you do not declare them, the decorations of the main biome are used.
 	<!-- Pine Forest Main Biome  -->
 	<biome name="pine_forest" biomemapcolor="#004000" >
 		<weather>
-			<Temperature min="-30" max="-10" prob="1"/>
+			<Temperature min="-50" max="-10" prob="1"/>
 			<Fog min="0" max="0" prob=".9"/>
 			<Fog min="100" max="100" prob=".1"/>
 			<CloudThickness min="0" max="0" prob=".2"/>

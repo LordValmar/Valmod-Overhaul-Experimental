@@ -1109,6 +1109,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
+<recipe name="glassShowerRamp" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_glass" count="14"/>
+	<ingredient name="unit_lead" count="4"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
+
 <recipe name="glassIndustrialCTRPlate" count="1" craft_area="forge" material_based="true">
 	<ingredient name="unit_glass" count="10"/>
 	<ingredient name="unit_lead" count="3"/>
@@ -1173,6 +1179,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="20"/>
 </recipe>
 <recipe name="glassBulletproofPlateCurved" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_glass" count="110"/>
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_lead" count="40"/>
+	<ingredient name="unit_iron" count="20"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+<recipe name="glassBulletproofRamp" count="1" craft_area="forge" material_based="true">
 	<ingredient name="unit_glass" count="110"/>
 	<ingredient name="unit_stone" count="10"/>
 	<ingredient name="unit_lead" count="40"/>
