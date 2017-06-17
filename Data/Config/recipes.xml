@@ -702,102 +702,101 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="4"/>
 </recipe>
 
-<recipe name="flagstoneRamp" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneRamp" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneCNRFull" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneCNRFull" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneHalf" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneHalf" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneCNRInside" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneCNRInside" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneArrowSlitHalf" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneArrowSlitHalf" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneBlock" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneBlock" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneStairs25" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneStairs25" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneWedge" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneWedge" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneWedgeTip" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneWedgeTip" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstonePlate" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstonePlate" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstonePillar100" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstonePillar100" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstonePillar50" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstonePillar50" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneWedgeTipCNRFullTop" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneWedgeTipCNRFullTop" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneWedgeTipCNRFullBottom" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneWedgeTipCNRFullBottom" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneWedgeCNRInsideBottom" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneWedgeCNRInsideBottom" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneWedgeCNRInsideTop" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneWedgeCNRInsideTop" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneArch" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneArch" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneCNRRampFiller" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneCNRRampFiller" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneStairs25CornerCNR" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneStairs25CornerCNR" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstonePole" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstonePole" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneCTRpole" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneCTRpole" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneWedgeIncline" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneWedgeIncline" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstoneCNRRamp" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstoneCNRRamp" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
-<recipe name="flagstonePyramid" count="1" craft_area="cementMixer" craft_tool="chisel">
+<recipe name="flagstonePyramid" count="1">
 	<ingredient name="cobblestones" count="3"/>
 </recipe>
-
 <recipe name="cobblestones" count="50" craft_area="cementMixer">
 	<ingredient name="clayLump" count="50"/>
 	<ingredient name="rockSmall" count="50"/>
