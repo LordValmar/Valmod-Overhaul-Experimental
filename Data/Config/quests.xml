@@ -417,6 +417,7 @@
 		<objective type="FetchKeep" id="yuccaFibers" value="6" />
 		<objective type="Craft" id="animalFeed" value="2" />
 		<reward type="Recipe" id="animalSnare" />
+		<reward type="Quest" id="challenge_animaltrap2" />
 	</quest>
 	
 	<quest id="challenge_animaltrap2" group_name_key="quest_hunter" name="Animal Trapping Quest 2/4" subtitle="Animal Trapping Challenge" 
