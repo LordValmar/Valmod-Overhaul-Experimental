@@ -1176,23 +1176,23 @@
 		<recipe name="leatherHood" unlock_level="2"/>
 		<recipe name="leatherGloves" unlock_level="2"/>
 
-		<recipe name="scrapBoots" unlock_level="5"/>
-		<recipe name="scrapLegArmor" unlock_level="5"/>
-		<recipe name="scrapChestArmor" unlock_level="5"/>
-		<recipe name="scrapHelmet" unlock_level="5"/>
-		<recipe name="scrapGloves" unlock_level="5"/>
+		<recipe name="scrapBoots" unlock_level="3"/>
+		<recipe name="scrapLegArmor" unlock_level="3"/>
+		<recipe name="scrapChestArmor" unlock_level="3"/>
+		<recipe name="scrapHelmet" unlock_level="3"/>
+		<recipe name="scrapGloves" unlock_level="3"/>
 		
-		<recipe name="ironHelmet" unlock_level="8"/>
-		<recipe name="ironChestArmor" unlock_level="8"/>
-		<recipe name="ironLegArmor" unlock_level="8"/>
-		<recipe name="ironBoots" unlock_level="8"/>
-		<recipe name="ironGloves" unlock_level="8"/>
+		<recipe name="ironHelmet" unlock_level="5"/>
+		<recipe name="ironChestArmor" unlock_level="5"/>
+		<recipe name="ironLegArmor" unlock_level="5"/>
+		<recipe name="ironBoots" unlock_level="5"/>
+		<recipe name="ironGloves" unlock_level="5"/>
 
-		<recipe name="steelBoots" unlock_level="10"/>
-		<recipe name="steelLegs" unlock_level="10"/>
-		<recipe name="steelChestplate" unlock_level="10"/>
-		<recipe name="steelHelmet" unlock_level="10"/>
-		<recipe name="steelGloves" unlock_level="10"/>
+		<recipe name="steelBoots" unlock_level="7"/>
+		<recipe name="steelLegs" unlock_level="7"/>
+		<recipe name="steelChestplate" unlock_level="7"/>
+		<recipe name="steelHelmet" unlock_level="7"/>
+		<recipe name="steelGloves" unlock_level="7"/>
 	</perk>
 	<!-- <perk name="Leather Tanning" icon="armor_leather" description_key="leatherTanningPerkDesc" title_key="leatherTanningPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
 		<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="1"/>
