@@ -952,7 +952,6 @@
 	<item name="skillbookBlunt"/>
 	<item name="skillbookBuilding"/>
 	<item name="skillbookCrossbow"/>
-	<item name="skillbookChemistry"/>
 	<item name="skillbookMedical"/>
 	<item name="recipebookAnimalTraps"/>
 	<item name="recipebookPottery"/>
@@ -1537,7 +1536,6 @@
 	<item group="MedicineTier2" prob="0.3"/>
 	<item group="MedicineTier3" prob="0.1"/>
 	<item group="MedicineMisc" prob="0.1"/>
-	<item name="skillbookChemistry" prob="0.025"/>
 	<item name="skillbookMedical" prob="0.025"/>
 </lootgroup>
 
@@ -3258,7 +3256,6 @@
 	<item name="macDyverBook"/>
 	<item name="skillbookHunter"/>
 	<item name="skillbookKnight"/>
-	<item name="skillbookChemistry"/>
 	<item name="skillbookRogue"/>
 	<item name="recipebookElectronics"/>
 	<item name="skillbookWasteland"/>
@@ -3304,7 +3301,6 @@
 	<item name="skillbookArchery"/>
 	<item name="skillbookHunter"/>
 	<item name="skillbookKnight"/>
-	<item name="skillbookChemistry"/>
 </lootgroup>
 <lootcontainer id="129" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junkFood" prob="0.55"/>
