@@ -384,6 +384,7 @@
 		<objective type="AnimalKill" value="20"  />
 		<reward type="Skill" id="Blade Weapons" value="1" />
 		<reward type="Item" id="762mmBullet" value="25" />
+		<reward type="Quest" id="challenge_animaltrap" />
 	</quest>
 	
 	<quest id="challenge_hunter2" group_name_key="quest_hunter" name="Hunter Quest 2/3" subtitle="Hunter Challenge 2" description="Go kill some animals" icon="ui_game_symbol_archery" 
