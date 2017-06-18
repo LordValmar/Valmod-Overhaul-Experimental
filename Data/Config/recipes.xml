@@ -3435,15 +3435,15 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="20"/>
 	<ingredient name="glue" count="4"/>
 </recipe>
-	<recipe name="animalFeed" count="1" >
+	<recipe name="animalFeed" count="1" craft_time="3">
 		<ingredient name="moldyBread" count="1" />
 	</recipe>
-	<recipe name="animalSnare" count="1" >
+	<recipe name="animalSnare" count="1" craft_time="60">
         <ingredient name="wood" count="5"/>
 		<ingredient name="yuccaFibers" count="6" />
 		<ingredient name="animalFeed" count="2" />
 	</recipe>
-    <recipe name="chickenCoop" count="1" >
+    <recipe name="chickenCoop" count="1" craft_time="60">
         <ingredient name="wood" count="10"/>
         <ingredient name="yuccaFibers" count="15" />
 		<ingredient name="animalFeed" count="10" />
