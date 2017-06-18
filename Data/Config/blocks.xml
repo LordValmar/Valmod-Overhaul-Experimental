@@ -16204,7 +16204,7 @@ kind of free
 		<property name="Tag" value="Door" />
 		<property name="MultiBlockDim" value="1,2,1" />
 		<property name="Place" value="Door" />
-		<property name="Model" value="Entities/Doors/commercial_door_1_v1Prefab" />
+		<property name="Model" value="Entities/Doors/commercial_door_1_v1Prefab" /><property name="ModelOffset" value="0,0,0"/>
 		<property name="Mesh-Damage-1" value="Door/Door_DMG0" />
 		<property name="Mesh-Damage-2" value="Door/Door_DMG1" />
 		<property name="Mesh-Damage-3" value="Door/Door_DMG2" />
@@ -16261,7 +16261,7 @@ kind of free
 		<property name="Tag" value="Door" />
 		<property name="MultiBlockDim" value="1,2,1" />
 		<property name="Place" value="Door" />
-		<property name="Model" value="Entities/Doors/house_frontDoor1_v1Prefab" />
+		<property name="Model" value="Entities/Doors/house_frontDoor1_v1Prefab" /><property name="ModelOffset" value="0,0,0"/>
 		<property name="Mesh-Damage-1" value="Door/Door_DMG0" />
 		<property name="Mesh-Damage-2" value="Door/Door_DMG1" />
 		<property name="Mesh-Damage-3" value="Door/Door_DMG2" />
