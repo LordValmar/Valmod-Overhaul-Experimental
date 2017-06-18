@@ -1759,6 +1759,14 @@
 			<multiply skill_level="4" value="0.6"/>
 			<multiply skill_level="5" value="0.5"/>
 		</effect>
+		<effect name="HarvestCount">
+			<multiply perk_level="0" value="1"/>
+			<multiply perk_level="1" value="1.00"/>
+			<multiply perk_level="2" value="1.00"/>
+			<multiply perk_level="3" value="1.10"/>
+			<multiply perk_level="4" value="1.25"/>
+			<multiply perk_level="5" value="1.50"/>
+		</effect>
 	</perk>
 
 	<perk name="Gun Rocket" icon="rifle" description_key="Max out this perk to learn how to assemble a rocket launcher." title_key="Gun: Rocket Launcher" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="firearms">
