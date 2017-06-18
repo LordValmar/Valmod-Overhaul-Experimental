@@ -433,7 +433,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="theEnforcerMagazine"/>
 			<item name="herbalAntibioticsRecipe" prob="0.5"/> -->
 	<item name="minibikesForDumbshits"/>
-	<item name="skillbookChemistry"/>
 	<item name="skillbookMedical"/>
 	<item name="skillbookBlacksmith"/>
 	<item name="skillbookBuilding"/>
