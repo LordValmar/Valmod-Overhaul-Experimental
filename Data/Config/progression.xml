@@ -1574,17 +1574,23 @@
 		
 		<recipe name="brickBlock" unlock_level="20"/>
 		<recipe name="brickCNRFull" unlock_level="20"/>
+		<recipe name="brickWedgeTipCNRFullTop" unlock_level="20"/>
+		<recipe name="brickWedgeTipCNRFullBottom" unlock_level="20"/>
+		<recipe name="brickWedgeCNRInsideBottom" unlock_level="20"/>
+		<recipe name="brickWedgeCNRInsideTop" unlock_level="20"/>
+		<recipe name="brickStairs25CornerCNR" unlock_level="20"/>
+		<recipe name="brickCTRpole" unlock_level="20"/>
+		<recipe name="brickCNRRampFiller" unlock_level="20"/>
+		<recipe name="brickBlock" unlock_level="20"/>
 
 		<recipe name="cement" unlock_level="50"/>
-		<recipe name="rebarFrameBlock" unlock_level="50"/>
-		<recipe name="rebarFrameRamp" unlock_level="50"/>
 		<recipe name="concreteMix" unlock_level="50"/>
 
 		<recipe name="brickCNRInside" unlock_level="20"/>
 		<recipe name="brickCNRRamp" unlock_level="20"/>
 		<recipe name="brickDecayedBlock" unlock_level="20"/>
 		<recipe name="brickPaversBlock" unlock_level="20"/>
-		<recipe name="brickPaversStairs25" unlock_level="20"/>
+		<recipe name="brickStairs25" unlock_level="20"/>
 		<recipe name="brickRamp" unlock_level="20"/>
 		<recipe name="brickPlate" unlock_level="20"/>
 		<recipe name="brickArch" unlock_level="20"/>
@@ -1608,6 +1614,14 @@
 		<recipe name="beaker" unlock_level="25"/>
 		<recipe name="ironBars" unlock_level="30"/>
 		<recipe name="ironBarsCentered" unlock_level="30"/>
+
+		<recipe name="rebarFrameBlock" unlock_level="30"/>
+		<recipe name="rebarFrameRamp" unlock_level="30"/>
+		<recipe name="rebarFrameCNRInside" unlock_level="30"/>
+		<recipe name="rebarFramePillar100" unlock_level="30"/>
+		<recipe name="metalTrussingBlock" unlock_level="30"/>
+		<recipe name="metalTrussingRamp" unlock_level="30"/>
+		
 		<recipe name="calipers" unlock_level="50"/>
 		<recipe name="spring" unlock_level="50"/>
 		<recipe name="forgedSteel" unlock_level="80"/>
