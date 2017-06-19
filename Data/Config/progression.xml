@@ -1572,8 +1572,8 @@
 		<recipe name="chisel" unlock_level="20"/>
 		<recipe name="cobblestones" unlock_level="10"/>
 		
-		<recipe name="brickBlock" unlock_level="30"/>
-		<recipe name="brickCNRFull" unlock_level="30"/>
+		<recipe name="brickBlock" unlock_level="20"/>
+		<recipe name="brickCNRFull" unlock_level="20"/>
 
 		<recipe name="cement" unlock_level="50"/>
 		<recipe name="rebarFrameBlock" unlock_level="50"/>
