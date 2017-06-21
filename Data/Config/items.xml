@@ -8301,7 +8301,7 @@ Mesh files no longer used:
 	<property name="Weight" value="5"/>
 	<property name="HoldType" value="45"/>
 	<property name="Stacknumber" value="6000"/> <!-- STK resource -->
-	<property name="FuelValue" value="10"/>
+	<property name="FuelValue" value="50"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="50"/>
 	<property name="Group" value="Resources,Basics"/>
