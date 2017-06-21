@@ -395,7 +395,7 @@
 	</window>
 
 	<!-- Red Eagle Window that displays Numbers on the tool belt for each slot -->
-<window name="windowToolbeltNumbersHUD" depth="20" width="603" height="22" pos="-313,98" anchor="CenterBottom" controller="ToolbeltWindow" visible="{ToolbeltVisible}">
+<window name="windowToolbeltNumbersHUD" depth="20" width="603" height="22" pos="-313,95" anchor="CenterBottom" controller="ToolbeltWindow" visible="{ToolbeltVisible}">
 <label name="slot1" pos="-5,-9" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center"/>
 <label name="slot2" pos="70,-9" width="22" height="22" text="  [DECEA3]2" font_size="20" justify="center"/>
 <label name="slot3" pos="145,-9" width="22" height="22" text="  [DECEA3]3" font_size="20" justify="center"/>
