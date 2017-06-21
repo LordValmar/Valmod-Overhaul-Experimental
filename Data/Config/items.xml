@@ -13101,7 +13101,7 @@ Mesh files no longer used:
 <item id="1994" name="scrapIronAxe">
 	<property name="Meshfile" value="Items/Weapons/Melee/Axe/stone_axePrefab"/>
 	<property name="Material" value="metal"/>
-	<property name="RepairTools" value="whetstone"/>
+	<property name="RepairTools" value="scrapIron"/>
 	<property name="HoldType" value="32"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
