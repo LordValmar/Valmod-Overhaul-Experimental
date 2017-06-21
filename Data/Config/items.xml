@@ -12756,7 +12756,7 @@ Mesh files no longer used:
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="FuelValue" value="1080"/>
+		<property name="FuelValue" value="1350"/>
 		<property name="Group" value="Chemicals"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property class="Preview">
