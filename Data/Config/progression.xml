@@ -634,7 +634,7 @@
 		</effect>
 	</perk>
 
-	<action_skill name="Archery" exp_to_level="150" icon="archery" description_key="Do more damage with bows and crossbows. Gain skill by using items from this group. Level 10 unlocks the wooden bow. Level 20 unlocks compound bow. Level 30 unlocks the crossbow. Level 50 unlocks the repeater crossbow." title_key="archery" group="weapons">
+	<action_skill name="Archery" exp_to_level="150" icon="archery" description_key="Do more damage with bows and crossbows. Gain skill by using items from this group. Level 10 unlocks the wooden bow. Level 30 unlocks the crossbow. Level 40 unlocks compound bow. Level 50 unlocks the repeater crossbow." title_key="archery" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04"/>
 			<multiply skill_level="5,11" value="1.04,1.07"/>
@@ -646,7 +646,7 @@
 		</effect>
 		
 		<recipe name="woodenBow" unlock_level="10"/>
-		<recipe name="compoundBow" unlock_level="20"/>
+		<recipe name="compoundBow" unlock_level="40"/>
 		<recipe name="crossbow" unlock_level="30"/>
 		<recipe name="ironCrossbow" unlock_level="40"/>
 		<recipe name="crossbowRepeater" unlock_level="50"/>
