@@ -971,10 +971,12 @@
 		<reward type="SkillPoints" value="1" />
 	</quest>
 
-<quest id="challenge_Kickz" group_name_key="quest_Kickz" name="Kickz' Quest 1/3" subtitle="Survival Challenge 1" description="Fleet of Foot" icon="ui_game_symbol_campfire" 
+<quest id="challenge_Kickz" group_name_key="quest_Kickz" name="Kickz' Quest 1/2" subtitle="Kickz Challenge" description="Fleet of Foot" icon="ui_game_symbol_campfire" 
 repeatable="false" category_key="challenge" offer="The slow have no place in this world. Get a pair of 'Kickz' (tm) sports shoes for extra fast looting runs." difficulty="easy">
 <objective type="FetchKeep" id="kickzBoots" value="1" />
-<reward type="Quest" id="challenge_Kickz2" />
+<objective type="Wear" id="kickzBoots" />
+<reward type="Skill" id="Athletics" value="1" />
+<reward type="Quest" id="challenge_Kickz3" />
 </quest>
 
 <quest id="challenge_Kickz2" name="Kickz' Quest 2/3" subtitle="Off to the races" description="Well, see if they fit, already." icon="ui_game_symbol_campfire" 
@@ -985,14 +987,13 @@ repeatable="false" category_key="challenge" offer="Baby got new shoes." difficul
 <reward type="Skill" id="Athletics" value="1" />
 </quest>
 
-<quest id="challenge_Kickz3" name="Kickz' Quest 3/3" subtitle="Chemical Boosts" description="Sometimes even the best athletes need a little chemical boost. Gather some potassium, painkillers, mushrooms and goldenrod to get a special drug." icon="ui_game_symbol_campfire" 
+<quest id="challenge_Kickz3" name="Kickz' Quest 2/2" subtitle="Chemical Boosts" description="Sometimes even the best athletes need a little chemical boost. Gather some potassium, painkillers, mushrooms and goldenrod to get a special drug." icon="ui_game_symbol_campfire" 
 repeatable="false" category_key="challenge" offer="maniacpowder" difficulty="easy">
 <objective type="Fetch" id="potassiumNitratePowder" value="1" />
 <objective type="Fetch" id="painkillers" value="1" />
 <objective type="Fetch" id="mushrooms" value="1" />
 <objective type="Fetch" id="goldenrodPlant" value="1" />
 <reward type="Item" id="maniacPowder" value="1" />
-<reward type="Skill" id="Medicine" value="1" />
 </quest>
 
 <quest id="challenge_Loki" group_name_key="quest_Loki" name="Loki's Hints 1/4" subtitle="Survival Challenge 1" description="Good clean water is the key to staying hydrated. The first step is filtration. First make some charcoal in a campfire, then collect some sand, plant fibers and a bottle of murky water." icon="ui_game_symbol_campfire" 
