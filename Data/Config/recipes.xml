@@ -3246,7 +3246,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
   <ingredient name="gearMechanism" count="2" />
 </recipe>
 	<recipe name="hiddenConcreteDoor" count="1" craft_area="workbench">
-	<ingredient name="concreteBlock" count="4"/>
+	<ingredient name="pouredConcreteBlock" count="4"/>
 	<ingredient name="mechanicalParts" count="2" />
 	<ingredient name="spring" count="4"/>
   <ingredient name="gearMechanism" count="2" />
