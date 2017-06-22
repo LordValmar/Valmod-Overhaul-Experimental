@@ -9,7 +9,7 @@
 		<texture name="Valmod" depth="0" size="53,35" texture="@file:Mods\SMX\UITextures\valmodhat.png" material="Materials/Transparent Colored" pos="-160,-6" /> <!-- Online Mac: @http://i.imgur.com/41Ldkxq.png -->
 		<label name="SMX" depth="0" size="53,35" text="SMX UI" font_size="20" effect="outline" color="[white]" justify="center" pos="-220,-15" overflow="resizeheight" />
 		<!-- Valmod Version -->
-		<label name="SMXServerInfo1" depth="0" size="53,35" text="VMO EXP 3.3" font_size="20" effect="outline" color="[white]" justify="center" pos="-160,-15" overflow="resizeheight" />
+		<label name="SMXServerInfo1" depth="0" size="53,35" text="VMO EXP 4" font_size="20" effect="outline" color="[white]" justify="center" pos="-160,-15" overflow="resizeheight" />
 
 	</window>
 
@@ -362,7 +362,7 @@
 		<!--#$-IGS BEGIN: Increasing collider scale to improve snap responsiveness -$#-->
 		<button style="press, hover, paging.window.icon.crafting" collider_scale="1.5"/>
 		<button style="press, hover, paging.window.icon.character" collider_scale="1.5"/>
-		<button style="press, hover, paging.window.icon.map" collider_scale="1.5"/>		
+		<button style="press, hover, paging.window.icon.map" collider_scale="1.5"/>
 		
 		<button style="press, hover, paging.window.icon.skills" collider_scale="1.5"/>
 		<button style="press, hover, paging.window.icon.quests" collider_scale="1.5"/>
@@ -472,7 +472,7 @@
 	</window>
 	
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
-	<window name="windowLooting" width="378" height="378" controller="LootWindow" panel="Left" anchor_side="bottomright" visible="false" cursor_area="true" >		
+	<window name="windowLooting" width="378" height="378" controller="LootWindow" panel="Left" anchor_side="bottomright" visible="false" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
 		<panel name="header" height="43" depth="0" disableautobackground="true">
 			<sprite depth="1" name="headerbackground" sprite="ui_game_panel_header"/>
@@ -505,7 +505,7 @@
 		<sprite depth="1" name="background" color="[darkGrey]" type="sliced" pos="2,-49" width="599" height="49" />
 	
 		<rect depth="2" name="searchControls" width="597" height="43" pos="3,-49">
-			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="603" height="52" color="[black]" type="sliced" fillcenter="false"  />		
+			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="603" height="52" color="[black]" type="sliced" fillcenter="false"  />
 			<button depth="4" name="all" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_shopping_cart" pivot="center" tooltip="All" sound="[paging_click]" selected="true" />
 			<button depth="4" name="items" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_backpack" pivot="center" tooltip="All Items" sound="[paging_click]" />
 			<button depth="4" name="blocks" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_all_blocks" pivot="center" tooltip="All Blocks" tooltip_key="lblAllBlocks" sound="[paging_click]" />
@@ -531,7 +531,7 @@
 		</rect>
 		
 		
-		<sprite depth="8" name="backgroundMain" pos="0,-97" width="603" height="675" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" on_press="true" />	
+		<sprite depth="8" name="backgroundMain" pos="0,-97" width="603" height="675" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" on_press="true" />
 		<grid name="queue" rows="9" cols="8" pos="3,-97" cell_width="75" cell_height="75" repeat_content="true" controller="CreativeStackGrid" >
 			<creative_stack name="0"/>
 		</grid>
@@ -550,7 +550,7 @@
 			</rect>
 		</panel>
 		
-		<rect name="contentCraftingInfo" height="381" depth="1" pos="0,-46">			
+		<rect name="contentCraftingInfo" height="381" depth="1" pos="0,-46">
 			<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" width="603" height="380" color="[black]" type="sliced" fillcenter="false" />
 			<rect depth="1" pos="3,-3" name="preview" width="147" height="147">
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="153" height="153" color="[black]" type="sliced" fillcenter="false" />	
@@ -561,7 +561,7 @@
 				<label depth="3" name="craftingTime" width="100" height="32" pos="55, -115" text="{craftingtime}" font_size="26" color="[beige]"/>
 			</rect>
 			
-			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,-150" width="153" height="230" color="[black]" type="sliced" fillcenter="false" />	
+			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,-150" width="153" height="230" color="[black]" type="sliced" fillcenter="false" />
 			<grid name="itemActions" rows="4" cols="1" pos="4,-153" width="147" cell_width="147" cell_height="42" controller="ItemActionList">
 				<rect depth="1" name="actions" width="147" height="225">
 					<sprite color="[mediumGrey]" type="sliced" height="43" />
@@ -607,10 +607,10 @@
 			<label style="header.name" text="INSPECT" text_key="xuiInspect" />
 		</panel>
 		
-		<rect name="contentCraftingInfo" height="381" depth="1" pos="0,-46" >	
+		<rect name="contentCraftingInfo" height="381" depth="1" pos="0,-46" >
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="381" color="[black]" type="sliced" fillcenter="false" />	
 			<sprite color="[mediumGrey]" type="sliced" />
-			<label pos="0,-120" depth="3" name="descriptionText" width="100%" height="150" text="[LEFT CLICK] TO INSPECT AN ITEM, RECIPE OR ACTIVE EFFECT\n[LEFT CLICK] HOLD AND DRAG TO TAKE A STACK\n[LEFT CLICK] TO DROP OR SWAP A STACK\n[RIGHT CLICK] HOLD AND DRAG TO TAKE A HALF STACK\n[RIGHT CLICK] TO DROP ONE ITEM AT A TIME" text_key="xuiEmptyInfoPanelText"  justify="center" font_size="28" />			
+			<label pos="0,-120" depth="3" name="descriptionText" width="100%" height="150" text="[LEFT CLICK] TO INSPECT AN ITEM, RECIPE OR ACTIVE EFFECT\n[LEFT CLICK] HOLD AND DRAG TO TAKE A STACK\n[LEFT CLICK] TO DROP OR SWAP A STACK\n[RIGHT CLICK] HOLD AND DRAG TO TAKE A HALF STACK\n[RIGHT CLICK] TO DROP ONE ITEM AT A TIME" text_key="xuiEmptyInfoPanelText"  justify="center" font_size="28" />
 		</rect>
 	</window>
 	
@@ -624,7 +624,7 @@
 			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="577,-10" color="[white]" foregroundlayer="true" />
 		</panel>
 		
-		<rect name="contentInfo" height="381" depth="1" pos="0,-46" >	
+		<rect name="contentInfo" height="381" depth="1" pos="0,-46" >
 			<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" width="603" height="380" color="[black]" type="sliced" fillcenter="false" />
 			<rect depth="1" pos="3,0" name="preview" width="147" height="150">
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="153" height="153" color="[black]" type="sliced" fillcenter="false" />	
@@ -645,7 +645,7 @@
 			
 			<rect pos="3,-153" width="147" height="100%" visible="{showtraderoptions}" >
 				<sprite color="[mediumGrey]" type="sliced" height="43" />
-				<rect name="counterControl" width="120" height="42" pos="27,0" controller="Counter">	
+				<rect name="counterControl" width="120" height="42" pos="27,0" controller="Counter">
 					<button depth="2" name="countDown" style="icon30px, press" pos="-5,-20" sprite="ui_game_symbol_arrow_left" pivot="center" sound="[paging_click]"/>
 					<count_control_input name="count_input" depth="2" pos="10,-5" />
 					<button depth="2" name="countUp" style="icon30px, press" pos="59,-20" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]"/>
@@ -722,9 +722,9 @@
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
 			
 			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
-			required_tools="anvil,calipers,toolAndDieSet" required_tools_only="true">
+			required_tools="anvil,forgeCrucible,toolAndDieSet" required_tools_only="true">
 				<required_item_stack name="0"/>
-			</grid>		
+			</grid>
 			
 			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
 				<rect>

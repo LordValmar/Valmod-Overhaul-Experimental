@@ -1415,7 +1415,6 @@
 	<item group="rareToolset" prob="0.3"/>
 	<item group="rareParts" prob="0.3"/>
 	<item group="powerTools" prob="0.2"/>
-	<item name="calipers" prob="0.1"/>
 	<item name="toolAndDieSet" prob="0.1"/>
 </lootgroup>
 
@@ -1491,7 +1490,6 @@
 
 	<lootgroup name="workingStiffsForge" >
 	<item name="anvil" count="1" prob="0.5"/>
-	<item name="calipers" prob="0.25"/>
 	<item name="toolAndDieSet" prob="0.25"/>
 	</lootgroup>
 	
@@ -1753,7 +1751,6 @@
 	<item name="nail" count="10,40" prob=".3"/>
 	<item name="forgedIron" count="5,15" prob=".25"/>
 	<item name="forgedSteel" count="3,12" prob=".2"/>
-	<item name="calipers" prob="0.15"/>
 	<item name="minibikeChassis" prob=".4"/>
 	<item name="minibikeSeat" prob=".4"/>
 	<item name="minibikeHandlebars" prob=".4"/>
@@ -2129,7 +2126,6 @@
 		<item name="pickaxeSteel"/>
 		<item name="partsAuger_parts"/>
 		<item name="bellows"/>
-		<item name="calipers"/>
 		<item name="toolAndDieSet"/>
         <item name="clawHammer"/>  
         <item name="wrench"/>  
@@ -2748,7 +2744,6 @@
 	<item name="footballHelmet" prob=".3"/>
 	<item name="clawHammer" prob=".3"/>
 	<item name="wrench" prob=".3"/>
-	<item name="calipers" prob="0.1"/>
 	<item name="toolAndDieSet" prob="0.1"/>
 	<item group="minibikeParts" prob="6"/>
 </lootcontainer>
@@ -2997,7 +2992,6 @@
 	</lootgroup>
 	<lootgroup name="workerForge">
 		<item name="toolAndDieSet" prob="0.3"/>
-		<item name="calipers" prob="0.3"/>
 	</lootgroup>
 	<lootgroup name="WorkerTools">
 		<item group="workerToolset" prob="0.7"/>
@@ -3177,7 +3171,6 @@
 		<item name="partsAuger_blade"/>
 		<item name="partsAuger_parts"/>
 		<item name="bellows"/>
-		<item name="calipers" prob="0.05"/>
 		<item name="toolAndDieSet" prob="0.05"/>
 	</lootgroup>
 <lootgroup name="MinerSchematics">

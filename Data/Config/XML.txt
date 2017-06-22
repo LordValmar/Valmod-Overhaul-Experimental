@@ -17,21 +17,26 @@ Gazz.
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 
-Property:  IsDeveloper  (mostly blocks.xml + items.xml)
+Property:  IsDeveloper  (mostly blocks.xml + items.xml) ... is now obsolete.
 
-<property name="IsDeveloper" value="true" />
+Enter Property:
 
-There is a "Developer" button on the creative menu.
+"CreativeMode", values: "Player,Dev,None"
+Technically "All" is a value but that's the default so why bother?
 
-By default it is off.
-When it is off you do not see any blocks / items that have this flag set.
+What this does is that the creative menu can display different sets of blocks in "player" and "dev/level builder" view mode.
 
-These blocks or items are ones you SHOULD NOT USE unless you know exactly what you are doing.
+If you turn on the "dev button" on the creative menu you always see both "dev" and "player".
 
-In most cases these are master blocks / items that provide default values for "real" blocks and items that are extended from them.
+With this button OFF:
 
-The flag itself is not inherited by "Extends" so all child blocks / items remain visible.
+- In the editor you see "all" and "dev" items.
+- In game mode you see "all" and "player" items.
 
+"None" means no display ever. Like for master blocks that are not to be used directly.
+
+
+The property itself is not inherited by "Extends" so all child blocks / items remain visible.
 
 Extended items do NOT inherit auto-calculated weight.
 Only items with actual recipes have it.
@@ -627,7 +632,7 @@ Resource value x 1.2
 Common tool required. Cooking pot or grill - essentially free with a forge so does not stack with that bonus.
 Resource value x 1.2
 
-Rare tool required. Calipers, beaker...
+Rare tool required. Crucible, beaker...
 Resource value x 1.5
 
 Farming required. Not hard but time-consuming.
@@ -1374,7 +1379,7 @@ Use of "Extends" is not supported for recipes.
 
 Usable craft areas ( = block name of the crafting station) and tools:
 
-forge		[anvil | calipers | toolAndDieSet]
+forge		[anvil | forgeCrucible | toolAndDieSet]
 campfire	[cookingPot | cookingGrill | beaker]
 cementMixer
 backpack ?

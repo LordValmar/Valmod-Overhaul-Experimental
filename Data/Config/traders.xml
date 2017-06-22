@@ -487,7 +487,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 		</trader_item_group>
 
 		<trader_item_group name="ammoSupplies">
-<!--			<item name="bulletCasing" count="5,20"/>--> <!-- 5 -->
+<!--			<item name="bulletCasing" count="8,40"/>--> <!-- 5 -->
 			<item name="bulletTip" count="20,80"/> <!-- 5 -->
 			<item name="buckshot" count="20,60"/> <!-- 5 -->
 			<item name="gunPowder" count="5,30"/> <!-- 10 -->
@@ -584,7 +584,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 		<trader_item_group name="constructionSupplies">
 			<item name="cement" count="1,5"/> <!-- 70 -->
 			<item name="cobblestones" count="2,8"/> <!-- 70 -->
-			<item name="concreteMix" count="10,20"/> <!-- 20 -->
+			<item name="concreteMix" count="5,20"/> <!-- 20 -->
 			<item name="nail" count="3,15"/> <!-- 10 -->
 			<item name="rebarFrameBlock" count="5,20"/> <!-- 10 -->
 			<item name="steelPolish" count="5,35" prob="2"/>
@@ -649,7 +649,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="repairKit" count="1,4"/>
 			<item name="wood" count="50,250"/>
 			<item name="anvil" count="1"/>
-			<item name="calipers" prob="0.6"/>
+			<!-- <item name="calipers" prob="0.6"/> -->
 			<item name="toolAndDieSet" prob="0.6"/>
 			<item name="forgedIron" count="2,8" prob="0.21"/>
 			<item name="forgedSteel" count="2,8" prob="0.12"/>
@@ -757,9 +757,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 		<trader_item_group name="traderElectrical" count="1">
 			<item name="electricParts" count="20,50" prob="1"/>
 			<item name="electronicParts" count="15,35" prob=".5"/>
-			<item name="batterybankSchematic" count="1" prob=".1"/>
 			<item name="generatorbank" count="1" prob="1"/>
-			<item name="solarbank" count="1" prob=".02"/>
 			<item name="batterybank" count="1" prob=".7"/>
 			<item name="autoTurret" count="1,2" prob=".5"/>
 			<item name="shotgunTurret" count="1,3" prob=".7"/>
@@ -783,7 +781,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="switch" count="3,9" prob="1.0"/>
 		</trader_item_group>
 
-		<trader_item_group name="traderOnlyItems" count="1">
+		<trader_item_group name="stashOnlyItems" count="1">
 			<item name="beerBook" count="1"/>
 			<item name="plantedHop1" count="1,5"/>
 			<item name="solarbank" count="1"/>
@@ -871,7 +869,7 @@ workstations
 			<item group="paintMagazines" count="0,1"/>
 			<item group="commonBooks" count="2,3"/>
 			<item group="rareBooks" count="1,2"/>
-			<item group="traderOnlyItems" count="1"/>
+			<item group="stashOnlyItems" count="1"/>
 		</tier_items>
 		
 		<tier_items level="50,251" count="all"> <!-- Stash Tier 2 -->
@@ -892,7 +890,7 @@ workstations
 			<item group="rareBooks" count="2"/>
 			<item name="miningHelmet"/>
 			<item group="minibikeParts" count="0,1"/>
-			<item group="traderOnlyItems" count="2"/>
+			<item group="stashOnlyItems" count="2"/>
 		</tier_items>
 		
 		<tier_items level="251,-1" count="all"> <!-- Stash Tier 3, requires Perk 3 + Player level 126 -->
@@ -993,7 +991,7 @@ workstations
 
 -->
 	<!-- Player Owned - Vending Machine -->
-	<trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true" />		
+	<trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true" />
 	
 	<!-- Vending Machines found in the world. -->
 	<trader_info id="4" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
@@ -1010,7 +1008,7 @@ workstations
 	</trader_info>
 	
 	<!-- Rented - Vending Machine -->
-	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30" />		
+	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30" />
 
 	<!-- Merchant Delivery Box -->
 	<trader_info id="20" reset_interval="2" override_buy_markup="2.5" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">

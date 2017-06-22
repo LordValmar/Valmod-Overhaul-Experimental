@@ -1974,6 +1974,18 @@
 			<property name="flags" value="collision;ragdoll"/>
 		</collider>
 		<collider>
+			<property name="tag" value="E_BP_Head"/>
+			<property name="path" value="Hips/LowerBack/Spine/Spine1/Head"/>
+			<property name="collisionLayer" value="0"/>
+			<property name="ragdollLayer" value="0"/>
+			<property name="collisionScale" value="1 1 1"/>
+			<property name="ragdollScale" value="1 1 1"/>
+			<property name="collisionOffset" value="0 0 0"/>
+			<property name="ragdollOffset" value="0 0 0"/>
+			<property name="type" value="Detail"/>
+			<property name="flags" value="collision;ragdoll"/>
+		</collider>
+		<collider>
 			<property name="tag" value="E_BP_LArm"/>
 			<property name="path" value="Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm"/>
 			<property name="collisionLayer" value="0"/>

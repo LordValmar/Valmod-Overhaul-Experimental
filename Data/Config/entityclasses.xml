@@ -89,6 +89,7 @@
 	<property name="Parent" value="Enemies"/>
 	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="Faction" value="undead"/>
+	<property name="MaxTurnSpeed" value="360"/>
 	<!-- param1: 0 == attack action, 1 == use action, param2: attack length in s -->
 	<!-- <property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="30"/> with give up time -->
 	<property name="AITask-1" value="BreakDoor"/>
@@ -1365,11 +1366,6 @@
 	<property name="IsEntityAnimal" value="true"/>
 	<property name="PhysicsBody" value="Stag"/>
 	<property name="Faction" value="animals"/>
-	<property name="AITask-1" value="Swim"/>
-	<property name="AITask-2" value="RunawayWhenHurt"/>
-	<property name="AITask-3" value="RunawayFromEntity" param1="EntityPlayer"/>
-	<property name="AITask-4" value="RunawayFromEntity" param1="EntityZombie"/>
-	<property name="AITask-5" value="Wander"/>
 	<property name="CanClimbLadders" value="false"/>
 	<property name="MaxHealth" value="50"/>
 	<property name="MaxViewAngle" value="180"/>
@@ -1488,6 +1484,7 @@
 	<property name="ApproachSpeed" value="1.3"/>
 	<property name="NightWanderSpeed" value="0.25"/>
 	<property name="NightApproachSpeed" value="1.4"/>
+	<property name="MaxTurnSpeed" value="220"/>
 
 	<!-- Stealth settings -->
 	<property name="SightRange" value="30"/> <!-- distance in m -->
@@ -1598,7 +1595,7 @@
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakDoor"/>
 	<property name="AITask-3" value="BreakBlock"/>
-	<property name="AITask-3" value="Territorial"/>
+	<property name="AITask-4" value="Territorial"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40"/>
 	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25"/>
 	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30"/>
@@ -1672,7 +1669,7 @@
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakDoor"/>
 	<property name="AITask-3" value="BreakBlock"/>
-	<property name="AITask-3" value="Territorial"/>
+	<property name="AITask-4" value="Territorial"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40"/>
 	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="15"/>
 	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30"/>
@@ -1710,17 +1707,15 @@
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakDoor"/>
 	<property name="AITask-3" value="BreakBlock"/>
-	<property name="AITask-3" value="Territorial"/>
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40"/>
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="45"/>
-	<property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityZombie" param2="30"/>
-	<property name="AITask-8" value="ApproachSpot"/>
-	<property name="AITask-9" value="Wander"/>
+	<property name="AITask-4" value="Territorial"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="30"/>
+	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="30"/>
+	<property name="AITask-7" value="ApproachSpot"/>
+	<property name="AITask-8" value="Wander"/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="45"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="30"/>
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalStag"/>
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombie"/>
 	<property name="DeadBodyHitPoints" value="450"/>
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="7"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="12"/>
@@ -1729,7 +1724,7 @@
 	<drop event="Harvest" name="rawMeat" tool_category="ButcherBonus" count="2"/>
 </entity_class>
 
-<entity_class name="animalVulture" extends="animalTemplateHostile">
+<entity_class name="animalZombieVulture" extends="animalTemplateHostile">
 	<property name="Class" value="EntityVulture"/>
 	<property name="EntityType" value="Zombie"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -1737,7 +1732,7 @@
 	<property name="HasRagdoll" value="true"/>
 	<property name="PhysicsBody" value="vulture"/>
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
-	<property name="HandItem" value="handAnimalZombieDog"/>
+	<property name="HandItem" value="handAnimalZombieVulture"/>
 	<property name="MaxHealth" value="50"/>
 	<property class="MechanimAttackTriggers">
 		<property name="state0" value="AttackTrigger"/>
@@ -1781,8 +1776,6 @@
 	<property name="Parent" value="Enemies"/>
 	<property name="PhysicsBody" value="snake"/>
 	<property name="Faction" value="undead"/>
-	<property name="WanderSpeed" value="0.7"/>
-	<property name="PanicSpeed" value="2.0"/>
 	<property name="AITask-1" value="BreakDoor"/>
 	<property name="AITask-2" value="BreakBlock"/>
 	<property name="AITask-3" value="Territorial"/>
@@ -1803,10 +1796,10 @@
 	<property name="HandItem" value="handZombie"/>
 	<property name="Weight" value="70"/>
 	<property name="WanderSpeed" value="0.08"/>
+	<property name="PanicSpeed" value="0.2"/>
 	<property name="ApproachSpeed" value="0.2"/>
 	<property name="NightWanderSpeed" value="0.08"/>
-	<property name="NightApproachSpeed" value="1.1"/>
-	<property name="PanicSpeed" value="0.55"/>
+	<property name="NightApproachSpeed" value="0.2"/>
 
 	<property name="WalkType" value="7"/>
 	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
@@ -1831,7 +1824,7 @@
 	</property>
 	<property class="MechanimDeathTriggers">
 		<property name="state0" value="DeathTrigger"/>
-	</property>	
+	</property>
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="2"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="2"/>
 	<drop event="Harvest" name="rawMeat" tool_category="ButcherBonus" count="1"/>
@@ -1872,8 +1865,13 @@
 	<property class="MechanimDeathStates">
 		<property name="state0" value="Death"/>
 	</property>
-	<property name="SoundHurt" value="Animals/pigpain"/>
-	<property name="SoundDeath" value="Animals/pigdeath"/>
+	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
+	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
+	<property name="SoundHurt" value="Animals/Boar/boarpain"/>
+	<property name="SoundDeath" value="Animals/Boar/boardeath"/>
+	<property name="SoundAttack" value="Animals/Boar/boarattack"/>
+	<property name="SoundSense" value="Animals/Boar/boarsense"/>
+	<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
 	<property name="ExperienceGain" value="990"/>
 	<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="5"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="7"/>
@@ -2000,6 +1998,17 @@
 	<property name="Faction" value="none"/>
 </entity_class>
 
+<entity_class name="invisibleAnimal"> <!-- A hack to thin the amount of animals spawned -->
+	<property name="Mesh" value="Gore/gore_block1_bonesPrefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Animals"/>
+	<property name="TimeStayAfterDeath" value="1"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="LootListOnDeath" value="47"/> <!-- used to determine container X/Y size -->
+	<property name="Faction" value="none"/>
+</entity_class>
 <!-- BANDITS AND NPC -->
 <entity_class name="npcSurvivorTemplate">
 	<property name="EntityType" value="Player"/>

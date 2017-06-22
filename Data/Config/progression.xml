@@ -1622,7 +1622,7 @@
 		<recipe name="metalTrussingBlock" unlock_level="30"/>
 		<recipe name="metalTrussingRamp" unlock_level="30"/>
 		
-		<recipe name="calipers" unlock_level="50"/>
+		<recipe name="forgeCrucible" unlock_level="50"/>
 		<recipe name="spring" unlock_level="50"/>
 		<recipe name="forgedSteel" unlock_level="80"/>
 		<recipe name="steelRingsRivets" unlock_level="80"/>
