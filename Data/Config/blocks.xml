@@ -15961,6 +15961,7 @@ kind of free
 
 	<block id="1721" name="workstationCombine">
 		<property name="Extends" value="woodTable" />
+		<property name="DescriptionKey" value="workstationCombineDesc"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="Texture" value="74" />
 		<property name="MaxDamage" value="50" />
