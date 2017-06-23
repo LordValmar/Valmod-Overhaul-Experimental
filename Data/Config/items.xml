@@ -15161,54 +15161,63 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_miner1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2612" name="challengeClassHunter">
 	<property name="Extends" value="challengeQuestMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_hunter1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2613" name="challengeClassBuilder">
 	<property name="Extends" value="challengeQuestMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_builder1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2614" name="challengeClassRifleman">
 	<property name="Extends" value="challengeQuestMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_rifleman1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2615" name="challengeClassGunman">
 	<property name="Extends" value="challengeQuestMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_gunman1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2616" name="challengeClassVeteran">
 	<property name="Extends" value="challengeQuestMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_veteran1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2617" name="challengeClassSurvivor">
 	<property name="Extends" value="challengeQuestMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_survivor1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2618" name="challengeClassBruiser">
 	<property name="Extends" value="challengeQuestMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_bruiser1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2619" name="challengeClassMedic">
 	<property name="Extends" value="challengeQuestMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_medic1"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="2620" name="challengeBigBadBosses">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15789,6 +15798,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkSurvivor"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3001" name="perkMiner">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15797,6 +15807,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkMiner"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3002" name="perkHunter">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15805,6 +15816,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkHunter"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3003" name="perkGunman">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15813,6 +15825,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkGunman"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3004" name="perkMedic">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15821,6 +15834,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkMedic"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3005" name="perkBruiser">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15829,6 +15843,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkBruiser"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3006" name="perkRifleman">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15837,6 +15852,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkRifleman"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3007" name="perkVeteran">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15845,6 +15861,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkVeteran"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3008" name="perkBuilder">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15853,6 +15870,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkBuilder"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 <item id="3009" name="perkWildcard">
 	<property name="Extends" value="challengeQuestMaster"/>
@@ -15861,6 +15879,7 @@ Mesh files no longer used:
 	<property class="Action1">
 	<property name="QuestGiven" value="perkWildcard"/>
 	</property>
+	<property name="Stacknumber" value="1"/>
 </item>
 
 </items>
