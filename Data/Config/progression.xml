@@ -1574,6 +1574,7 @@
 		
 		<recipe name="brickBlock" unlock_level="20"/>
 		<recipe name="brickCNRFull" unlock_level="20"/>
+		<recipe name="brickWedgeIncline" unlock_level="20"/>
 		<recipe name="brickWedgeTipCNRFullTop" unlock_level="20"/>
 		<recipe name="brickWedgeTipCNRFullBottom" unlock_level="20"/>
 		<recipe name="brickWedgeCNRInsideBottom" unlock_level="20"/>
