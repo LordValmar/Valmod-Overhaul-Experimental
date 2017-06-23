@@ -5646,7 +5646,7 @@ fuelLogDesc,items,Item,,This log is coated with special chemicals to prolong its
 
 snowHarvested,blocks,Block,,Harvested Snow,,
 
-LockpickDesc,items,Item,,"Can be used to crack into safes. Note: Doesn't work on doors.",,
+LockpickDesc,items,Item,,"Can be used to crack into safes. Note: Doesn't work on doors. Unlock by leveling Scavenging.",,
 skillbookLockpick,items,Item Book,,Lockpicking,,
 skillbookLockpickDesc,items,Item Book,,"This book adds to your lockpicking skill which will eventually let you craft lockpicks that can crack into locked safes.",,
 
