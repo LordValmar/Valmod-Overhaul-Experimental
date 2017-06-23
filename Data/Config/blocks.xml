@@ -8223,7 +8223,7 @@ kind of free
 	<property name="Model" value="cube_half"/>
 	<property name="Texture" value="241"/>
 	<drop event="Destroy" count="0"/>
-	<property name="EconomicValue" value="10"/>
+	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="20"/>
 </block>
 
