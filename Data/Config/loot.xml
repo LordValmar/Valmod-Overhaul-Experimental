@@ -1862,7 +1862,6 @@
 	<item group="medicine"/>
 	<item group="weaponsPistol+ammo"/>
 	<item name="flashlight02"/>
-	<item name="sewingKit" />
 	<item name="tantalizingMagazine"/>
 	<item name="paintMagazineWallCoverings"/>
 	<item group="nightstandQuestItems" prob="0.08" />
@@ -3526,7 +3525,6 @@
         <item name="9mmBullet" count="60"/>
         <item name="repairKit" count="4"/>
 		<item name="beaker"/>
-		<item name="sewingKit"/>
 		<item name="challengeClassMedic" count="1"/>
 		<item name="perkMedic" count="1"/>
 		</lootgroup>

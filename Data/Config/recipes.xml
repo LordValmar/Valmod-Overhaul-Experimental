@@ -142,31 +142,31 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="aloePlant" count="1"/>
 </recipe>
 
-<recipe name="animalHideBoots" count="1" craft_area="workstationArmory" craft_tool="sewingKit">
+<recipe name="animalHideBoots" count="1" craft_area="workstationArmory">
 	<ingredient name="animalHide" count="5"/>
 </recipe>
 
-<recipe name="animalHideGloves" count="1" craft_area="workstationArmory" craft_tool="sewingKit">
+<recipe name="animalHideGloves" count="1" craft_area="workstationArmory">
 	<ingredient name="animalHide" count="5"/>
 </recipe>
 
-<recipe name="animalHideHood" count="1" craft_area="workstationArmory" craft_tool="sewingKit">
+<recipe name="animalHideHood" count="1" craft_area="workstationArmory">
 	<ingredient name="animalHide" count="5"/>
 </recipe>
 
-<recipe name="animalHideChestArmor" count="1" craft_area="workstationArmory" craft_tool="sewingKit">
+<recipe name="animalHideChestArmor" count="1" craft_area="workstationArmory">
 	<ingredient name="animalHide" count="10"/>
 </recipe>
 
-<recipe name="animalHideLegArmor" count="1" craft_area="workstationArmory" craft_tool="sewingKit">
+<recipe name="animalHideLegArmor" count="1" craft_area="workstationArmory">
 	<ingredient name="animalHide" count="10"/>
 </recipe>
 
-<recipe name="animalHidePoncho" count="1" craft_area="workstationArmory" craft_tool="sewingKit">
+<recipe name="animalHidePoncho" count="1" craft_area="workstationArmory">
 	<ingredient name="animalHide" count="20"/>
 </recipe>
 
-<recipe name="animalHidePoncho" count="1" craft_area="workstationArmory" craft_tool="tanningRack">
+<recipe name="animalHidePoncho" count="1" craft_area="workstationArmory">
 	<ingredient name="leather" count="10"/>
 </recipe>
 
@@ -259,7 +259,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="cloth" count="2"/>
 </recipe>
 
-<recipe name="bandana" count="1" craft_area="workstationArmory" craft_tool="sewingKit">
+<recipe name="bandana" count="1" craft_area="workstationArmory">
 	<ingredient name="cloth" count="4"/>
 </recipe>
 
@@ -555,31 +555,31 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="cottonPlant" count="2"/>
 </recipe>
 
-<recipe name="clothBoots" count="1" craft_area="workstationArmory" craft_tool="sewingKit" craft_exp_gain="10">
+<recipe name="clothBoots" count="1" craft_area="workstationArmory">
 
 
 	<ingredient name="cloth" count="4"/>
 </recipe>
 
-<recipe name="clothGloves" count="1" craft_area="workstationArmory" craft_tool="sewingKit" craft_exp_gain="10">
+<recipe name="clothGloves" count="1" craft_area="workstationArmory">
 
 
 	<ingredient name="cloth" count="4"/>
 </recipe>
 
-<recipe name="clothHat" count="1" craft_area="workstationArmory" craft_tool="sewingKit" craft_exp_gain="10">
+<recipe name="clothHat" count="1" craft_area="workstationArmory">
 
 
 	<ingredient name="cloth" count="4"/>
 </recipe>
 
-<recipe name="clothJacket" count="1" craft_area="workstationArmory" craft_tool="sewingKit" craft_exp_gain="10">
+<recipe name="clothJacket" count="1" craft_area="workstationArmory">
 
 
 	<ingredient name="cloth" count="8"/>
 </recipe>
 
-<recipe name="clothPants" count="1" craft_area="workstationArmory" craft_tool="sewingKit" craft_exp_gain="10">
+<recipe name="clothPants" count="1" craft_area="workstationArmory">
 	<ingredient name="cloth" count="8"/>
 </recipe>
 
@@ -1405,31 +1405,31 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="20"/>
 </recipe>
 
-<recipe name="ironBoots" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="ironBoots" count="1" craft_area="workstationArmory" craft_tool="weldingTorch">
 	<ingredient name="forgedIron" count="20"/>
 	<ingredient name="leather" count="3"/>
 	<ingredient name="ironRingsRivets" count="4"/>
 </recipe>
 
-<recipe name="ironChestArmor" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="ironChestArmor" count="1" craft_area="workstationArmory" craft_tool="weldingTorch">
 	<ingredient name="forgedIron" count="30"/>
 	<ingredient name="leather" count="5"/>
 	<ingredient name="ironRingsRivets" count="4"/>
 </recipe>
 
-<recipe name="ironGloves" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="ironGloves" count="1" craft_area="workstationArmory" craft_tool="weldingTorch">
 	<ingredient name="forgedIron" count="20"/>
 	<ingredient name="leather" count="3"/>
 	<ingredient name="ironRingsRivets" count="4"/>
 </recipe>
 
-<recipe name="ironHelmet" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="ironHelmet" count="1" craft_area="workstationArmory" craft_tool="weldingTorch">
 	<ingredient name="forgedIron" count="20"/>
 	<ingredient name="leather" count="3"/>
 	<ingredient name="ironRingsRivets" count="4"/>
 </recipe>
 
-<recipe name="ironLegArmor" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="ironLegArmor" count="1" craft_area="workstationArmory" craft_tool="weldingTorch">
 	<ingredient name="forgedIron" count="30"/>
 	<ingredient name="leather" count="3"/>
 	<ingredient name="ironRingsRivets" count="4"/>
@@ -1470,7 +1470,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="animalHide" count="1"/>
 </recipe>
 
-<recipe name="leatherBoots" count="1" craft_area="workstationArmory" craft_tool="tanningRack" craft_exp_gain="10">
+<recipe name="leatherBoots" count="1" craft_area="workstationArmory">
 	<ingredient name="leather" count="5"/>
 </recipe>
 <!--
@@ -1479,19 +1479,19 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 -->
 
-<recipe name="leatherGloves" count="1" craft_area="workstationArmory" craft_tool="tanningRack" craft_exp_gain="10">
+<recipe name="leatherGloves" count="1" craft_area="workstationArmory">
 	<ingredient name="leather" count="5"/>
 </recipe>
 
-<recipe name="leatherHood" count="1" craft_area="workstationArmory" craft_tool="tanningRack" craft_exp_gain="10">
+<recipe name="leatherHood" count="1" craft_area="workstationArmory">
 	<ingredient name="leather" count="5"/>
 </recipe>
 
-<recipe name="leatherJacket" count="1" craft_area="workstationArmory" craft_tool="tanningRack" craft_exp_gain="10">
+<recipe name="leatherJacket" count="1" craft_area="workstationArmory">
 	<ingredient name="leather" count="10"/>
 </recipe>
 
-<recipe name="leatherPants" count="1" craft_area="workstationArmory" craft_tool="tanningRack" craft_exp_gain="10">
+<recipe name="leatherPants" count="1" craft_area="workstationArmory">
 	<ingredient name="leather" count="10"/>
 </recipe>
 
@@ -1906,19 +1906,19 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="coal" count="4"/>
 </recipe>
 
-<recipe name="scrapBoots" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="scrapBoots" count="1" craft_area="workstationArmory">
 	<ingredient name="scrapIron" count="100"/>
 	<ingredient name="leather" count="2"/>
 	<ingredient name="ductTape" count="1"/>
 </recipe>
 
-<recipe name="scrapChestArmor" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="scrapChestArmor" count="1" craft_area="workstationArmory">
 	<ingredient name="scrapIron" count="150"/>
 	<ingredient name="leather" count="5"/>
 	<ingredient name="ductTape" count="3"/>
 </recipe>
 
-<recipe name="scrapGloves" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="scrapGloves" count="1" craft_area="workstationArmory">
 	<ingredient name="scrapIron" count="100"/>
 	<ingredient name="leather" count="2"/>
 	<ingredient name="ductTape" count="1"/>
@@ -1939,13 +1939,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="scrapPlastics" count="4"/>
 </recipe>
 
-<recipe name="scrapHelmet" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="scrapHelmet" count="1" craft_area="workstationArmory" >
 	<ingredient name="scrapIron" count="100"/>
 	<ingredient name="leather" count="2"/>
 	<ingredient name="ductTape" count="1"/>
 </recipe>
 
-<recipe name="scrapLegArmor" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
+<recipe name="scrapLegArmor" count="1" craft_area="workstationArmory" >
 	<ingredient name="scrapIron" count="150"/>
 	<ingredient name="leather" count="5"/>
 	<ingredient name="ductTape" count="3"/>
@@ -3614,15 +3614,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <recipe name="workstationArmory" count="1" >
         <ingredient name="wood" count="50"/>
         <ingredient name="scrapIron" count="10"/>
-    </recipe>
-    <recipe name="sewingKit" count="1" >
-        <ingredient name="yuccaFibers" count="5"/>
-        <ingredient name="cloth" count="10"/>
-    </recipe>
-    <recipe name="tanningRack" count="1" >
-        <ingredient name="wood" count="10"/>
-        <ingredient name="yuccaFibers" count="10"/>
-        <ingredient name="animalHide" count="1"/>
     </recipe>
     <recipe name="chisel" count="1" >
         <ingredient name="wood" count="4"/>
