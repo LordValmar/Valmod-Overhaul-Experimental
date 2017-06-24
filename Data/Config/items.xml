@@ -12687,7 +12687,7 @@ Mesh files no longer used:
 	<property name="Material" value="wood"/>
 	<property name="Weight" value="5"/>
 	<property name="HoldType" value="45"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="5000"/> <!-- STK resource -->
 	<property name="FuelValue" value="10"/>
 	<property name="Group" value="Resources,Basics"/>
 	<property name="RepairAmount" value="100"/>
