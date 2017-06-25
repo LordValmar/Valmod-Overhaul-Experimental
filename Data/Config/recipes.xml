@@ -3400,10 +3400,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
         <ingredient name="yuccaFibers" count="15" />
 		<ingredient name="animalFeed" count="10" />
     </recipe>
-    <recipe name="trapFire" count="2" craft_area="workbench">      
+    <recipe name="trapFire" count="1" craft_area="workbench">      
 		<ingredient name="forgedSteel" count="8" />
         <ingredient name="cookingGrill" count="1" />
-        <ingredient name="gasCan" count="1" />
+        <ingredient name="gasCan" count="5" />
     </recipe>
     <recipe name="trapNailMine" count="1" >
         <ingredient name="nail" count="15"/>
