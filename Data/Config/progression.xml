@@ -134,7 +134,6 @@
 			<add skill_level="2" value="50"/>
 			<add skill_level="3" value="100"/>
 		</effect>
-		<recipe name="workstationCombine" unlock_level="1"/>
 	</perk>
 	<action_skill name="Clothing/Armor" icon="armor_iron" description_key="clothingArmorDesc" title_key="clothingArmor" exp_to_level="57" experience_multiplier="1.0195" group="clothing">
 	<!-- 10 hits to make level 2, 3000 hits to max it... instead of 64000 -->
@@ -262,6 +261,12 @@
 		<recipe name="sledgehammer" unlock_level="30"/>
 		<recipe name="wrench" unlock_level="40"/>
 	</action_skill>
+	
+	<perk name="Combine" icon="resource" description_key="Unlock the ability to craft a Combine Station. The Combine Station can be used to combine items to increase their quality level up to 100 above your crafting level." title_key="Combine Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="2"/>
+		<recipe name="workstationCombine" unlock_level="1"/>
+	</perk>
 
 	<perk name="BadMechanic" icon="resource" description_key="badMechanicDesc" title_key="badMechanic" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="tools">
 		<requirement perk_level="1" required_skill_name="Construction Tools" required_skill_level="1"/>
