@@ -77,7 +77,7 @@
 		<objective type="FetchKeep" id="wood" value="6" />
 		<objective type="Craft" id="clubWood" value="1" />
 
-		<reward type="Quest" id="quest_BasicSurvival7" />
+		<reward type="Quest" id="quest_BasicSurvival8" />
     </quest>
 
 	<!-- Basic Survival 6 - Craft Bow & Arrows /> -->
