@@ -1775,9 +1775,9 @@
 				<sprite depth="3" pos="160,-215" height="10" width="287" color="[lightGrey]" foregroundlayer="true" visible="{skillpercentshouldshow}" type="sliced" />
 				<sprite depth="3" pos="160,-215" height="10" width="287" color="[red]" foregroundlayer="true" type="filled" fill="{skillpercentthislevel}" visible="{skillpercentshouldshow}" />
 			</rect>
-			<rect depth="1" pos="0,-234" width="600" height="197">
+			<rect depth="1" pos="0,-234" width="600" height="500">
 				<sprite depth="1" name="background" color="[darkGrey]" type="sliced"/> 
-				<sprite depth="3" pos="0,1" width="603" height="198" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+				<sprite depth="3" pos="0,1" width="603" height="498" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 				<rect name="tableHeader" pos="0,0" width="600" height="43">
 					<sprite depth="1" name="background" color="[lightGrey]" type="sliced"/> 
 					<rect depth="1" width="303" height="40">
@@ -1820,7 +1820,7 @@
 					<skill_requirement />
 				</grid>
 			</rect>
-			<rect depth="3" width="600" height="43" pos="3,-432" controller="Paging">
+			<rect depth="3" width="600" height="43" pos="3,-730" controller="Paging">
 				<sprite depth="0" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="603" height="49" color="[black]" type="sliced" fillcenter="false" />
 				<sprite name="pagingControls" width="597" color="[mediumGrey]" type="sliced" />
 				
