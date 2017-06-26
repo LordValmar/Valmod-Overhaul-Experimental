@@ -304,13 +304,17 @@
 			<multiply skill_level="70,100" value=".591,.5"/>
 		</effect>
 		<effect name="CraftingQuality">
-			<setvalue skill_level="1,5" value="1,69"/>
-			<setvalue skill_level="5,11" value="69,129"/>
-			<setvalue skill_level="11,19" value="129,187"/>
-			<setvalue skill_level="19,32" value="187,259"/>
-			<setvalue skill_level="32,49" value="259,334"/>
-			<setvalue skill_level="49,70" value="334,409"/>
-			<setvalue skill_level="70,100" value="409,500"/>
+			<setvalue skill_level="0,5" value="25"/>
+			<setvalue skill_level="5,10" value="50"/>
+			<setvalue skill_level="10,20" value="100"/>
+			<setvalue skill_level="20,30" value="150"/>
+			<setvalue skill_level="30,40" value="200"/>
+			<setvalue skill_level="40,50" value="250"/>
+			<setvalue skill_level="50,60" value="300"/>
+			<setvalue skill_level="60,70" value="350"/>
+			<setvalue skill_level="70,80" value="400"/>
+			<setvalue skill_level="80,90" value="450"/>
+			<setvalue skill_level="90,100" value="500"/>
 		</effect>
 		<effect name="RepairTime">
 			<multiply skill_level="1,10" value="1.00,0.70"/>
@@ -337,13 +341,16 @@
 			<add skill_level="90,100" value="48,50"/>
 		</effect>
 		<effect name="RepairQualityLoss">
-			<multiply skill_level="1,5" value="12,10.572"/>
-			<multiply skill_level="5,11" value="10.572,9.323"/>
-			<multiply skill_level="11,19" value="9.323,8.119"/>
-			<multiply skill_level="19,32" value="8.119,6.619"/>
-			<multiply skill_level="32,49" value="6.619,5.067"/>
-			<multiply skill_level="49,70" value="5.067,3.487"/>
-			<multiply skill_level="70,100" value="3.487,1.6"/>
+			<multiply skill_level="0,10" value="0.0503,0.0402"/>
+			<multiply skill_level="10,20" value="0.0402,0.0321"/>
+			<multiply skill_level="20,30" value="0.0321,0.0257"/>
+			<multiply skill_level="30,40" value="0.0257,0.0205"/>
+			<multiply skill_level="40,50" value="0.0205,0.0164"/>
+			<multiply skill_level="50,60" value="0.0164,0.0131"/>
+			<multiply skill_level="60,70" value="0.0131,0.0105"/>
+			<multiply skill_level="70,80" value="0.0105,0.0084"/>
+			<multiply skill_level="80,90" value="0.0084,0.0067"/>
+			<multiply skill_level="90,100" value="0.0067,0.0053"/>
 		</effect>
 
 		<recipe name="gunPistol" unlock_level="20"/>
@@ -397,13 +404,17 @@
 			<multiply skill_level="70,100" value=".591,.5"/>
 		</effect>
 		<effect name="CraftingQuality">
-			<setvalue skill_level="1,5" value="1,69"/>
-			<setvalue skill_level="5,11" value="69,129"/>
-			<setvalue skill_level="11,19" value="129,187"/>
-			<setvalue skill_level="19,32" value="187,259"/>
-			<setvalue skill_level="32,49" value="259,334"/>
-			<setvalue skill_level="49,70" value="334,409"/>
-			<setvalue skill_level="70,100" value="409,500"/>
+			<setvalue skill_level="0,5" value="25"/>
+			<setvalue skill_level="5,10" value="50"/>
+			<setvalue skill_level="10,20" value="100"/>
+			<setvalue skill_level="20,30" value="150"/>
+			<setvalue skill_level="30,40" value="200"/>
+			<setvalue skill_level="40,50" value="250"/>
+			<setvalue skill_level="50,60" value="300"/>
+			<setvalue skill_level="60,70" value="350"/>
+			<setvalue skill_level="70,80" value="400"/>
+			<setvalue skill_level="80,90" value="450"/>
+			<setvalue skill_level="90,100" value="500"/>
 		</effect>
 		<effect name="RepairTime">
 			<multiply skill_level="1,10" value="1.00,0.70"/>
@@ -430,13 +441,16 @@
 			<add skill_level="90,100" value="48,50"/>
 		</effect>
 		<effect name="RepairQualityLoss">
-			<multiply skill_level="1,5" value="12,10.572"/>
-			<multiply skill_level="5,11" value="10.572,9.323"/>
-			<multiply skill_level="11,19" value="9.323,8.119"/>
-			<multiply skill_level="19,32" value="8.119,6.619"/>
-			<multiply skill_level="32,49" value="6.619,5.067"/>
-			<multiply skill_level="49,70" value="5.067,3.487"/>
-			<multiply skill_level="70,100" value="3.487,1.6"/>
+			<multiply skill_level="0,10" value="0.0503,0.0402"/>
+			<multiply skill_level="10,20" value="0.0402,0.0321"/>
+			<multiply skill_level="20,30" value="0.0321,0.0257"/>
+			<multiply skill_level="30,40" value="0.0257,0.0205"/>
+			<multiply skill_level="40,50" value="0.0205,0.0164"/>
+			<multiply skill_level="50,60" value="0.0164,0.0131"/>
+			<multiply skill_level="60,70" value="0.0131,0.0105"/>
+			<multiply skill_level="70,80" value="0.0105,0.0084"/>
+			<multiply skill_level="80,90" value="0.0084,0.0067"/>
+			<multiply skill_level="90,100" value="0.0067,0.0053"/>
 		</effect>
 		<recipe name="gunSawedOffPumpShotgun" unlock_level="15"/>
 		<recipe name="gunPumpShotgun" unlock_level="20"/>
@@ -490,13 +504,17 @@
 			<multiply skill_level="70,100" value=".591,.5"/>
 		</effect>
 		<effect name="CraftingQuality">
-			<setvalue skill_level="1,5" value="1,69"/>
-			<setvalue skill_level="5,11" value="69,129"/>
-			<setvalue skill_level="11,19" value="129,187"/>
-			<setvalue skill_level="19,32" value="187,259"/>
-			<setvalue skill_level="32,49" value="259,334"/>
-			<setvalue skill_level="49,70" value="334,409"/>
-			<setvalue skill_level="70,100" value="409,500"/>
+			<setvalue skill_level="0,5" value="25"/>
+			<setvalue skill_level="5,10" value="50"/>
+			<setvalue skill_level="10,20" value="100"/>
+			<setvalue skill_level="20,30" value="150"/>
+			<setvalue skill_level="30,40" value="200"/>
+			<setvalue skill_level="40,50" value="250"/>
+			<setvalue skill_level="50,60" value="300"/>
+			<setvalue skill_level="60,70" value="350"/>
+			<setvalue skill_level="70,80" value="400"/>
+			<setvalue skill_level="80,90" value="450"/>
+			<setvalue skill_level="90,100" value="500"/>
 		</effect>
 		<effect name="RepairTime">
 			<multiply skill_level="1,10" value="1.00,0.70"/>
@@ -523,13 +541,16 @@
 			<add skill_level="90,100" value="48,50"/>
 		</effect>
 		<effect name="RepairQualityLoss">
-			<multiply skill_level="1,5" value="12,10.572"/>
-			<multiply skill_level="5,11" value="10.572,9.323"/>
-			<multiply skill_level="11,19" value="9.323,8.119"/>
-			<multiply skill_level="19,32" value="8.119,6.619"/>
-			<multiply skill_level="32,49" value="6.619,5.067"/>
-			<multiply skill_level="49,70" value="5.067,3.487"/>
-			<multiply skill_level="70,100" value="3.487,1.6"/>
+			<multiply skill_level="0,10" value="0.0503,0.0402"/>
+			<multiply skill_level="10,20" value="0.0402,0.0321"/>
+			<multiply skill_level="20,30" value="0.0321,0.0257"/>
+			<multiply skill_level="30,40" value="0.0257,0.0205"/>
+			<multiply skill_level="40,50" value="0.0205,0.0164"/>
+			<multiply skill_level="50,60" value="0.0164,0.0131"/>
+			<multiply skill_level="60,70" value="0.0131,0.0105"/>
+			<multiply skill_level="70,80" value="0.0105,0.0084"/>
+			<multiply skill_level="80,90" value="0.0084,0.0067"/>
+			<multiply skill_level="90,100" value="0.0067,0.0053"/>
 		</effect>
 		<recipe name="gunHuntingRifle" unlock_level="20"/>
 		<recipe name="gunBoltRifle" unlock_level="20"/>
@@ -577,13 +598,17 @@
 			<multiply skill_level="70,100" value=".591,.5"/>
 		</effect>
 		<effect name="CraftingQuality">
-			<setvalue skill_level="1,5" value="1,69"/>
-			<setvalue skill_level="5,11" value="69,129"/>
-			<setvalue skill_level="11,19" value="129,187"/>
-			<setvalue skill_level="19,32" value="187,259"/>
-			<setvalue skill_level="32,49" value="259,334"/>
-			<setvalue skill_level="49,70" value="334,409"/>
-			<setvalue skill_level="70,100" value="409,500"/>
+			<setvalue skill_level="0,5" value="25"/>
+			<setvalue skill_level="5,10" value="50"/>
+			<setvalue skill_level="10,20" value="100"/>
+			<setvalue skill_level="20,30" value="150"/>
+			<setvalue skill_level="30,40" value="200"/>
+			<setvalue skill_level="40,50" value="250"/>
+			<setvalue skill_level="50,60" value="300"/>
+			<setvalue skill_level="60,70" value="350"/>
+			<setvalue skill_level="70,80" value="400"/>
+			<setvalue skill_level="80,90" value="450"/>
+			<setvalue skill_level="90,100" value="500"/>
 		</effect>
 		<effect name="RepairTime">
 			<multiply skill_level="1,10" value="1.00,0.70"/>
@@ -610,13 +635,16 @@
 			<add skill_level="90,100" value="48,50"/>
 		</effect>
 		<effect name="RepairQualityLoss">
-			<multiply skill_level="1,5" value="12,10.572"/>
-			<multiply skill_level="5,11" value="10.572,9.323"/>
-			<multiply skill_level="11,19" value="9.323,8.119"/>
-			<multiply skill_level="19,32" value="8.119,6.619"/>
-			<multiply skill_level="32,49" value="6.619,5.067"/>
-			<multiply skill_level="49,70" value="5.067,3.487"/>
-			<multiply skill_level="70,100" value="3.487,1.6"/>
+			<multiply skill_level="0,10" value="0.0503,0.0402"/>
+			<multiply skill_level="10,20" value="0.0402,0.0321"/>
+			<multiply skill_level="20,30" value="0.0321,0.0257"/>
+			<multiply skill_level="30,40" value="0.0257,0.0205"/>
+			<multiply skill_level="40,50" value="0.0205,0.0164"/>
+			<multiply skill_level="50,60" value="0.0164,0.0131"/>
+			<multiply skill_level="60,70" value="0.0131,0.0105"/>
+			<multiply skill_level="70,80" value="0.0105,0.0084"/>
+			<multiply skill_level="80,90" value="0.0084,0.0067"/>
+			<multiply skill_level="90,100" value="0.0067,0.0053"/>
 		</effect>
 		<recipe name="gunMP5" unlock_level="20"/>
 		<recipe name="gunMP5Silenced" unlock_level="30"/>
