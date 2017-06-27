@@ -915,7 +915,7 @@
 
 <quest id="challenge_hotrod" name="H0tr0d's Request" subtitle="Gather rotting flesh." description="Some shady guy who calls himself H0tr0D has an unsual request that you obtain for him rotting flesh. You don't understand his reasoning but he promises a nice reward." icon="ui_game_symbol_radiation" 
 		repeatable="true" category_key="challenge" offer="Some shady guy who calls himself H0tr0D has an unsual request that you obtain for him rotting flesh. You don't understand his reasoning but he promises a nice reward." difficulty="easy">
-		<objective type="Fetch" id="rottingFlesh" value="30" />
+		<objective type="Fetch" id="rottingFlesh" value="50" />
 		<reward type="Item" id="mysteryMeat" value="10" />
 		<reward type="Quest" id="challenge_hotrod2" />
 	</quest>
