@@ -16181,7 +16181,7 @@ kind of free
 		<property name="Extends" value="cntCardboardBox" />
 		<property name="DescriptionKey" value="cntEPSCardboardBoxDesc"/>
 		<property name="Class" value="SecureLoot" />
-		<property name="CustomIcon" value="cntCardboardBox" />
+		<property name="CustomIcon" value="cntGarageStorage" />
 		<property name="LootList" value="102" />
 		<property class="RepairItems">
 			<property name="ductTape" value="3" />
