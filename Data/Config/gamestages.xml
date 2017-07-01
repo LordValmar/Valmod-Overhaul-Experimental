@@ -97,55 +97,55 @@ There is a console command: forcegamestage
 
 	<spawner name="WanderingHorde"> <!-- These will wrap around at 50. -->
 		<!-- Will probably have to undo that later. Rev 19924 /19944 -->
-		<gamestage stage="01"><spawn group="sleeperHordeStageGS1"	num="15" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="02"><spawn group="sleeperHordeStageGS2"	num="15" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="03"><spawn group="sleeperHordeStageGS8"	num="16" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="01"><spawn group="scoutHordeStageGS1"	num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="02"><spawn group="scoutHordeStageGS2"	num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="03"><spawn group="scoutHordeStageGS5"	num="16" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="04"><spawn group="ZombieDogGroup"		num="05" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="05"><spawn group="sleeperHordeStageGS11"	num="16" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="06"><spawn group="sleeperHordeStageGS14"	num="15" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="07"><spawn group="sleeperHordeStageGS18"	num="16" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="05"><spawn group="feralHordeStageGS1"	num="16" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="06"><spawn group="feralHordeStageGS2"	num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="07"><spawn group="feralHordeStageGS4"	num="16" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="08"><spawn group="VultureGroup"			num="05" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="09"><spawn group="sleeperHordeStageGS27"	num="15" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="10"><spawn group="sleeperHordeStageGS31"	num="17" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="11"><spawn group="sleeperHordeStageGS36"	num="13" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="09"><spawn group="scoutHordeStageGS8"	num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="10"><spawn group="scoutHordeStageGS11"	num="17" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="11"><spawn group="scoutHordeStageGS14"	num="13" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="12"><spawn group="WolfGroup"			num="04" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="13"><spawn group="sleeperHordeStageGS41"	num="15" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="14"><spawn group="sleeperHordeStageGS46"	num="17" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="13"><spawn group="feralHordeStageGS7"	num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="14"><spawn group="feralHordeStageGS10"	num="17" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="15"><spawn group="ZombieBikerBarGroup"	num="16" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="16"><spawn group="sleeperHordeStageGS52"	num="17" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="17"><spawn group="sleeperHordeStageGS58"	num="17" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="18"><spawn group="scoutHordeStageGS2"	num="18" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="19"><spawn group="scoutHordeStageGS5"	num="16" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="16"><spawn group="feralHordeStageGS13"	num="17" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="17"><spawn group="scoutHordeStageGS18"	num="17" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="18"><spawn group="scoutHordeStageGS22"	num="18" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="19"><spawn group="scoutHordeStageGS27"	num="16" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="20"><spawn group="ZombieDogGroup"		num="08" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="21"><spawn group="scoutHordeStageGS8"	num="18" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="22"><spawn group="scoutHordeStageGS11"	num="16" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="23"><spawn group="scoutHordeStageGS14"	num="17" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="21"><spawn group="feralHordeStageGS16"	num="18" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="22"><spawn group="feralHordeStageGS19"	num="16" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="23"><spawn group="feralHordeStageGS23"	num="17" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="24"><spawn group="ZombieGhostTownGroup"	num="16" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="25"><spawn group="scoutHordeStageGS18"	num="17" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="26"><spawn group="scoutHordeStageGS27"	num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="25"><spawn group="scoutHordeStageGS31"	num="17" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="26"><spawn group="scoutHordeStageGS36"	num="15" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="27"><spawn group="VultureGroup"			num="09" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="28"><spawn group="scoutHordeStageGS31"	num="18" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="29"><spawn group="scoutHordeStageGS36"	num="16" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="30"><spawn group="scoutHordeStageGS41"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="31"><spawn group="scoutHordeStageGS46"	num="18" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="32"><spawn group="scoutHordeStageGS52"	num="18" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="33"><spawn group="scoutHordeStageGS58"	num="21" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="28"><spawn group="scoutHordeStageGS41"	num="18" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="29"><spawn group="feralHordeStageGS27"	num="16" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="30"><spawn group="feralHordeStageGS31"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="31"><spawn group="feralHordeStageGS35"	num="18" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="32"><spawn group="scoutHordeStageGS46"	num="18" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="33"><spawn group="scoutHordeStageGS52"	num="21" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="34"><spawn group="ZombieDogGroup"		num="12" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="35"><spawn group="feralHordeStageGS1"	num="19" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="36"><spawn group="feralHordeStageGS2"	num="17" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="37"><spawn group="feralHordeStageGS4"	num="19" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="35"><spawn group="scoutHordeStageGS58"	num="19" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="36"><spawn group="scoutHordeStageGS70"	num="17" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="37"><spawn group="feralHordeStageGS40"	num="19" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="38"><spawn group="ZombieAnimalsGroup"	num="07" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="39"><spawn group="feralHordeStageGS10"	num="21" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="40"><spawn group="feralHordeStageGS13"	num="19" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="39"><spawn group="feralHordeStageGS44"	num="21" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="40"><spawn group="feralHordeStageGS49"	num="19" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="41"><spawn group="WolfPack"			num="08" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="42"><spawn group="feralHordeStageGS16"	num="21" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="43"><spawn group="feralHordeStageGS19"	num="17" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="42"><spawn group="scoutHordeStageGS64"	num="21" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="43"><spawn group="scoutHordeStageGS76"	num="17" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="44"><spawn group="ZombieSoldierGroup"	num="21" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="45"><spawn group="feralHordeStageGS23"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="46"><spawn group="feralHordeStageGS27"	num="24" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="45"><spawn group="scoutHordeStageGS82"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="46"><spawn group="feralHordeStageGS54"	num="24" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="47"><spawn group="VultureGroup"			num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="48"><spawn group="feralHordeStageGS31"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="49"><spawn group="feralHordeStageGS35"	num="16" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="48"><spawn group="feralHordeStageGS59"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="49"><spawn group="feralHordeStageGS64"	num="16" maxAlive="30" duration="09"/></gamestage>
 		<gamestage stage="50"><spawn group="ZombieBearsGroup"		num="04" maxAlive="30" duration="09"/></gamestage>
 	</spawner>
 

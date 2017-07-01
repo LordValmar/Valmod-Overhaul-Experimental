@@ -54,7 +54,7 @@ shotgunShellCraftingDesc,progression,Skill,EnChanged,Learn to craft shotgun shel
 runForestRun,progression,Skill,EnChanged FrChanged,Run Forrest Run,"Cours Forrest, cours","Lauf Forrest, lauf!",,"Corre, Forrest, corre"
 goDifficulty2,UI,Menu,EnChanged FrChanged GrChanged SpChanged ,Adventurer,Aventurier,Abenteurer,,Aventurero
 goDifficulty3,UI,Menu,EnChanged FrChanged GrChanged SpChanged ,Nomad (default),Nomade (par défaut),Nomade (Standard),,Nómada (predeterminado)
-woodenBowDesc,items,Gun,EnChanged GrChanged,Good for hunting and killing zombies. Uses stone and iron-tipped arrows for ammunition. Hold reload to use alternate ammo.,Un arc en bois. Idéal pour la chasse et pour tuer des zombies. Requiert des flèches comme munitions. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Gut für die Jagd und um Zombies zu töten. Verwendet Pfeile mit Stein- oder Eisenspitzen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Un arco de madera. Ideal para cazar y matar zombis. Usa flechas como munición. Mantén presionado recargar para usar munición alternativa.
+woodenBowDesc,items,Gun,EnChanged GrChanged,"Good for hunting and killing zombies. Uses stone, iron and steel-tipped arrows for ammunition. Hold reload to use alternate ammo.",Un arc en bois. Idéal pour la chasse et pour tuer des zombies. Requiert des flèches comme munitions. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Gut für die Jagd und um Zombies zu töten. Verwendet Pfeile mit Stein-, Eisen- oder Stahlspitzen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Un arco de madera. Ideal para cazar y matar zombis. Usa flechas como munición. Mantén presionado recargar para usar munición alternativa.
 cementDesc,items,Item,EnChanged GrChanged,Cement is used to craft concrete mix. This requires the 'concrete' perk and a cement mixer.,"Après avoir acheté l'avantage du béton, le ciment sert à fabriquer de la dalle et du béton.",Zement wird benutzt um Betonmischung zu fertigen. Daür brauchst du auch die Fertigkeit „Beton“ und einen Zementmischer.,,Se puede usar el cemento para fabricar baldosas. También puedes producir hormigón una vez que hayas comprado el beneficio de hormigón.
 rock01,blocks,Block,EnChanged GrChanged KgNone,Small Rock 01,Petite pierre,Kleiner Stein 01,,Piedra pequeña
 rock02,blocks,Block,EnChanged GrChanged KgNone,Small Rock 02,Petite pierre,Kleiner Stein 02,,Piedra pequeña
@@ -237,7 +237,7 @@ bridgeAsphaltBlock,blocks,Block,KgNone,Bridge Asphalt Block,Bloc de pont en asph
 bridgeConcreteBlock,blocks,Block,KgNone,Bridge Concrete Block,Bloc de pont en béton,Brücke – Betonblock,,Puente Bloque de hormigón
 bridgeMetalRivetBlock,blocks,Block,KgNone,Bridge Metal Rivet Block,Bloc de pont à rivets métalliques,Brücke – Genieteter Metallblock,,Puente Bloque con remaches de metal
 bridgeWoodBlock,blocks,Block,KgNone,Bridge Wood Block,Bloc de pont en bois,Brücke – Holzblock,,Puente Bloque de madera
-burningBarrel,blocks,Block,KgNone,Burning Barrel,Baril en feu,Brennendes Fass,,Barril en llamas
+burningBarrel,blocks,Block,EnChanged,Burning Barrel (POI),Baril en feu,Brennendes Fass (POI),,Barril en llamas
 cable1,blocks,Block,KgNone,Cable1,Câble 1,Kabel 1,,Cable 1
 camoNetBlock,blocks,Block,KgNone,Camo Netting Block,Bloc en filet de camouflage,Tarnnetz – Block,,Bloque de red de camuflaje
 camoNetCNRFull,blocks,Block,KgNone,Camo Netting Corner,Angle en filet de camouflage,Tarnnetz – Ecke,,Esquina de red de camuflaje
@@ -1250,7 +1250,7 @@ animalHideClothesGroupDesc,items,Clothes,KgNone,Animal hide clothing provides so
 animalHideGloves,items,Clothes,KgNone,Animal Hide Gloves,Gants en peau de bête,Tierhauthandschuhe,,Guantes de piel de animal
 animalHideHood,items,Clothes,KgNone,Animal Hide Hood,Capuche en peau de bête,Tierhautkapuze,,Capucha de piel de animal
 animalHideJacket,items,Clothes,KgNone,Animal Hide Jacket,Veste en peau de bête,Tierhautjacke,,Chaqueta de piel de animal
-animalHideLegArmor,items,Clothes,KgNone,Animal Hide Leg Armor,Jambières en peau de bête,Beinschienen aus Tierhaut,,Greba de piel de animal
+animalHideLegArmor,items,Clothes,EnChanged,Animal Hide Pants,Jambières en peau de bête,Hosen aus Tierhaut,,Greba de piel de animal
 animalHidePants,items,Clothes,KgNone,Animal Hide Leg Armor,Jambières en peau de bête,Beinschienen aus Tierhaut,,Greba de piel de animal
 armyPants,items,Clothes,KgNone,BDU Bottoms,Bas d'uniforme militaire,Kampfanzug (Hose),,Parte inferior de un uniforme de combate
 armyShirt,items,Clothes,KgNone,BDU Top,Haut d'uniforme militaire,Kampfanzug (Oberteil),,Parte superior de un uniforme de combate
@@ -1416,7 +1416,7 @@ beer,items,Food,KgNone,Beer,Bière,Bier,,Cerveza
 blueberryPie,items,Food,KgNone,Blueberry Pie,Tarte aux myrtilles,Blaubeerkuchen,,Pastel de moras
 blueberryPieDesc,items,Food,KgNone,This homemade blueberry pie is nutritious and raises your wellness. Mmm...just like Grandma used to make.,Cette tarte aux myrtilles faite maison vous nourrit et améliore votre bien-être. Miam... Exactement comme celle que faisait mamie.,Dieser selbst gemachte Blaubeerkuchen ist nahrhaft und erhöht dein Wohlbefinden. Mmm … wie von der Oma.,,Este pastel de moras casero es nutritivo y mejora tu bienestar. Mmmm... Tal y como la abuela solía hacerlo.
 boiledMeat,items,Food,KgNone,Boiled Meat,Viande bouillie,Gekochtes Fleisch,,Carne cocida
-boiledMeatDesc,items,Food,KgNone,"While not as yummy as grilled meat, boiling the meat makes it the least noticeable for zombies.","Bien qu'elle ait moins de goût que la viande grillée, la viande bouillie attire moins l'attention des zombies.","Es ist zwar nicht so lecker wie gegrilltes Wildbret, aber gekocht bemerken die Zombies das Fleisch auch am wenigsten.",,"Aunque no sabe igual de bien que a la parrilla, la carne cocida es prácticamente imperceptible para los zombis."
+boiledMeatDesc,items,Food,EnChanged,"While not as yummy as grilled meat, boiling is an efficient way to prepare a meal.","Bien qu'elle ait moins de goût que la viande grillée, la viande bouillie attire moins l'attention des zombies.",Es ist zwar nicht so lecker wie gegrilltes Wildbret aber mindestens so nahrhaft.,,"Aunque no sabe igual de bien que a la parrilla, la carne cocida es prácticamente imperceptible para los zombis."
 bottledRiverWater,items,Food,KgNone,Bottled Murky Water,Eau trouble en bouteille,Flasche trübes Wasser,,Agua turbia embotellada
 bottledRiverWaterDesc,items,Food,KgNone,Disgusting murky water but it's the apocalypse. You can't be picky. Boil at a campfire to purify it.,"De l'eau trouble dégoutante. Mais bon, c'est l'apocalypse. Ne faites pas la fine bouche. Faites-la bouillir sur un feu de camp pour la purifier.","Ekliges trübes Wasser, aber es ist die Apokalypse. Da darf man nicht wählerisch sein. Koch das Wasser am Lagerfeuer, damit es trinkbar wird.",,"Asquerosa agua turbia, pero estamos en el apocalipsis. ¡No puedes ponerte quisquilloso! Hiérvela en una fogata para purificarla."
 bottledWater,items,Food,KgNone,Bottled Water,Eau en bouteille,Flasche Wasser,,Agua embotellada
@@ -1456,7 +1456,7 @@ canStockDesc,items,Food,KgNone,Stock up on stock or you could eat it now.,Conser
 canTuna,items,Food,KgNone,Can of Tuna,Conserve de thon,Dose Thunfisch,,Lata de atún
 canTunaDesc,items,Food,KgNone,A can of tuna or better known as the chicken of the wasteland.,"Une conserve de thon, plus connu sous le nom de poulet des terres désolées.","Eine Dose mit Thunfisch, der Standardmahlzeit aller Ödlandbewohner.",,"Una lata de atún, también conocida como el pollo del páramo."
 charredMeat,items,Food,KgNone,Charred Meat,Viande brûlée,Verkohltes Wildbret,,Carne chamuscada
-charredMeatDesc,items,Food,KgNone,Charred meat is better than raw meat. It will dehydrate you but boost your wellness. Can attract zombies if carried.,"La viande brûlée est bien meilleure que la viande crue. Elle vous déshydrate, mais améliore votre bien-être. Susceptible d'attirer des zombies si vous la portez.","Verkohltes Wildbret ist besser als rohes Wildbret. Es wird dich dehydrieren, dafür aber dein Wohlbefinden erhöhen. Wer damit durch die Gegend reist, könnte Zombies anziehen.",,"La carne chamuscada es mejor que la carne cruda. Te deshidrata, pero mejorará tu bienestar. Puede atraer zombis si la llevas encima."
+charredMeatDesc,items,Food,EnChanged,Charred meat is better than raw meat. It will dehydrate you but boost your wellness.,"La viande brûlée est bien meilleure que la viande crue. Elle vous déshydrate, mais améliore votre bien-être. Susceptible d'attirer des zombies si vous la portez.","Verkohltes Wildbret ist besser als rohes Wildbret. Es wird dich dehydrieren, dafür aber dein Wohlbefinden erhöhen.",,"La carne chamuscada es mejor que la carne cruda. Te deshidrata, pero mejorará tu bienestar. Puede atraer zombis si la llevas encima."
 coffee,items,Food,KgNone,Coffee,Café,Kaffee,,Café
 coffeeDesc,items,Food,KgNone,"Coffee gives you energy, keeps your stamina up and helps you stay warm for a limited time.","Le café vous donne de l'énergie, maintient votre endurance à un niveau élevé et vous donne chaud pendant une durée limitée.","Kaffee verleiht dir Energie, hält deine Ausdauer auf einem hohen Niveau und wärmt dich für begrenzte Zeit.",,"El café te da energía, aumenta tu resistencia y te ayuda a entrar en calor por un rato."
 cornBread,items,Food,KgNone,Corn Bread,Pain de maïs,Maisbrot,,Pan de maíz
@@ -1479,12 +1479,12 @@ goldenRodTeaDesc,items,Food,KgNone,Got dysentery? This bottle of sweet goldenrod
 grainAlcohol,items,Food,KgNone,Grain Alcohol,Alcool de grain,Spiritus,,Alcohol de grano
 grainAlcoholDesc,items,Food,KgNone,Grain alcohol can be made in a beaker at a campfire. Useful for homemade gas and first aid kits.,L'alcool de grain peut être fabriqué dans un bécher sur le feu de camp. Très pratique pour une composition d'essence maison et les trousses de premiers soins.,Spiritus kann in einem Messbecher am Lagerfeuer gefertigt werden. Nützlich für die Fertigung von Benzin und Verbandskasten.,,Se puede elaborar alcohol de grano en un matraz en una fogata. Muy útil para el gas casero y botiquines de primeros auxilios.
 grilledMeat,items,Food,KgNone,Grilled Meat,Viande grillée,Gegrilltes Wildbret,,Carne a la parrilla
-grilledMeatDesc,items,Food,KgNone,"Meat! Meat on fire! Good! Nutritious, filling and will boost your wellness. Can attract zombies if carried.","Viande ! Viande cuite ! Bonne ! Nourrit, remplit et améliore votre bien-être. Susceptible d'attirer des zombies si vous la portez.","Fleisch! Fleisch auf Feuer! Gut! Nahrhaft, sättigend und erhöht dein Wohlbefinden. Wer damit durch die Gegend reist könnte Zombies anziehen.",,"¡Carne! ¡Carne cocinada! ¡Bien! Es nutritiva, te saciará y mejorará tu bienestar. Puede atraer zombis si la llevas encima."
+grilledMeatDesc,items,Food,EnChanged,"Meat! Meat on fire! Good! Nutritious, filling and will boost your wellness.","Viande ! Viande cuite ! Bonne ! Nourrit, remplit et améliore votre bien-être. Susceptible d'attirer des zombies si vous la portez.","Fleisch! Fleisch auf Feuer! Gut! Nahrhaft, sättigend und erhöht dein Wohlbefinden.",,"¡Carne! ¡Carne cocinada! ¡Bien! Es nutritiva, te saciará y mejorará tu bienestar. Puede atraer zombis si la llevas encima."
 meatStew,items,Food,KgNone,Meat Stew,Ragoût de viande,Wildbreteintopf,,Estofado de carne
 meatStewDesc,items,Food,KgNone,"A survivor isn't worth his salt if he can't make a meat stew. Raises wellness, too!",Un survivant ne vaut rien s'il ne sait pas cuisiner un ragoût de viande. Celui-ci améliore également le bien-être !,"Wer keinen Wildbreteintopf zubereiten kann, darf sich nicht Überlebender schimpfen. Erhöht auch das Wohlbefinden!",,Un sobreviviente no es digno de llamarse así si no puede preparar un estofado de carne. ¡También aumenta el bienestar!
 moldyBread,items,Food,KgNone,Moldy Bread,Pain moisi,Schimmeliges Brot,,Pan mohoso
 rawMeat,items,Food,KgNone,Raw Meat,Viande crue,Wildbret,,Carne cruda
-rawMeatDesc,items,Food,KgNone,"Meat can be eaten raw but is better charred, grilled, boiled or made into stews at a campfire. Can attract zombies if carried.","La viande peut être mangée crue, mais elle est meilleure brulée, grillée, bouillie ou transformée en ragoût sur un feu de camp. Susceptible d'attirer des zombies si vous la portez.","Wildbret kann roh gegessen werden. Am Lagerfeuer verkohlt, gegrillt, gekocht oder im Eintopf ist es allerdings besser. Wer damit durch die Gegend reist, könnte Zombies anziehen.",,"La carne se puede comer cruda, pero es mejor que esté chamuscada, hecha a la parrilla, hervida o en estofado en una fogata. Puede atraer zombis si la llevas encima."
+rawMeatDesc,items,Food,EnChanged,"Meat can be eaten raw but is better charred, grilled, boiled or made into stews at a campfire.","La viande peut être mangée crue, mais elle est meilleure brulée, grillée, bouillie ou transformée en ragoût sur un feu de camp. Susceptible d'attirer des zombies si vous la portez.","Wildbret kann roh gegessen werden. Am Lagerfeuer verkohlt, gegrillt, gekocht oder im Eintopf ist es allerdings besser.",,"La carne se puede comer cruda, pero es mejor que esté chamuscada, hecha a la parrilla, hervida o en estofado en una fogata. Puede atraer zombis si la llevas encima."
 redTea,items,Food,KgNone,Red Tea,Thé rouge,Roter Tee,,Té rojo
 redTeaDesc,items,Food,KgNone,"An ancient Chinese secret, red tea is known for its natural cooling, stamina and re-hydration effects.","Secret chinois antique, le thé rouge est connu pour ses effets rafraîchissants et ses bienfaits sur l'endurance et la réhydratation.",Ein altes chinesisches Geheimnis. Roter Tee ist bekannt für seine kühlenden und rehydrierenden Effekte sowie seine positive Auswirkung auf die Ausdauer.,,"Un antiguo secreto chino: el té rojo es conocido por sus efectos naturales refrescantes, de resistencia y de rehidratación."
 shamSandwich,items,Food,KgNone,Old Sham Sandwich,Vieux sandwich au jambon,Altes Sham-Sandwich,,Sándwich de jamón viejo
@@ -2678,7 +2678,7 @@ ttLevelUp,UI,Tooltip,KgNone,Level Up! You are now level {0} and have {1} skill p
 ttMapSelectSpawnPoint,UI,Tooltip,KgNone,If you select your home position you'll spawn there,"Si vous sélectionnez l'emplacement de votre foyer, vous y réapparaitrez.","Wenn du deine Heimatposition wählst, wirst du hier wiedererscheinen",,"Si activas tu posición inicial, reaparecerás allí."
 ttMapUnSelectSpawnPoint,UI,Tooltip,KgNone,If you deselect your home position you'll spawn randomly around,"Si vous désélectionnez l'emplacement de votre foyer, vous apparaitrez à des emplacements aléatoires.","Wenn du deine Heimatposition abwählst, wirst du an einer zufälligen Position wiedererscheinen",,"Si desactivas tu posición inicial, reaparecerás en algún sitio al azar."
 ttMissingCraftingFuel,UI,Tooltip,KgNone,You don't have the required fuel to craft this.,Vous n'avez pas le carburant nécessaire à la fabrication de cet objet.,"Du hast nicht den erforderlichen Brennstoff, um dies zu fertigen.",,No tienes el combustible necesario para fabricar esto.
-ttMissingCraftingRecipe,UI,Tooltip,KgNone,You do not have the required recipe.,Vous n'avez pas la composition nécessaire.,Du hast nicht das erforderliche Rezept.,,No tienes la receta necesaria.
+ttMissingCraftingRecipe,UI,Tooltip,EnChanged,You do not know the required recipe.,Vous n'avez pas la composition nécessaire.,Du hast das erforderliche Rezept nicht erlernt.,,No tienes la receta necesaria.
 ttMissingCraftingResources,UI,Tooltip,KgNone,You don't have the necessary resources to craft this.,Vous n'avez pas les ressources nécessaires à la fabrication de cet objet.,"Du hast nicht die nötigen Rohstoffe, um dies zu fertigen.",,No tienes los recursos necesarios para fabricar esto.
 ttMissingCraftingTools,UI,Tooltip,KgNone,You don't have the required tools to craft this.,Vous n'avez pas les outils nécessaires à la fabrication de cet objet.,"Du hast nicht die erforderlichen Werkzeuge, um dies zu fertigen.",,No tienes las herramientas necesarias para fabricar esto.
 ttQuestNoLocation,UI,Tooltip,KgNone,Selected Quest does not have a location to show.,Aucun emplacement à afficher pour la quête sélectionnée.,Für die ausgewählte Quest kann kein Standort angezeigt werden.,,La misión seleccionada no tiene ubicaciones que mostrar.
@@ -3758,7 +3758,7 @@ npcTraderJoel,entityclasses,Entity,New,Trader Joel,,,,
 npcTraderRekt,entityclasses,Entity,New,Trader Rekt,,,,
 npcTraderTest,entityclasses,Entity,New,Trader Test,,,,
 Trader,entityclasses,Entity,New,Trader,,,,
-steelDart,items,Ammo,New,Steel Dart (Ammo),,Stahlgeschoss (Mun),,
+steelDart,items,Ammo,New,Iron Dart (Ammo),,Eisengeschoss (Mun),,
 steelDartDesc,items,Ammo,New,Used as ammunition for traps.,,,,
 beerBook,items,Book,New,Tasting And Brewing,,,,
 beerBookDesc,items,Book,New,Read this book to learn how to grow hops and brew beer.,,,,
@@ -3868,7 +3868,7 @@ snowberryJuiceDesc,items,Food,New,This drink helps you survive cold environments
 yuccaCocktail,items,Food,New,Yucca Cocktail,,,,
 yuccaCocktailDesc,items,Food,New,Lorem ipsum dolor sit amet,,,,
 compoundBow,items,Gun,New,Compound Bow,,Compoundbogen,,
-compoundBowDesc,items,Gun,New,A compound bow uses steel-tipped and flaming arrows. Can be re-assembled and repaired if you read the Compound Bow book.,,"Ein Compoundbogen verschiesst Pfeile mit Stahlspitzen oder Feuerpfeile. Kann zusammengesetzt und repariert werden, wenn du das Buch „Compoundbogen“ gelesen hast.",,
+compoundBowDesc,items,Gun,New,A compound bow does more damage and can use flaming arrows in addition to plain ones. Can be re-assembled and repaired if you read the Compound Bow book.,,"Ein Compoundbogen verschiesst neben herkömmlichen Pfeilen auch Feuerpfeile. Kann zusammengesetzt und repariert werden, wenn du das Buch „Compoundbogen“ gelesen hast.",,
 molotovCocktail,items,Gun,New,Molotov Cocktail (Ammo),,Molotov Cocktail (Mun),,
 molotovCocktailDesc,items,Gun,New,Page one of the Anarchists' Cook Book. Light with the secondary action & throw with the primary action.,,Unverzichtbar für jeden Anarchisten. Zünden mit der sekundären Aktion und Werfen mit der primären Aktion.,,
 dirtFragment,items,Item,New,Dirt Fragment,,,,
@@ -4106,7 +4106,7 @@ lockpicking,progression,Perk,New,Lock Picking,,,,
 lockpickingDesc,progression,Perk,New,Open locks without alerting deceased home-owners.,,,,
 paintGroupDesc,progression,Perk,New,This skill cannot be purchased with skill points. Find and read magazines to unlock additional painting options.,,,,
 secretStash,progression,Perk,New,Secret Stash,,,,
-secretStashDesc,progression,Perk,New,By increasing this perk traders will have better items in their Secret Stash and you will not see the highest stash level until you max this perk.,,,,
+secretStashDesc,progression,Perk,New,By increasing this perk traders will show you more and better items from their Secret Stash.,,,,
 badMechanic,progression,Skill,New,Bad Mechanic,,Einseitiger Mechaniker,,
 badMechanicDesc,progression,Skill,New,Putting things back together has never been your strong point but you get more useful items when taking them apart. Receive more resources when harvesting with construction tools.,,Dinge zerlegen kannst du gut. Zusammenbauen... weniger. Sammle mehr mit Bauwerkzeugen.,,
 rentVendingMachine,service,Service,New,Rent Vending Machine,,,,
@@ -4611,7 +4611,7 @@ xuiCreateWorldLoadWorld,,,New,Load World:,,,,
 xuiCreateWorldNewWorld,,,New,Create New World:,,,,
 xuiBack,,,New,Back,,,,
 xuiStart,,,New,Start,,,,
-EviseratedRemains,entityclasses,Entity Info,New,Eviserated Remains,,,,
+EvisceratedRemains,entityclasses,Entity Info,New,Eviscerated Remains,,,,
 cntGreenDrawerSecure,blocks,Container,New,Drawer,,Schubfach,,
 cntGreenDrawerInsecure,blocks,Container,New,Open Drawer,,Offenes Schubfach,,
 batterybankSchematic,items,Book,New,Battery Bank Schematic,,,,
@@ -4621,7 +4621,7 @@ insulatorDesc,items,Item,New,Used to build electrical devices.,,,,
 ttCantHaveParent,UI,Tooltip,New,This power source cannot have a parent connection.,,,,
 ttWireLimit,UI,Tooltip,New,This power component has the maximum number of wired connections.,,,,
 torchGroupDesc,blocks,Block,New,CREATIVE: Has no effect on the heat map.,,,,
-torchPlayerGroupDesc,blocks,Block,New,The smell and flickering light of torches (less so with candles) will attract zombies.,,Der Geruch und das flackernde Licht von Fackeln (weniger bei Kerzen) wird Zombies anziehen.,,
+torchPlayerGroupDesc,blocks,Block,New,Open flames and flickering lights like with torches (less so with candles) will attract zombies.,,Offene Flammen und flackerndes Licht wie bei Fackeln (weniger bei Kerzen) werden Zombies anziehen.,,
 looseBoardsTrapPlate1x1,blocks,Block,New,Loose Boards Plate 1x1,,,,
 looseBoardsTrapPlate1x1Desc,blocks,Block,New,A false floor or drop ceiling plate that will disintegrate when stepped on.,,,,
 opaqueBusinessGlass,blocks,Block,New,Opaque Business Glass,,,,
@@ -4848,7 +4848,46 @@ animalBoar,entityclasses,Entity,New,Boar,,,,
 forgeCrucible,items,Item,New,Crucible,,,,
 forgeCrucibleDesc,items,Item,New,A crucible upgrade is required to craft steel bars and bulletproof glass in a forge. Learn the recipe by buying the Steel Smithing perk.,,,,
 macheteCraftingName,progression,Perk,New,Machete Crafting,,,,
-macheteCraftingDesc,progression,Perk,New,Learn to craft a machete at a workbench.,,,,
+macheteCraftingDesc,progression,Perk,New,Learn to forge a machete blade which can then be used to craft a machete at a workbench.,,,,
+burningBarrelPlayer,blocks,Block,KgNone,Burning Barrel,Baril en feu,Brennendes Fass,,Barril en llamas
+ttCombineLimitExceeded,UI,Tooltip,New,Your crafting skill only allows you to improve this item to {0}.,,,,
+woodFrameWedgeStairs,blocks,Block,New,Wood Frame Wedge Stairs,,,,
+solidWoodFrameWedgeStairs,blocks,Block,New,Solid Wood Frame Wedge Stairs,,,,
+woodWedgeStairs,blocks,Block,New,Wood Wedge Stairs,,,,
+rWoodWedgeStairs,blocks,Block,New,Reinforced Wood Wedge Stairs,,,,
+rWoodMetalWedgeStairs,blocks,Block,New,Reinforced Wood Metal Wedge Stairs,,,,
+woodFrameWedgeTipStairs,blocks,Block,New,Wood Frame Wedge Tip Stairs,,,,
+solidWoodFrameWedgeTipStairs,blocks,Block,New,Solid Wood Frame Wedge Tip Stairs,,,,
+woodWedgeTipStairs,blocks,Block,New,Wood Wedge Tip Stairs,,,,
+rWoodWedgeTipStairs,blocks,Block,New,Reinforced Wood Wedge Tip Stairs,,,,
+rWoodMetalWedgeTipStairs,blocks,Block,New,Reinforced Wood Metal Wedge Tip Stairs,,,,
+scrapIronFrameWedgeTipStairs,blocks,Block,New,Scrap Iron Frame Wedge Tip Stairs,,,,
+scrapIronFrameWedgeStairs,blocks,Block,New,Scrap Iron Frame Wedge Stairs,,,,
+solidScrapIronFrameWedgeStairs,blocks,Block,New,Solid Scrap Iron Frame Wedge Stairs,,,,
+scrapIronWedgeStairs,blocks,Block,New,Scrap Iron Wedge Stairs,,Alteisen-Schrägentreppe,,
+rScrapIronWedgeStairs,blocks,Block,New,Reinforced Scrap Iron Wedge Stairs,,Verstärkte Alteisen-Schrägentreppe,,
+pouredConcreteWedgeStairs,blocks,Block,New,Wet Concrete Wedge Stairs,,,,
+concreteWedgeStairs,blocks,Block,New,Concrete Wedge Stairs,,,,
+rConcreteWedgeStairs,blocks,Block,New,Reinforced Concrete Wedge Stairs,,,,
+steelWedgeStairs,blocks,Block,New,Steel Wedge Stairs,,,,
+stainlessSteelWedgeStairs,blocks,Block,New,Stainless Steel Wedge Stairs,,,,
+brickWedgeStairs,blocks,Block,New,Brick Wedge Stairs,,,,
+cobblestoneWedgeStairs,blocks,Block,New,Cobblestone Wedge Stairs,,,,
+solidScrapIronFrameWedgeTipStairs,blocks,Block,New,Solid Scrap Iron Frame Wedge Tip Stairs,,,,
+scrapIronWedgeTipStairs,blocks,Block,New,Scrap Iron Wedge Tip Stairs,,Alteisen-Schrägentreppe Spitze,,
+rScrapIronWedgeTipStairs,blocks,Block,New,Reinforced Scrap Iron Wedge Tip Stairs,,Verstärkte Alteisen-Schrägentreppe Spitze,,
+pouredConcreteWedgeTipStairs,blocks,Block,New,Wet Concrete Wedge Tip Stairs,,,,
+concreteWedgeTipStairs,blocks,Block,New,Concrete Wedge Tip Stairs,,,,
+rConcreteWedgeTipStairs,blocks,Block,New,Reinforced Concrete Wedge Tip Stairs,,,,
+steelWedgeTipStairs,blocks,Block,New,Steel Wedge Tip Stairs,,,,
+stainlessSteelWedgeTipStairs,blocks,Block,New,Stainless Steel Wedge Tip Stairs,,,,
+brickWedgeTipStairs,blocks,Block,New,Brick Wedge Tip Stairs,,,,
+cobblestoneWedgeTipStairs,blocks,Block,New,Cobblestone Wedge Tip Stairs,,,,
+flagstoneWedgeStairs,blocks,Block,New,Flagstone Wedge Stairs,,,,
+flagstoneWedgeTipStairs,blocks,Block,New,Flagstone Wedge Tip Stairs,,,,
+macheteBlade,items,Part,KgNone,Machete Blade,,Machetenklinge,,
+macheteBladeDesc,items,Part,KgNone,Used for crafting a machete.,,Wird gebraucht um eine Machete herzustellen.,,
+teInUse,UI,Misc,New,Currently In Use,Currently In Use,Currently In Use,,
 
 
 
@@ -4905,16 +4944,14 @@ SiegeShellDesc,items,Item Gun,,These shotgun shells have been modified to maximi
 ShotgunShellINCDesc,items,Item Gun,,These shotgun shells have been modified to ignite the target on fire on impact.,,
 BlunderbussShredderDesc,items,Item Gun,,This blunderbuss ammo has been mixed with sharp shards to increase its bleed chance and damage.,,
 HollowTipDesc,items,Item Gun,,These bullet tips have have been hollowed out to maximize damage.,,
-9mmBulletHP,items,Item Gun,,9mm Hollow Point Bullet,,
-9mmBulletINC,items,Item Gun,,9mm Incendiary Bullet,,
-44MagBulletHP,items,Item Gun,,44. Magnum Hollow Point Bullet,,
-44MagBulletINC,items,Item Gun,,44. Magnum Incendiary Bullet,,
-10mmBulletHP,items,Item Gun,,10mm Hollow Point Bullet,,
-10mmBulletINC,items,Item Gun,,10mm Incendiary Bullet,,
-762mmBulletHP,items,Item Gun,,762mm Hollow Point Bullet,,
-762mmBulletINC,items,Item Gun,,762mm Incendiary Bullet,,
+9mmBulletHP,items,Item Gun,,"9mm Hollow Point (Ammo)",,
+9mmBulletINC,items,Item Gun,,"9mm Incendiary (Ammo)",,
+44MagBulletHP,items,Item Gun,,"44. Magnum Hollow Point (Ammo)",,
+44MagBulletINC,items,Item Gun,,"44. Magnum Incendiary (Ammo)",,
+762mmBulletHP,items,Item Gun,,"762mm Hollow Point (Ammo)",,
+762mmBulletINC,items,Item Gun,,"762mm Incendiary (Ammo)",,
 SiegeShell,items,Item Gun,,Siege Shell,,
-shotgunShellINC,items,Item Gun,,Shotgun Incendiary Shell,,
+shotgunShellINC,items,Item Gun,,"Shotgun Incendiary Shell",,
 blunderbussAmmoShredder,items,Item Gun,,Blunderbuss Shredder Ammo,,
 HollowTip,items,Item Gun,,Hollow Tip,,
 
@@ -5980,7 +6017,7 @@ ammoSupply44Mag,items,Item Gun,,Ammo Supply - 44Mag Bullets,,
 ammoSupply762mm,items,Item Gun,,Ammo Supply - 762mm Bullets,,
 ammoSupplyShotgun,items,Item Gun,,Ammo Supply - Shotgun Shells,,
 
-dismantleammo,items,Item Gun,,"Dismantle your ammo down into its base components.",,
+dismantleammo,items,Item Gun,,"Dismantle your ammo down into its base components. Requires the Armory.",,
 dismantle10mmBullets,items,Item Gun,,Dismantle - 10mm Bullets,,
 dismantle44MagBullets,items,Item Gun,,Dismantle - 44Mag Bullets,,
 dismantle9mmBullets,items,Item Gun,,Dismantle - 9mm Bullets,,
@@ -6177,3 +6214,5 @@ partsHandlebarsDesc2,items,Part,KgNone,A common part for a chainsaw or auger. As
 smallEngineDesc2,items,Part,KgNone,"A common part for a chainsaw, auger or minibike. Can be used to make these items once you've leveled high enough in mechanical skill.","Une pièce commune aux tronçonneuses, foreuses et mini-motos. Sert à fabriquer ces objets une fois que vous avez lu le schéma.","Ein gewöhnliches Teil einer Kettensäge, eines Erdbohrers oder eines Taschenmotorrads. Kann verwendet werden, um diese Gegenstände zu fertigen, wenn du den richtigen Bauplan gelesen hast.",,"Una parte común de las motosierras, los taladros y las minimotos. Una vez que hayas leído el esquema, úsala para crear estos objetos."
 
 logCabinBlock,blocks,Block,KgNone,Log Cabin Wood Block,Bloc de bois de cabane en rondins,Holzhüttenblock,,Bloque de cabaña de troncos
+
+compoundBowDesc2,items,Gun,New,A compound bow does more damage and can use flaming arrows in addition to plain ones. Can be re-assembled and repaired if you level high enough in Archery.,,"Ein Compoundbogen verschiesst neben herkömmlichen Pfeilen auch Feuerpfeile. Kann zusammengesetzt und repariert werden, wenn du das Buch „Compoundbogen“ gelesen hast.",,

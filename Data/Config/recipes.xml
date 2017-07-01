@@ -128,11 +128,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="gunPowder" count="1"/>
 	<ingredient name="paper" count="1"/>
 </recipe>
-<!--
-<recipe name="burningBarrel" count="1">
+
+<recipe name="burningBarrelPlayer" count="1">
 	<ingredient name="forgedIron" count="3"/>
 	<ingredient name="wood" count="10"/>
-</recipe>-->
+</recipe>
 
 <recipe name="aloeCream" count="1" craft_time="5">
 	<ingredient name="aloePlant" count="4"/>
@@ -297,13 +297,15 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="shortMetalPipe" count="1"/>
 </recipe>
 
+<!--
 <recipe name="bioFuel" count="1" craft_area="chemistryStation">
-	<ingredient name="animalFat" count="3"/>
-</recipe>
-
-<recipe name="bioFuel" count="1" craft_area="chemistryStation" craft_tool="beaker">
 	<ingredient name="animalFat" count="1"/>
 </recipe>
+<recipe name="bioFuel" count="1" craft_area="campfire" craft_tool="beaker">
+	<ingredient name="animalFat" count="1"/>
+</recipe>
+
+-->
 
 <recipe name="blueberryPie" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="blueberries" count="1"/>
@@ -347,7 +349,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="chemistryStation" count="1" >
-	<ingredient name="oilBarrel" count="1"/>
+	<ingredient name="burningBarrelPlayer" count="1"/>
 	<ingredient name="cookingPot" count="3"/>
 	<ingredient name="shortMetalPipe" count="15"/>
 	<ingredient name="wood" count="40"/>
@@ -1093,7 +1095,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="gasCan" count="100" craft_area="chemistryStation" craft_tool="beaker">
-	<ingredient name="bioFuel" count="3"/>
+	<ingredient name="animalFat" count="3"/>
 	<ingredient name="grainAlcohol" count="1"/>
 </recipe>
 
@@ -1451,7 +1453,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="keystoneBlock" count="1">
-	<ingredient name="forgedSteel" count="10"/>
+	<ingredient name="forgedIron" count="100"/>
 </recipe>
 
 <recipe name="ladderMetal" count="1">
@@ -2673,13 +2675,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="electricParts" count="6"/>
 </recipe>
 <recipe name="dartTrap" count="1" craft_area="workbench"> <!-- trap -->
-	<ingredient name="forgedIron" count="10"/>
+	<ingredient name="forgedIron" count="20"/>
 	<ingredient name="mechanicalParts" count="6"/>
 	<ingredient name="electricParts" count="4"/>
 </recipe>
-<recipe name="steelDart" count="1" craft_area="forge" craft_tool="forgeCrucible" material_based="true">
-	<ingredient name="unit_iron" count="8"/>
-	<ingredient name="unit_clay" count="3"/>
+<recipe name="steelDart" count="1" craft_area="forge" craft_tool="anvil" material_based="true">
+	<ingredient name="unit_iron" count="3"/>
+	<ingredient name="unit_clay" count="1"/>
 </recipe>
 <recipe name="shotgunTurret" count="1" craft_area="workbench"> <!-- trap -->
 	<ingredient name="motionsensor" count="1"/>
@@ -2702,6 +2704,49 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rockSmall" count="1200"/>
 	<ingredient name="clayLump" count="900"/>
 </recipe>
+
+<recipe name="woodFrameWedgeStairs" count="1">
+	<ingredient name="wood" count="5"/>
+</recipe>
+
+<recipe name="scrapIronFrameWedgeStairs" count="1" craft_area="workbench" craft_tool="weldingTorch">
+	<ingredient name="scrapIron" count="15"/>
+</recipe>
+
+<recipe name="pouredConcreteWedgeStairs" count="1" craft_area="cementMixer" craft_tool="chisel">
+	<ingredient name="concreteMix" count="10"/>
+</recipe>
+
+<recipe name="brickWedgeStairs" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_clay" count="60"/>
+</recipe>
+
+<recipe name="flagstoneWedgeStairs" count="1">
+	<ingredient name="cobblestones" count="3"/>
+</recipe>
+
+<recipe name="woodFrameWedgeTipStairs" count="1">
+	<ingredient name="wood" count="5"/>
+</recipe>
+
+<recipe name="scrapIronFrameWedgeTipStairs" count="1" craft_area="workbench" craft_tool="weldingTorch">
+	<ingredient name="scrapIron" count="15"/>
+</recipe>
+
+<recipe name="pouredConcreteWedgeTipStairs" count="1" craft_area="cementMixer" craft_tool="chisel">
+	<ingredient name="concreteMix" count="10"/>
+</recipe>
+
+<recipe name="brickWedgeTipStairs" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_clay" count="60"/>
+</recipe>
+
+<recipe name="flagstoneWedgeTipStairs" count="1">
+	<ingredient name="cobblestones" count="3"/>
+</recipe>
+
 
 		<!-- Expanded Food Mod -->
     <recipe name="bowl" count="1" craft_area="campfire">

@@ -1987,7 +1987,7 @@ Imposters / Distant POI
 
 <block id="bbbbbb" name="woodFrameWedgeID">
 	<property name="Extends" value="woodFrameMaster" />
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+	<property name="CreativeMode" value="Player"/>
 	<property name="Shape" value="New" />
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="CanPickup" value="true" />
@@ -1996,6 +1996,7 @@ Imposters / Distant POI
 
 <block id="bbbbbb" name="solidWoodFrameWedgeID">
 	<property name="Extends" value="woodFrameWedgeID" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="woodFrameWedgeID" />
 	<property name="CanPickup" value="false" />
 </block>
@@ -2026,7 +2027,7 @@ Imposters / Distant POI
 
 <block id="bbbbbb" name="scrapIronFrameWedgeID">
 	<property name="Extends" value="scrapIronFrameMaster" />
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+	<property name="CreativeMode" value="Player"/>
 	<property name="Shape" value="New" />
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="CanPickup" value="true" />
@@ -2035,6 +2036,7 @@ Imposters / Distant POI
 
 <block id="bbbbbb" name="solidScrapIronFrameWedgeID">
 	<property name="Extends" value="scrapIronFrameWedgeID" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="scrapIronFrameWedgeID" />
 	<property name="CanPickup" value="false" />
 </block>
@@ -2057,8 +2059,7 @@ Imposters / Distant POI
 
 <block id="bbbbbb" name="pouredConcreteWedgeID">
 	<property name="Extends" value="pouredConcreteMaster" />
-	<property name="CustomIcon" value="rConcreteWedgeID" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="Player"/>
 	<property name="Shape" value="New" />
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="UpgradeRated.ToBlock" value="concreteWedgeID" />
@@ -2068,13 +2069,13 @@ Imposters / Distant POI
 	<property name="Extends" value="concreteMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeID" /> </property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredRConcreteWedgeID" /> </property>
 </block>
 
 <block id="bbbbbb" name="pouredRConcreteWedgeID">
 	<property name="Extends" value="pouredRConcreteMaster" />
-	<property name="CustomIcon" value="rConcreteWedgeID" />
-	<property name="IsDeveloper" value="true" />
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="pouredConcreteWedgeID" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
 	<property name="UpgradeRated.ToBlock" value="rConcreteWedgeID" />
@@ -2111,13 +2112,13 @@ Imposters / Distant POI
 	<property class="UpgradeBlock">	<property name="ToBlock" value="pouredConcreteWedgeID" /> </property>
 </block>
 
-<block id="bbbbbb" name="cobblestoneFrameWedgeID">
-	<property name="Extends" value="cobblestoneFrameMaster" />
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
-	<property name="Shape" value="New" />
+<block id="bbbbbb" name="flagstoneWedgeID">
+	<property name="Extends" value="flagstoneMaster"/>
+	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60Model" /> <property name="Place" value="TowardsPlacerInverted" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeID" />	</property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeID"/> </property>
 </block>
+
 
 <block id="bbbbbb" name="cobblestoneWedgeID">
 	<property name="Extends" value="cobblestoneMaster" />
@@ -2126,38 +2127,30 @@ Imposters / Distant POI
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeID" />	</property>
 </block>
 
+-->
 
 
 
-
-
-
-
+<!--
 
 <recipe name="woodFrameWedgeID" count="1">
 	<ingredient name="wood" count="5"/>
 </recipe>
-use one or the other!
-<recipe name="woodWedgeID" count="1">
-	<ingredient name="wood" count="10"/>
-</recipe>
+	ALTERNATIVE - use one or the other!
+	<recipe name="woodWedgeID" count="1">
+		<ingredient name="wood" count="10"/>
+	</recipe>
 
 <recipe name="scrapIronFrameWedgeID" count="1">
 	<ingredient name="scrapIron" count="15"/>
 </recipe>
-use one or the other!
-<recipe name="scrapIronWedgeID" count="1">
-	<ingredient name="scrapIron" count="40"/>
-</recipe>
+	ALTERNATIVE - use one or the other!
+	<recipe name="scrapIronWedgeID" count="1">
+		<ingredient name="scrapIron" count="40"/>
+	</recipe>
 
 <recipe name="pouredConcreteWedgeID" count="1">
 	<ingredient name="concreteMix" count="10"/>
-</recipe>
-
-<recipe name="adobeWedgeID" count="1">
-	<ingredient name="clayLump" count="6"/>
-	<ingredient name="crushedSand" count="6"/>
-	<ingredient name="rockSmall" count="3"/>
 </recipe>
 
 <recipe name="brickWedgeID" count="1" craft_area="forge" material_based="true">
@@ -2165,15 +2158,8 @@ use one or the other!
 	<ingredient name="unit_clay" count="60"/>
 </recipe>
 
-<recipe name="cobblestoneFrameWedgeID" count="1">
-	<ingredient name="wood" count="5"/>
-	<ingredient name="yuccaFibers" count="1"/>
-</recipe>
-use one or the other!
-<recipe name="cobblestoneWedgeID" count="1">
-	<ingredient name="cobblestones" count="10"/>
-	<ingredient name="wood" count="5"/>
-	<ingredient name="yuccaFibers" count="1"/>
+<recipe name="flagstoneWedgeID" count="1">
+	<ingredient name="cobblestones" count="3"/>
 </recipe>
 
 -->
